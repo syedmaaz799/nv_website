@@ -1,0 +1,965 @@
+{
+ "weeks": [
+  {
+   "week": 1,
+   "title": "AI Foundations, Prompt Engineering, APIs &amp; Context Optimization",
+   "days": [
+    {
+     "day": 1,
+     "session": 1,
+     "topics": [
+      {
+       "label": "Introduction to AI &amp; Evolution of AI",
+       "text": "What is AI, History of AI (Symbolic AI → Machine Learning → Deep Learning → Foundation Models → Generative AI → Agentic AI), AI Timeline (1950–2026), Major AI Paradigms."
+      },
+      {
+       "label": "Key AI Researchers",
+       "text": "Alan Turing, John McCarthy, Geoffrey Hinton, Yann LeCun, Yoshua Bengio, Demis Hassabis, Ilya Sutskever."
+      },
+      {
+       "label": "Modern AI Ecosystem",
+       "text": "Modern LLM Ecosystem, Open-source vs Proprietary Models, AI Career Opportunities."
+      }
+     ],
+     "topicsRaw": "Introduction to AI &amp; Evolution of AI: What is AI, History of AI (Symbolic AI → Machine Learning → Deep Learning → Foundation Models → Generative AI → Agentic AI), AI Timeline (1950–2026), Major AI Paradigms. Key AI Researchers: Alan Turing, John McCarthy, Geoffrey Hinton, Yann LeCun, Yoshua Bengio, Demis Hassabis, Ilya Sutskever. Modern AI Ecosystem: Modern LLM Ecosystem, Open-source vs Proprietary Models, AI Career Opportunities.",
+     "project": {
+      "title": "AI Foundations Exploration Lab",
+      "text": "Explore major stages in the evolution of AI and identify representative technologies/models from each stage. Compare modern open-source and proprietary LLM ecosystems. Students identify potential AI-related career opportunities aligned with their interests and document their initial learning goals for the program."
+     },
+     "deliverables": [
+      "AI Evolution &amp; Timeline Notes",
+      "Open-source vs Proprietary Model Comparison",
+      "Personal AI Career/Learning Goal Sheet"
+     ],
+     "assessment": "Understanding of AI evolution, major AI paradigms, modern LLM ecosystem, key contributors to AI, and awareness of AI career opportunities"
+    },
+    {
+     "day": 2,
+     "session": 2,
+     "topics": [
+      {
+       "label": "Git &amp; GitHub Fundamentals",
+       "text": "What is Git, Why GitHub is important, Repository creation, GitHub profile setup (no commands)."
+      },
+      {
+       "label": "LinkedIn Optimization",
+       "text": "Personal branding, optimizing profile, creating AI-related posts, building an online presence."
+      },
+      {
+       "label": "Personalized AI Learning Workflow",
+       "text": "Using ChatGPT/Claude Custom Instructions to establish a structured AI-assisted learning workflow."
+      }
+     ],
+     "topicsRaw": "Git &amp; GitHub Fundamentals: What is Git, Why GitHub is important, Repository creation, GitHub profile setup (no commands). LinkedIn Optimization: Personal branding, optimizing profile, creating AI-related posts, building an online presence. Personalized AI Learning Workflow: Using ChatGPT/Claude Custom Instructions to establish a structured AI-assisted learning workflow.",
+     "project": {
+      "title": "AI Career Setup Lab",
+      "text": "Create a GitHub account and first repository, optimize LinkedIn profile, publish the first LinkedIn post about joining the Agentic AI &amp; Automation Program, and build a personalized AI learning workflow using ChatGPT/Claude Custom Instructions."
+     },
+     "deliverables": [
+      "GitHub account + first repository",
+      "optimized LinkedIn profile",
+      "first LinkedIn AI post",
+      "AI learning workflow document"
+     ],
+     "assessment": "GitHub familiarity, professional branding, effective learning-workflow setup, online presence, and participation"
+    },
+    {
+     "day": 3,
+     "session": 3,
+     "topics": [
+      {
+       "label": "Prompt Engineering Fundamentals",
+       "text": "Why Prompt Engineering Matters, Prompt Anatomy, Zero-shot, One-shot, Few-shot, Instruction, Role, Persona, Context, Constraint, Goal, Audience, Output, Template Prompting."
+      },
+      {
+       "label": "Structured Prompting",
+       "text": "Markdown, JSON, XML, Delimiters, Variables &amp; Placeholders."
+      }
+     ],
+     "topicsRaw": "Prompt Engineering Fundamentals: Why Prompt Engineering Matters, Prompt Anatomy, Zero-shot, One-shot, Few-shot, Instruction, Role, Persona, Context, Constraint, Goal, Audience, Output, Template Prompting. Structured Prompting: Markdown, JSON, XML, Delimiters, Variables &amp; Placeholders.",
+     "project": {
+      "title": "Prompt Engineering Lab – Part 1",
+      "text": "Build the foundation of a reusable Prompt Library for research, business, coding, content creation, marketing, image generation, and document analysis. Practice converting basic prompts into structured prompts using roles, context, constraints, examples, output specifications, Markdown, JSON, XML, variables, and delimiters."
+     },
+     "deliverables": [
+      "First section of reusable Prompt Library",
+      "structured-prompt examples across multiple use cases"
+     ],
+     "assessment": "Prompt anatomy, correct selection of prompting techniques, use of structured formats, clarity of instructions, context quality, constraint design, and output control"
+    },
+    {
+     "day": 4,
+     "session": 4,
+     "topics": [
+      {
+       "label": "Reasoning Prompting",
+       "text": "Step-by-Step, Planning, Task Decomposition, Reflection, Critic, Judge, Socratic Prompting (overview), Chain of Draft (CoD)."
+      },
+      {
+       "label": "Additional Prompting Applications",
+       "text": "Conversational Prompting, Image Prompting, Business &amp; Research Prompting."
+      },
+      {
+       "label": "Whisper Flow AI",
+       "text": "Introduction to Whisper Flow AI for prompt workflows."
+      },
+      {
+       "label": "AI Ethics, AI Safety &amp; Hallucinations",
+       "text": "Responsible AI usage, hallucination detection, prompt safety, prompt injection awareness."
+      }
+     ],
+     "topicsRaw": "Reasoning Prompting: Step-by-Step, Planning, Task Decomposition, Reflection, Critic, Judge, Socratic Prompting (overview), Chain of Draft (CoD). Additional Prompting Applications: Conversational Prompting, Image Prompting, Business &amp; Research Prompting. Whisper Flow AI: Introduction to Whisper Flow AI for prompt workflows. AI Ethics, AI Safety &amp; Hallucinations: Responsible AI usage, hallucination detection, prompt safety, prompt injection awareness.",
+     "project": {
+      "title": "Prompt Engineering Lab – Part 2",
+      "text": "Complete the reusable 20–30 prompt Prompt Library. Use Whisper Flow AI to organize or execute prompt workflows. Test selected prompts across ChatGPT, Claude, Gemini, and Perplexity, compare model outputs, identify hallucinations or inconsistencies, and refine prompts for reliability and safety."
+     },
+     "deliverables": [
+      "Completed Prompt Library (20–30 reusable prompts)",
+      "Prompt Comparison Report",
+      "Whisper Flow workflow"
+     ],
+     "assessment": "Prompt quality, reasoning and task decomposition, structured prompting, output consistency, responsible AI usage, hallucination awareness, prompt-safety awareness, and ability to compare model behavior"
+    },
+    {
+     "day": 5,
+     "session": 5,
+     "topics": [
+      {
+       "label": "API Fundamentals",
+       "text": "What is an API, API vs API Key, How APIs Work, REST basics (conceptual), Request &amp; Response, Authentication, Rate Limits, Free AI APIs (Groq, Gemini, OpenRouter, Cohere, Hugging Face, etc.), Integrating APIs into AI applications."
+      },
+      {
+       "label": "Sandbox Environment",
+       "text": "What is a Sandbox, Why AI needs Sandboxes, Sandbox vs Local Machine, introduction to ChatGPT Code Interpreter/Python Sandbox."
+      }
+     ],
+     "topicsRaw": "API Fundamentals: What is an API, API vs API Key, How APIs Work, REST basics (conceptual), Request &amp; Response, Authentication, Rate Limits, Free AI APIs (Groq, Gemini, OpenRouter, Cohere, Hugging Face, etc.), Integrating APIs into AI applications. Sandbox Environment: What is a Sandbox, Why AI needs Sandboxes, Sandbox vs Local Machine, introduction to ChatGPT Code Interpreter/Python Sandbox.",
+     "project": {
+      "title": "API &amp; Model Comparison Lab",
+      "text": "Generate API keys from available free providers, understand secure handling of API credentials, test the same prompt on multiple models/providers, compare responses, observe rate-limit/model differences, and document how APIs can connect AI models with applications. Demonstrate basic execution inside the ChatGPT Python Sandbox."
+     },
+     "deliverables": [
+      "API keys/configuration setup",
+      "API Comparison Sheet",
+      "basic Sandbox demonstration"
+     ],
+     "assessment": "Understanding of APIs and API keys, request/response concepts, authentication, rate limits, model/provider selection, sandbox concepts, and ability to compare AI API outputs"
+    },
+    {
+     "day": 6,
+     "session": 6,
+     "topics": [
+      {
+       "label": "Token Optimization",
+       "text": "Why Token Optimization Matters, Token Counting, Budgeting, Estimation, Cost Analysis, Input &amp; Output Optimization, Prompt Compression, Prompt Simplification, Prompt Rewriting, Instruction Optimization, Minimal Prompting, Delimiter Optimization, Output Constraints, JSON &amp; Markdown Optimization, Few-shot Optimization, Example Selection, Prompt Densification, Chain of Draft (CoD)."
+      },
+      {
+       "label": "Introduction to Context Engineering",
+       "text": "Context Selection, Context Pruning, Context Summarization."
+      }
+     ],
+     "topicsRaw": "Token Optimization: Why Token Optimization Matters, Token Counting, Budgeting, Estimation, Cost Analysis, Input &amp; Output Optimization, Prompt Compression, Prompt Simplification, Prompt Rewriting, Instruction Optimization, Minimal Prompting, Delimiter Optimization, Output Constraints, JSON &amp; Markdown Optimization, Few-shot Optimization, Example Selection, Prompt Densification, Chain of Draft (CoD). Introduction to Context Engineering: Context Selection, Context Pruning, Context Summarization.",
+     "project": {
+      "title": "API, Token &amp; Context Optimization Lab",
+      "text": "Estimate token usage and costs for different prompts/models, optimize prompts to reduce token usage without losing required output quality, apply compression/simplification/densification techniques, optimize structured JSON/Markdown outputs, and practice context selection, pruning, and summarization. Use ChatGPT's Python environment to generate practical outputs including CSV, Excel, charts, and PDFs."
+     },
+     "deliverables": [
+      "Token Optimization Report",
+      "optimized prompt collection",
+      "completed API Comparison Sheet",
+      "Sandbox demonstration outputs (CSV / Excel / Chart / PDF)"
+     ],
+     "assessment": "Token efficiency, cost awareness, prompt optimization, output optimization, context-engineering fundamentals, sandbox usage, and ability to maintain output quality while reducing unnecessary token consumption"
+    }
+   ]
+  },
+  {
+   "week": 2,
+   "title": "MCP, First AI Agent Workflow &amp; Agentic AI Foundations",
+   "days": [
+    {
+     "day": 1,
+     "session": 7,
+     "topics": [
+      {
+       "label": "Model Context Protocol (MCP) — Foundations",
+       "text": "Why MCP was created, Problems it solves, MCP Architecture, Clients, Servers, Tools, Resources, Prompts, Transports (STDIO &amp; HTTP), MCP vs APIs, MCP vs Plugins. Introduction to the real-world MCP ecosystem and understanding how MCP standardizes the way AI systems interact with external tools and data sources."
+      }
+     ],
+     "topicsRaw": "Model Context Protocol (MCP) — Foundations: Why MCP was created, Problems it solves, MCP Architecture, Clients, Servers, Tools, Resources, Prompts, Transports (STDIO &amp; HTTP), MCP vs APIs, MCP vs Plugins. Introduction to the real-world MCP ecosystem and understanding how MCP standardizes the way AI systems interact with external tools and data sources.",
+     "project": {
+      "title": "MCP Architecture Exploration Lab",
+      "text": "Map the relationship between an MCP Client, MCP Server, Tools, Resources, Prompts, and transport layer. Compare a traditional API-based integration with an MCP-based integration and identify situations where each approach is appropriate. Explore available MCP servers such as Filesystem, Brave Search, GitHub, SQLite, etc."
+     },
+     "deliverables": [
+      "MCP Architecture Diagram",
+      "MCP vs API Comparison Sheet",
+      "MCP Component Reference Notes"
+     ],
+     "assessment": "Understanding of MCP purpose, architecture, clients, servers, tools, resources, prompts, transports, MCP vs APIs, MCP vs Plugins, and ability to explain how MCP connects AI systems to external capabilities"
+    },
+    {
+     "day": 2,
+     "session": 8,
+     "topics": [
+      {
+       "label": "MCP Security &amp; Claude Desktop Integration",
+       "text": "MCP Security, Real-world MCP ecosystem, Enterprise MCP use cases."
+      },
+      {
+       "label": "Claude Desktop + MCP",
+       "text": "Installing MCP servers, connecting tools, using MCP with Claude Desktop, understanding how Claude interacts with external systems. Configuration concepts for one or more MCP servers including Filesystem, Brave Search, GitHub, SQLite, etc."
+      }
+     ],
+     "topicsRaw": "MCP Security &amp; Claude Desktop Integration: MCP Security, Real-world MCP ecosystem, Enterprise MCP use cases. Claude Desktop + MCP: Installing MCP servers, connecting tools, using MCP with Claude Desktop, understanding how Claude interacts with external systems. Configuration concepts for one or more MCP servers including Filesystem, Brave Search, GitHub, SQLite, etc.",
+     "project": {
+      "title": "MCP Hands-on Lab",
+      "text": "Install Claude Desktop, configure one or more MCP servers, connect external tools/resources, perform searches, read files, interact with connected systems, and complete a small automation using Claude + MCP. Students observe how Claude selects and invokes external tools during a task."
+     },
+     "deliverables": [
+      "Working Claude + MCP setup",
+      "MCP configuration",
+      "connected MCP server(s)",
+      "simple automation workflow"
+     ],
+     "assessment": "MCP concepts, successful setup, tool usage, server configuration, security awareness, workflow understanding, and ability to explain how Claude interacts with external systems through MCP"
+    },
+    {
+     "day": 3,
+     "session": 9,
+     "topics": [
+      {
+       "label": "Mini Project 1 – Build Your First AI Agent Workflow",
+       "text": "Project Design &amp; Architecture. Combine Prompt Engineering, APIs, Token Optimization, Sandbox concepts, Claude Desktop, and MCP into a practical automation. Understand how AI agents use tools, context, and workflows to solve real problems. Project planning, problem definition, tool selection, prompt planning, context design, workflow architecture, and MCP-server selection."
+      }
+     ],
+     "topicsRaw": "Mini Project 1 – Build Your First AI Agent Workflow: Project Design &amp; Architecture. Combine Prompt Engineering, APIs, Token Optimization, Sandbox concepts, Claude Desktop, and MCP into a practical automation. Understand how AI agents use tools, context, and workflows to solve real problems. Project planning, problem definition, tool selection, prompt planning, context design, workflow architecture, and MCP-server selection.",
+     "project": {
+      "title": "Mini Project 1 – Planning &amp; Build Phase",
+      "text": "Select one project: Document Research Assistant, Local File Assistant, AI Knowledge Base Assistant, Meeting Notes Analyzer, Personal Productivity Assistant, or Research Automation Workflow. Design the solution and begin building a working AI workflow using Claude Desktop connected to multiple MCP servers, without writing code."
+     },
+     "deliverables": [
+      "Project Problem Statement",
+      "initial Architecture Diagram",
+      "MCP Tool/Server Selection",
+      "Prompt &amp; Workflow Plan",
+      "partially functional workflow"
+     ],
+     "assessment": "Problem selection, architecture quality, prompt planning, MCP selection, understanding of tools/context/workflows, and practical workflow-design approach"
+    },
+    {
+     "day": 4,
+     "session": 10,
+     "topics": [
+      {
+       "label": "Mini Project 1 – Build Your First AI Agent Workflow",
+       "text": "Integration, Testing &amp; Presentation. Integrate prompts, tools, multiple MCP servers, context, API concepts where applicable, token-efficient instructions, and workflow logic into a complete automation. Testing, refinement, troubleshooting, documentation, demonstration, and evaluation. Brief Introduction to Multi-Agent Thinking as preparation for the next stage of the program."
+      }
+     ],
+     "topicsRaw": "Mini Project 1 – Build Your First AI Agent Workflow: Integration, Testing &amp; Presentation. Integrate prompts, tools, multiple MCP servers, context, API concepts where applicable, token-efficient instructions, and workflow logic into a complete automation. Testing, refinement, troubleshooting, documentation, demonstration, and evaluation. Brief Introduction to Multi-Agent Thinking as preparation for the next stage of the program.",
+     "project": {
+      "title": "Mini Project 1 – Completion Lab",
+      "text": "Complete the selected AI workflow. Test different inputs and edge cases, refine prompts and tool usage, validate MCP integrations, document the architecture and workflow, and prepare a demonstration video or live presentation explaining how the system solves the selected problem."
+     },
+     "deliverables": [
+      "Functional AI workflow",
+      "Architecture Diagram",
+      "demonstration video/live presentation",
+      "documentation"
+     ],
+     "assessment": "Workflow design, MCP usage, prompt quality, tool integration, problem-solving approach, presentation, documentation quality, successful end-to-end execution, and readiness to progress from simple workflows toward agentic systems"
+    },
+    {
+     "day": 5,
+     "session": 11,
+     "topics": [
+      {
+       "label": "Introduction to Agentic AI",
+       "text": "From Generative AI to Agentic AI, Generative AI vs Traditional AI, Generative AI vs Agentic AI, What is an AI Agent?, Characteristics of AI Agents, AI Assistant vs AI Copilot vs AI Agent, Why Agentic AI is the Next Evolution, Real-world Agentic AI Applications."
+      },
+      {
+       "label": "Core Principles of Agentic AI",
+       "text": "Goal-Oriented Behavior, Autonomy, Agency, Proactiveness, Reactiveness, Decision Making, Adaptability, Context Awareness, Environmental Awareness, Human-in-the-Loop (HITL), Human-on-the-Loop, Human-out-of-the-Loop."
+      },
+      {
+       "label": "How an AI Agent Thinks",
+       "text": "Perception, Observation, Planning, Reasoning, Execution, Reflection, Self-Correction, Feedback Loop, Agent Loop: Observe → Think → Plan → Act → Reflect, Goal Decomposition, Task Decomposition, Iterative Execution."
+      }
+     ],
+     "topicsRaw": "Introduction to Agentic AI: From Generative AI to Agentic AI, Generative AI vs Traditional AI, Generative AI vs Agentic AI, What is an AI Agent?, Characteristics of AI Agents, AI Assistant vs AI Copilot vs AI Agent, Why Agentic AI is the Next Evolution, Real-world Agentic AI Applications. Core Principles of Agentic AI: Goal-Oriented Behavior, Autonomy, Agency, Proactiveness, Reactiveness, Decision Making, Adaptability, Context Awareness, Environmental Awareness, Human-in-the-Loop (HITL), Human-on-the-Loop, Human-out-of-the-Loop. How an AI Agent Thinks: Perception, Observation, Planning, Reasoning, Execution, Reflection, Self-Correction, Feedback Loop, Agent Loop: Observe → Think → Plan → Act → Reflect, Goal Decomposition, Task Decomposition, Iterative Execution.",
+     "project": {
+      "title": "Agent Design Workshop – Part 1",
+      "text": "Select a real-world business problem such as Customer Support, HR Assistant, Research Assistant, Sales Assistant, Personal Productivity, etc. Define the agent's purpose, goals, environment, inputs, outputs, degree of autonomy, human oversight requirements, major tasks, decision points, and agent loop. Begin the architecture in Whimsical, FigJam, or Miro."
+     },
+     "deliverables": [
+      "Agent Problem Definition",
+      "Goals &amp; Task Decomposition Sheet",
+      "Agent Loop Diagram",
+      "Human-Oversight Strategy",
+      "initial Agent Architecture Diagram"
+     ],
+     "assessment": "Understanding of Agentic AI concepts, difference between assistants/copilots/agents, autonomy and agency, agent-loop reasoning, goal decomposition, task decomposition, HITL concepts, and applicability to a real-world problem"
+    },
+    {
+     "day": 6,
+     "session": 12,
+     "topics": [
+      {
+       "label": "Context &amp; Memory",
+       "text": "Context, Context Window, User Context, Session Context, Task Context, Short-Term Memory, Long-Term Memory, Working Memory, Persistent Memory."
+      },
+      {
+       "label": "Agent Architecture",
+       "text": "Brain (LLM), Planner, Memory, Executor, Tools, Environment, Inputs &amp; Outputs."
+      },
+      {
+       "label": "Agent Collaboration",
+       "text": "Single-Agent vs Multi-Agent Systems, Agent Roles, Delegation, Collaboration, Orchestration."
+      },
+      {
+       "label": "Reliability &amp; Safety",
+       "text": "Guardrails, Validation, Monitoring, Logging, Explainability, Trustworthy AI."
+      },
+      {
+       "label": "Automation Concepts",
+       "text": "Workflow vs Agent, Rule-Based Automation vs AI Agents, Event-Driven Automation, Trigger vs Goal, Future of AI Automation."
+      }
+     ],
+     "topicsRaw": "Context &amp; Memory: Context, Context Window, User Context, Session Context, Task Context, Short-Term Memory, Long-Term Memory, Working Memory, Persistent Memory. Agent Architecture: Brain (LLM), Planner, Memory, Executor, Tools, Environment, Inputs &amp; Outputs. Agent Collaboration: Single-Agent vs Multi-Agent Systems, Agent Roles, Delegation, Collaboration, Orchestration. Reliability &amp; Safety: Guardrails, Validation, Monitoring, Logging, Explainability, Trustworthy AI. Automation Concepts: Workflow vs Agent, Rule-Based Automation vs AI Agents, Event-Driven Automation, Trigger vs Goal, Future of AI Automation.",
+     "project": {
+      "title": "Agent Design Workshop – Part 2",
+      "text": "Complete the AI-agent architecture begun on Day 5. Define the agent's LLM/Brain, Planner, Memory, Executor, Tools, Environment, Inputs, Outputs, workflow, reasoning structure and interactions. Determine whether the solution should use a single agent or multiple agents, define delegation/orchestration where applicable, and add guardrails, validation, monitoring and logging. Finalize the architecture using Whimsical, FigJam, or Miro and present the design."
+     },
+     "deliverables": [
+      "Complete AI Agent Architecture Diagram",
+      "Agent Workflow Document",
+      "Tool Selection Sheet",
+      "Agent Design Presentation"
+     ],
+     "assessment": "Understanding of context and memory, architecture design, reasoning flow, agent decomposition, workflow logic, tool selection, single-agent vs multi-agent design, delegation/orchestration, reliability and safety considerations, automation concepts, and presentation quality"
+    }
+   ]
+  },
+  {
+   "week": 3,
+   "title": "No-Code AI Agents, RAG &amp; Production Knowledge Systems",
+   "days": [
+    {
+     "day": 1,
+     "session": 13,
+     "topics": [
+      {
+       "label": "No-Code AI Agent Platforms — Foundations &amp; Comparison",
+       "text": "Introduction to Dify, n8n, CrewAI, and Zapier."
+      },
+      {
+       "label": "Platform comparison, strengths, limitations, and common components",
+       "text": "Triggers, Nodes, Agents, Tools, Knowledge Bases, Variables, Workflows. Understanding AI workflow builders, agent orchestration, integrations, automation patterns, and business use cases. Introduction to how different platforms solve the same automation problem using different approaches."
+      }
+     ],
+     "topicsRaw": "No-Code AI Agent Platforms — Foundations &amp; Comparison: Introduction to Dify, n8n, CrewAI, and Zapier. Platform comparison, strengths, limitations, and common components: Triggers, Nodes, Agents, Tools, Knowledge Bases, Variables, Workflows. Understanding AI workflow builders, agent orchestration, integrations, automation patterns, and business use cases. Introduction to how different platforms solve the same automation problem using different approaches.",
+     "project": {
+      "title": "AI Automation Lab – Part 1",
+      "text": "Explore and compare Dify, n8n, CrewAI, and Zapier. Map the core components of each platform and identify how triggers, nodes, agents, tools, knowledge bases, variables, and workflows are represented. Build the first two simple automations: (1) Dify AI Chatbot and (2) n8n AI Workflow."
+     },
+     "deliverables": [
+      "Working Dify AI Chatbot",
+      "working n8n AI Workflow",
+      "initial Platform Comparison Sheet",
+      "workflow screenshots"
+     ],
+     "assessment": "Platform understanding, identification of common workflow components, basic workflow creation, automation logic, integration concepts, and ability to compare platform approaches"
+    },
+    {
+     "day": 2,
+     "session": 14,
+     "topics": [
+      {
+       "label": "No-Code Agent Orchestration &amp; Automation Patterns",
+       "text": "Deeper comparison of Dify, n8n, CrewAI, and Zapier for automation, reasoning, integrations, and agent orchestration. Understanding when to use workflow automation versus agent-based orchestration, how platforms structure sequential tasks, external integrations, and business automation patterns."
+      }
+     ],
+     "topicsRaw": "No-Code Agent Orchestration &amp; Automation Patterns: Deeper comparison of Dify, n8n, CrewAI, and Zapier for automation, reasoning, integrations, and agent orchestration. Understanding when to use workflow automation versus agent-based orchestration, how platforms structure sequential tasks, external integrations, and business automation patterns.",
+     "project": {
+      "title": "AI Automation Lab – Part 2",
+      "text": "Build the remaining two original automations: (3) CrewAI Multi-Agent Workflow and (4) Zapier AI Automation. Compare all four platforms by recreating or analyzing a similar automation objective across them. Evaluate how each platform handles automation, reasoning, integrations, and orchestration."
+     },
+     "deliverables": [
+      "Four working automation workflows in total",
+      "completed Platform Comparison Report",
+      "Workflow Screenshots"
+     ],
+     "assessment": "Workflow creation, automation logic, tool and platform selection, agent orchestration understanding, comparison and analysis, and ability to explain strengths and limitations of each platform"
+    },
+    {
+     "day": 3,
+     "session": 15,
+     "topics": [
+      {
+       "label": "Retrieval-Augmented Generation (RAG) — Foundations",
+       "text": "What is RAG?, Why LLMs Hallucinate, LLM Knowledge vs External Knowledge, Fine-tuning vs RAG, RAG Architecture &amp; Pipeline, Retrieval Pipeline, Generation Pipeline."
+      },
+      {
+       "label": "Document Ingestion",
+       "text": "OCR, Text Extraction, PDF Parsing, Metadata, Data Cleaning."
+      },
+      {
+       "label": "Chunking Fundamentals",
+       "text": "Chunking, Chunk Size, Chunk Overlap, Recursive Chunking, Semantic Chunking."
+      }
+     ],
+     "topicsRaw": "Retrieval-Augmented Generation (RAG) — Foundations: What is RAG?, Why LLMs Hallucinate, LLM Knowledge vs External Knowledge, Fine-tuning vs RAG, RAG Architecture &amp; Pipeline, Retrieval Pipeline, Generation Pipeline. Document Ingestion: OCR, Text Extraction, PDF Parsing, Metadata, Data Cleaning. Chunking Fundamentals: Chunking, Chunk Size, Chunk Overlap, Recursive Chunking, Semantic Chunking.",
+     "project": {
+      "title": "Basic RAG Lab – Part 1",
+      "text": "Build the conceptual RAG pipeline and begin simple document-based AI assistants. Upload documents, create knowledge bases, ingest PDFs, inspect extracted text and metadata, experiment with chunk size and overlap, and test basic document Q&amp;A. Begin implementations in Dify and n8n."
+     },
+     "deliverables": [
+      "Initial RAG Pipeline Diagram",
+      "two basic document-based RAG applications",
+      "document-ingestion and chunking notes"
+     ],
+     "assessment": "Understanding of RAG concepts, hallucination mitigation, fine-tuning vs RAG, document ingestion, OCR/text extraction, metadata, data cleaning, chunking, chunk size, chunk overlap, and overall retrieval/generation flow"
+    },
+    {
+     "day": 4,
+     "session": 16,
+     "topics": [
+      {
+       "label": "RAG Retrieval Mechanics &amp; Modern RAG",
+       "text": "Embeddings, Embedding Models, Embedding Similarity, Cosine Similarity, Vector Databases (ChromaDB, Pinecone, Weaviate, Qdrant, FAISS), Retrieval, Semantic Search vs Keyword Search, Hybrid Retrieval, Top-K Retrieval, Context Injection, Prompt Augmentation, Grounded Generation, Source Citations."
+      },
+      {
+       "label": "Introduction to Modern RAG",
+       "text": "Agentic RAG, Graph RAG, Multimodal RAG, SQL RAG, Code RAG, API RAG."
+      }
+     ],
+     "topicsRaw": "RAG Retrieval Mechanics &amp; Modern RAG: Embeddings, Embedding Models, Embedding Similarity, Cosine Similarity, Vector Databases (ChromaDB, Pinecone, Weaviate, Qdrant, FAISS), Retrieval, Semantic Search vs Keyword Search, Hybrid Retrieval, Top-K Retrieval, Context Injection, Prompt Augmentation, Grounded Generation, Source Citations. Introduction to Modern RAG: Agentic RAG, Graph RAG, Multimodal RAG, SQL RAG, Code RAG, API RAG.",
+     "project": {
+      "title": "Basic RAG Lab – Part 2",
+      "text": "Complete simple document-based AI assistants using Dify, n8n, CrewAI, and Zapier. Ask questions from PDFs, compare retrieval quality and grounded responses, inspect how each platform handles knowledge bases and retrieval, and observe the effect of chunking and retrieval settings. Complete the platform comparison of RAG implementations."
+     },
+     "deliverables": [
+      "Four basic RAG applications",
+      "completed RAG Pipeline Diagram",
+      "Platform Comparison Report"
+     ],
+     "assessment": "Embeddings, retrieval flow, vector database concepts, semantic vs keyword search, hybrid retrieval, Top-K, context injection, grounded generation, source citations, practical implementation, retrieval quality, and comparison of platforms"
+    },
+    {
+     "day": 5,
+     "session": 17,
+     "topics": [
+      {
+       "label": "Production RAG Systems — Architecture &amp; Knowledge Base Design",
+       "text": "Designing enterprise-grade RAG systems. Knowledge Base Design, Document Management, Data Sources, Context Management, Prompt Engineering for RAG, Retrieval Optimization, Business Use Cases, AI Knowledge Assistants, Enterprise Search, Document Intelligence, Internal Knowledge Systems, and best practices for building scalable RAG applications."
+      }
+     ],
+     "topicsRaw": "Production RAG Systems — Architecture &amp; Knowledge Base Design: Designing enterprise-grade RAG systems. Knowledge Base Design, Document Management, Data Sources, Context Management, Prompt Engineering for RAG, Retrieval Optimization, Business Use Cases, AI Knowledge Assistants, Enterprise Search, Document Intelligence, Internal Knowledge Systems, and best practices for building scalable RAG applications.",
+     "project": {
+      "title": "Production RAG Project – Architecture &amp; Build Phase",
+      "text": "Design a production-style RAG Assistant using Dify or n8n. Define the business problem, target users, document sources, knowledge-base structure, ingestion strategy, retrieval configuration, context-management approach, prompt strategy, and citation requirements. Begin ingesting multiple documents and constructing the workflow."
+     },
+     "deliverables": [
+      "Production RAG Project Plan",
+      "Knowledge Base Configuration draft",
+      "Workflow Architecture Diagram",
+      "initial multi-document RAG Assistant"
+     ],
+     "assessment": "Knowledge-base design, document-management strategy, context design, RAG prompt engineering, retrieval optimization, scalability considerations, architecture quality, and business applicability"
+    },
+    {
+     "day": 6,
+     "session": 18,
+     "topics": [
+      {
+       "label": "Production RAG Project — Implementation, Optimization &amp; Validation",
+       "text": "Applying enterprise RAG best practices to a working system. Multi-document ingestion, document-based responses, citations, conversation context, retrieval-quality testing, response accuracy, workflow refinement, scalability considerations, testing, documentation, and presentation."
+      }
+     ],
+     "topicsRaw": "Production RAG Project — Implementation, Optimization &amp; Validation: Applying enterprise RAG best practices to a working system. Multi-document ingestion, document-based responses, citations, conversation context, retrieval-quality testing, response accuracy, workflow refinement, scalability considerations, testing, documentation, and presentation.",
+     "project": {
+      "title": "Major Project 1 – Production-Style RAG Assistant",
+      "text": "Complete a functional RAG Assistant using Dify or n8n. The assistant must ingest multiple documents, answer questions with citations, maintain conversation context, and provide accurate document-based responses. Test retrieval quality, refine prompts and knowledge-base settings, document the final architecture, and prepare a demonstration video."
+     },
+     "deliverables": [
+      "Functional RAG Assistant",
+      "Knowledge Base Configuration",
+      "Workflow Architecture Diagram",
+      "Demonstration Video"
+     ],
+     "assessment": "Knowledge-base design, retrieval quality, workflow implementation, documentation, scalability, and presentation"
+    }
+   ]
+  },
+  {
+   "week": 4,
+   "title": "End-to-End Intelligent Automation, AI UGC Creation &amp; Content Automation",
+   "days": [
+    {
+     "day": 1,
+     "session": 19,
+     "topics": [
+      {
+       "label": "End-to-End Intelligent Automation — Architecture &amp; System Design",
+       "text": "Combining RAG, Web Search, APIs, LLMs, Knowledge Bases, and AI Workflows into complete business automation systems. Understanding when to use Retrieval, APIs, External Tools, Search, and Automation together. Designing intelligent end-to-end AI solutions for real-world business problems. System decomposition, data flow, tool selection, orchestration logic, and identifying where knowledge retrieval should be combined with live external information or actions."
+      }
+     ],
+     "topicsRaw": "End-to-End Intelligent Automation — Architecture &amp; System Design: Combining RAG, Web Search, APIs, LLMs, Knowledge Bases, and AI Workflows into complete business automation systems. Understanding when to use Retrieval, APIs, External Tools, Search, and Automation together. Designing intelligent end-to-end AI solutions for real-world business problems. System decomposition, data flow, tool selection, orchestration logic, and identifying where knowledge retrieval should be combined with live external information or actions.",
+     "project": {
+      "title": "Mini Project 2 – Intelligent AI Automation System",
+      "text": "Planning &amp; Architecture Phase. Select a practical use case such as AI Research Assistant, Customer Support Agent, Business Knowledge Assistant, Lead Qualification System, Internal Company Chatbot, or Document Intelligence Platform. Define the business problem, user input, required knowledge sources, web-search requirements, APIs, workflow steps, and platform choice using Dify, n8n, or Zapier. Create the initial end-to-end workflow architecture."
+     },
+     "deliverables": [
+      "Project Problem Statement",
+      "System Architecture Diagram",
+      "Tool/API Selection Sheet",
+      "RAG + Search + Automation Workflow Plan"
+     ],
+     "assessment": "System architecture, correct selection of RAG vs APIs vs search, workflow orchestration, platform choice, problem decomposition, and business applicability"
+    },
+    {
+     "day": 2,
+     "session": 20,
+     "topics": [
+      {
+       "label": "End-to-End Intelligent Automation — Integration, Testing &amp; Deployment",
+       "text": "Practical integration of RAG, Web Search, APIs, workflow automation, knowledge bases, and LLM reasoning into a complete AI system. Workflow execution, data movement between components, testing, error identification, refinement, output validation, documentation, and presentation of an intelligent automation solution."
+      }
+     ],
+     "topicsRaw": "End-to-End Intelligent Automation — Integration, Testing &amp; Deployment: Practical integration of RAG, Web Search, APIs, workflow automation, knowledge bases, and LLM reasoning into a complete AI system. Workflow execution, data movement between components, testing, error identification, refinement, output validation, documentation, and presentation of an intelligent automation solution.",
+     "project": {
+      "title": "Mini Project 2 – Build &amp; Completion Phase",
+      "text": "Build the complete automation selected on Day 1 using Dify, n8n, or Zapier. The system must combine RAG + Web Search + APIs + Workflow Automation. Test multiple inputs, validate retrieved and live information, refine workflow logic, document the system, and prepare the project presentation."
+     },
+     "deliverables": [
+      "Fully functional AI automation",
+      "Workflow Diagram",
+      "Architecture Documentation",
+      "Project Presentation",
+      "GitHub Repository (optional)"
+     ],
+     "assessment": "System architecture, workflow orchestration, RAG implementation, API integration, problem-solving, documentation quality, presentation, and business applicability"
+    },
+    {
+     "day": 3,
+     "session": 21,
+     "topics": [
+      {
+       "label": "AI UGC Creation — Strategy, Psychology &amp; Scriptwriting",
+       "text": "Introduction to UGC (User-Generated Content), Traditional UGC vs AI UGC, Psychology of High-Converting UGC, Organic vs Paid UGC, Creator Economy, UGC Workflow, Content Strategy."
+      },
+      {
+       "label": "Script Writing Frameworks",
+       "text": "PAS, AIDA, BAB. Hook Writing, Storytelling, CTA Writing. Introduction to planning UGC content around a product, audience, platform, and conversion objective."
+      }
+     ],
+     "topicsRaw": "AI UGC Creation — Strategy, Psychology &amp; Scriptwriting: Introduction to UGC (User-Generated Content), Traditional UGC vs AI UGC, Psychology of High-Converting UGC, Organic vs Paid UGC, Creator Economy, UGC Workflow, Content Strategy. Script Writing Frameworks: PAS, AIDA, BAB. Hook Writing, Storytelling, CTA Writing. Introduction to planning UGC content around a product, audience, platform, and conversion objective.",
+     "project": {
+      "title": "AI UGC Creation Lab – Part 1",
+      "text": "Select or research a product, identify the target audience and platform, analyze the value proposition, generate multiple UGC angles, write hooks and CTAs, and produce several scripts using PAS, AIDA, and BAB. Develop a storyboard and define the content-production workflow for the selected campaign."
+     },
+     "deliverables": [
+      "Product/Audience Research Sheet",
+      "AI UGC Script Set",
+      "Hook &amp; CTA Variations",
+      "Storyboard/Content Plan"
+     ],
+     "assessment": "Audience understanding, content strategy, script quality, persuasion structure, hook strength, storytelling, CTA quality, and suitability for the intended social platform"
+    },
+    {
+     "day": 4,
+     "session": 22,
+     "topics": [
+      {
+       "label": "AI UGC Production — Avatars, Voice, Video &amp; Editing",
+       "text": "AI Avatar Creation, Digital Humans, Lip Sync, AI Voice Generation, Voice Cloning, Text-to-Speech, AI Video Generation, Image-to-Video, B-roll, Storyboarding, AI Video Editing, Captions, Motion Graphics, SFX, BGM."
+      },
+      {
+       "label": "Platform Optimization",
+       "text": "Instagram, TikTok, YouTube Shorts, LinkedIn."
+      },
+      {
+       "label": "AI UGC Scaling",
+       "text": "Batch Content Creation, AI Content Automation."
+      },
+      {
+       "label": "Responsible AI Content",
+       "text": "Ethics, AI Disclosure, Copyright, Commercial Rights, Responsible AI Content."
+      }
+     ],
+     "topicsRaw": "AI UGC Production — Avatars, Voice, Video &amp; Editing: AI Avatar Creation, Digital Humans, Lip Sync, AI Voice Generation, Voice Cloning, Text-to-Speech, AI Video Generation, Image-to-Video, B-roll, Storyboarding, AI Video Editing, Captions, Motion Graphics, SFX, BGM. Platform Optimization: Instagram, TikTok, YouTube Shorts, LinkedIn. AI UGC Scaling: Batch Content Creation, AI Content Automation. Responsible AI Content: Ethics, AI Disclosure, Copyright, Commercial Rights, Responsible AI Content.",
+     "project": {
+      "title": "AI UGC Creation Lab – Part 2",
+      "text": "Create an AI avatar, generate AI voice, produce B-roll and supporting visuals, assemble the complete AI UGC video, add captions, music, transitions, motion elements, and optimize the final content for multiple social-media platforms. Review ethical and commercial-use considerations before finalizing the content package."
+     },
+     "deliverables": [
+      "AI UGC Script",
+      "AI Avatar Video",
+      "Edited UGC Video",
+      "Multi-platform Ready Content Package"
+     ],
+     "assessment": "Script quality, storytelling, avatar quality, editing, creativity, platform optimization, responsible AI usage, and overall content quality"
+    },
+    {
+     "day": 5,
+     "session": 23,
+     "topics": [
+      {
+       "label": "AI UGC Automation — Content Factory Foundations",
+       "text": "Introduction to AI UGC Automation, Manual vs Automated Workflow, AI Content Factory, UGC Automation Pipeline, Research Automation, Script Generation, Prompt Generation, AI Image &amp; Video Automation, Caption &amp; Hashtag Generation."
+      },
+      {
+       "label": "Workflow Components",
+       "text": "Triggers, Actions, Variables, APIs, Webhooks, AI Agents, Memory."
+      },
+      {
+       "label": "Platform Overview",
+       "text": "Dify, n8n, Zapier, CrewAI. Multi-Agent Workflows, Sequential &amp; Parallel Workflows."
+      }
+     ],
+     "topicsRaw": "AI UGC Automation — Content Factory Foundations: Introduction to AI UGC Automation, Manual vs Automated Workflow, AI Content Factory, UGC Automation Pipeline, Research Automation, Script Generation, Prompt Generation, AI Image &amp; Video Automation, Caption &amp; Hashtag Generation. Workflow Components: Triggers, Actions, Variables, APIs, Webhooks, AI Agents, Memory. Platform Overview: Dify, n8n, Zapier, CrewAI. Multi-Agent Workflows, Sequential &amp; Parallel Workflows.",
+     "project": {
+      "title": "AI Automation Lab – Content Factory Architecture",
+      "text": "Map a complete automated UGC workflow beginning with a single product input. Design how the system will generate research, scripts, image prompts, video prompts, captions, hashtags, thumbnails, and publishing assets. Select an implementation platform from Dify, n8n, Zapier, or CrewAI and begin building the workflow."
+     },
+     "deliverables": [
+      "UGC Content Factory Architecture Diagram",
+      "Workflow Component Map",
+      "Platform Selection/Comparison Notes",
+      "partially working automated content workflow"
+     ],
+     "assessment": "Workflow design, trigger/action logic, variables, APIs/webhooks, agent and memory concepts, sequential vs parallel workflow understanding, and platform selection"
+    },
+    {
+     "day": 6,
+     "session": 24,
+     "topics": [
+      {
+       "label": "AI Content Pipelines, Publishing &amp; Scaling",
+       "text": "Completing automated UGC-generation pipelines using AI agents and workflow platforms. Multi-agent orchestration, workflow optimization, generation consistency, error handling within the content pipeline, batch content creation, AI Content Pipelines, AI Publishing &amp; Content Scaling. Comparing platform approaches for practical content automation and business use cases."
+      }
+     ],
+     "topicsRaw": "AI Content Pipelines, Publishing &amp; Scaling: Completing automated UGC-generation pipelines using AI agents and workflow platforms. Multi-agent orchestration, workflow optimization, generation consistency, error handling within the content pipeline, batch content creation, AI Content Pipelines, AI Publishing &amp; Content Scaling. Comparing platform approaches for practical content automation and business use cases.",
+     "project": {
+      "title": "AI Automation Lab – Complete UGC Content Factory",
+      "text": "Build and test an automated workflow using Dify, n8n, Zapier, or CrewAI that automatically generates product research, UGC scripts, image prompts, video prompts, captions, hashtags, thumbnails, and publish-ready content packages from a single product input. Test the workflow on multiple inputs, optimize the automation logic, and document the complete process."
+     },
+     "deliverables": [
+      "Automated AI Workflow",
+      "UGC Content Factory Workflow",
+      "Platform Comparison Report",
+      "Workflow Documentation"
+     ],
+     "assessment": "Workflow design, automation logic, AI agent orchestration, workflow optimization, platform understanding, reliability of generated content, scalability, and business applicability"
+    }
+   ]
+  },
+  {
+   "week": 5,
+   "title": "AI Application Development, Prompt-to-App Building &amp; Integrated AI Systems",
+   "days": [
+    {
+     "day": 1,
+     "session": 25,
+     "topics": [
+      {
+       "label": "AI App Builders — Foundations &amp; Ecosystem",
+       "text": "Introduction to AI App Builders, Traditional vs AI Software Development, Prompt-to-App Development, AI SDLC, AI App Builder Ecosystem: Lovable, Bolt, Replit AI, Emergent, Firebase Studio, v0, Cursor. Prompt-to-Code, Prompt-to-App, Full-Stack AI Development."
+      },
+      {
+       "label": "Application Architecture",
+       "text": "Frontend, Backend, Databases, Authentication, APIs. Introduction to how AI-assisted development changes the process of planning and building software applications."
+      }
+     ],
+     "topicsRaw": "AI App Builders — Foundations &amp; Ecosystem: Introduction to AI App Builders, Traditional vs AI Software Development, Prompt-to-App Development, AI SDLC, AI App Builder Ecosystem: Lovable, Bolt, Replit AI, Emergent, Firebase Studio, v0, Cursor. Prompt-to-Code, Prompt-to-App, Full-Stack AI Development. Application Architecture: Frontend, Backend, Databases, Authentication, APIs. Introduction to how AI-assisted development changes the process of planning and building software applications.",
+     "project": {
+      "title": "AI App Builder Exploration Lab",
+      "text": "Compare major AI app builders and identify how each supports prompt-driven software development. Map a simple application into frontend, backend, database, authentication, and API components. Create an initial app concept and prompt specification for a simple web application to be built in Lovable."
+     },
+     "deliverables": [
+      "AI App Builder Comparison Notes",
+      "Application Architecture Map",
+      "Initial App Concept",
+      "Prompt Specification"
+     ],
+     "assessment": "Understanding of traditional vs AI-assisted development, AI SDLC, prompt-to-code/prompt-to-app concepts, platform ecosystem awareness, and ability to identify the major components of an application"
+    },
+    {
+     "day": 2,
+     "session": 26,
+     "topics": [
+      {
+       "label": "AI Application Design &amp; Development",
+       "text": "UI/UX Fundamentals, Responsive Design, Supabase, Firebase, AI Features, Chatbots, AI Assistants, AI Integrations, Deployment, GitHub Integration, MVP Planning, Best Practices. Applying prompt engineering to application generation and iterative refinement."
+      }
+     ],
+     "topicsRaw": "AI Application Design &amp; Development: UI/UX Fundamentals, Responsive Design, Supabase, Firebase, AI Features, Chatbots, AI Assistants, AI Integrations, Deployment, GitHub Integration, MVP Planning, Best Practices. Applying prompt engineering to application generation and iterative refinement.",
+     "project": {
+      "title": "AI App Builder Lab",
+      "text": "Build a simple AI web application using Lovable. Create a responsive landing page, navigation, AI interface, forms, and deploy the application. Optionally integrate an AI model using Groq or Gemini API. Refine the application through prompt-based iteration."
+     },
+     "deliverables": [
+      "Working AI Web Application",
+      "Live Deployment URL",
+      "Prompt Documentation"
+     ],
+     "assessment": "UI/UX, prompt quality, application structure, responsiveness, deployment, and feature implementation"
+    },
+    {
+     "day": 3,
+     "session": 27,
+     "topics": [
+      {
+       "label": "Mini Project 3 – Build Your First AI Application",
+       "text": "Problem Definition &amp; Planning. Understanding business requirements, problem identification, feature planning, AI application architecture, prompt planning, UI refinement strategy, AI integration planning, testing requirements, deployment planning, and presentation structure. Students prepare to independently build a complete AI-powered web application using Lovable while applying concepts learned throughout the week."
+      }
+     ],
+     "topicsRaw": "Mini Project 3 – Build Your First AI Application: Problem Definition &amp; Planning. Understanding business requirements, problem identification, feature planning, AI application architecture, prompt planning, UI refinement strategy, AI integration planning, testing requirements, deployment planning, and presentation structure. Students prepare to independently build a complete AI-powered web application using Lovable while applying concepts learned throughout the week.",
+     "project": {
+      "title": "Mini Project 3 – Planning &amp; Initial Build",
+      "text": "Select a business problem and project type such as AI Resume Builder, AI Study Assistant, AI UGC Generator, AI Marketing Assistant, AI PDF Chat Assistant, or AI Research Assistant. Define the target user, problem, feature set, interface requirements, AI behavior, prompt strategy, and application architecture. Begin building the application in Lovable."
+     },
+     "deliverables": [
+      "Business Problem Definition",
+      "Feature Plan",
+      "AI Application Architecture",
+      "Prompt Plan",
+      "initial functional application"
+     ],
+     "assessment": "Problem identification, feature planning, architecture quality, prompt planning, relevance of AI functionality, UI/UX planning, and project feasibility"
+    },
+    {
+     "day": 4,
+     "session": 28,
+     "topics": [
+      {
+       "label": "Mini Project 3 – Implementation, Testing, Deployment &amp; Presentation",
+       "text": "UI refinement, AI integration, testing, deployment, documentation, and presentation. Applying the complete workflow from requirement definition through functional AI application delivery."
+      }
+     ],
+     "topicsRaw": "Mini Project 3 – Implementation, Testing, Deployment &amp; Presentation: UI refinement, AI integration, testing, deployment, documentation, and presentation. Applying the complete workflow from requirement definition through functional AI application delivery.",
+     "project": {
+      "title": "Mini Project 3 – Build Completion",
+      "text": "Complete the selected AI-powered web application in Lovable. Implement and refine the required features, improve UI/UX, integrate AI functionality, test the application, deploy it live, prepare feature and prompt documentation, and create a 3–5 minute demonstration video."
+     },
+     "deliverables": [
+      "Fully Functional AI Web Application",
+      "Live Deployment URL",
+      "Feature Documentation",
+      "Prompt Documentation",
+      "Demonstration Video (3–5 minutes)"
+     ],
+     "assessment": "Problem solving, UI/UX, AI integration, prompt engineering, deployment, documentation, creativity, and presentation"
+    },
+    {
+     "day": 5,
+     "session": 29,
+     "topics": [
+      {
+       "label": "Major Project – AI Application + AI Automation Integration",
+       "text": "Architecture &amp; Integration Concepts. Integrating AI applications with automation workflows using Dify, n8n, Zapier, or CrewAI. API Communication, JSON Requests &amp; Responses, Webhooks, Workflow Integration, AI Orchestration, Business Logic, Frontend–Backend Integration, AI Model Integration, Production Workflow Design. Understanding how an application sends user input into an automation workflow and receives AI-generated results back into the application interface."
+      }
+     ],
+     "topicsRaw": "Major Project – AI Application + AI Automation Integration: Architecture &amp; Integration Concepts. Integrating AI applications with automation workflows using Dify, n8n, Zapier, or CrewAI. API Communication, JSON Requests &amp; Responses, Webhooks, Workflow Integration, AI Orchestration, Business Logic, Frontend–Backend Integration, AI Model Integration, Production Workflow Design. Understanding how an application sends user input into an automation workflow and receives AI-generated results back into the application interface.",
+     "project": {
+      "title": "Major Project – Architecture &amp; Integration Phase",
+      "text": "Design a production-style AI application using Lovable and select an automation platform from Dify, n8n, Zapier, or CrewAI. Define the frontend interaction, workflow trigger, JSON request/response structure, webhook or API communication, business logic, AI model usage, and end-to-end system architecture. Begin connecting the application to the automation workflow."
+     },
+     "deliverables": [
+      "Major Project Architecture Diagram",
+      "Workflow Diagram draft",
+      "API/Webhook Integration Plan",
+      "JSON Request/Response Design",
+      "partially integrated AI Application + Automation Workflow"
+     ],
+     "assessment": "System architecture, API communication understanding, JSON structure, workflow orchestration, frontend–backend integration logic, AI integration, and production-workflow design"
+    },
+    {
+     "day": 6,
+     "session": 30,
+     "topics": [
+      {
+       "label": "Major Project – Production Integration, Deployment &amp; Validation",
+       "text": "Deployment, Error Handling, Testing, End-to-End AI Systems, workflow refinement, system validation, documentation, scalability, and project presentation. Completing a production-style application that receives user input, processes it through an AI automation workflow, and returns AI-generated results inside the application interface."
+      }
+     ],
+     "topicsRaw": "Major Project – Production Integration, Deployment &amp; Validation: Deployment, Error Handling, Testing, End-to-End AI Systems, workflow refinement, system validation, documentation, scalability, and project presentation. Completing a production-style application that receives user input, processes it through an AI automation workflow, and returns AI-generated results inside the application interface.",
+     "project": {
+      "title": "Major Project – Build &amp; Completion Phase",
+      "text": "Complete the production-style AI application using Lovable and the selected Dify, n8n, Zapier, or CrewAI workflow. Ensure user input is received by the application, passed to the automation workflow, processed correctly, and returned as AI-generated output in the interface. Test integrations, handle errors, deploy the complete solution, document APIs and architecture, and prepare the final presentation and 5–10 minute demonstration video."
+     },
+     "deliverables": [
+      "Fully Functional AI Application",
+      "Integrated AI Automation Workflow",
+      "Live Deployment URL",
+      "Workflow Diagram",
+      "Architecture Documentation",
+      "API Documentation",
+      "Project Presentation",
+      "Demonstration Video (5–10 minutes)"
+     ],
+     "assessment": "System architecture, API integration, workflow orchestration, AI integration, application quality, documentation, scalability, creativity, and presentation"
+    }
+   ]
+  },
+  {
+   "week": 6,
+   "title": "OpenClaw, Production AI Agents, Browser Automation, Security &amp; Enterprise Integrations",
+   "days": [
+    {
+     "day": 1,
+     "session": 31,
+     "topics": [
+      {
+       "label": "OpenClaw Foundations &amp; Agent Configuration",
+       "text": "Introduction to OpenClaw Architecture, Gateway, Agent Runtime, Agent Workspace, LLM Configuration, API Configuration (OpenAI, Groq, Gemini, OpenRouter, Anthropic), Environment Variables, Authentication Profiles."
+      },
+      {
+       "label": "OpenClaw Interfaces",
+       "text": "Web UI vs Terminal UI (TUI)."
+      },
+      {
+       "label": "Channel Architecture",
+       "text": "Telegram Integration, Discord Integration, AgentMail Integration. Introduction to Agent Lifecycle, Session Management, and Multi-Agent Overview."
+      }
+     ],
+     "topicsRaw": "OpenClaw Foundations &amp; Agent Configuration: Introduction to OpenClaw Architecture, Gateway, Agent Runtime, Agent Workspace, LLM Configuration, API Configuration (OpenAI, Groq, Gemini, OpenRouter, Anthropic), Environment Variables, Authentication Profiles. OpenClaw Interfaces: Web UI vs Terminal UI (TUI). Channel Architecture: Telegram Integration, Discord Integration, AgentMail Integration. Introduction to Agent Lifecycle, Session Management, and Multi-Agent Overview.",
+     "project": {
+      "title": "OpenClaw Setup Lab",
+      "text": "Install and configure OpenClaw, configure one or more LLM providers, set up required environment/API configuration, explore the Web UI and TUI, connect Telegram or Discord, send the first message to the agent, and verify successful end-to-end communication between the messaging channel, OpenClaw runtime, and configured LLM."
+     },
+     "deliverables": [
+      "Working OpenClaw installation",
+      "configured LLM provider",
+      "connected messaging channel",
+      "successful agent interaction"
+     ],
+     "assessment": "Installation accuracy, understanding of OpenClaw architecture, LLM/API configuration, environment and authentication setup, channel configuration, session concepts, and successful end-to-end agent communication"
+    },
+    {
+     "day": 2,
+     "session": 32,
+     "topics": [
+      {
+       "label": "OpenClaw Workspace &amp; Agent Identity",
+       "text": "Understanding workspace architecture and the purpose of SOUL.md, IDENTITY.md, USER.md, AGENTS.md, TOOLS.md, HEARTBEAT.md, MEMORY.md. Bootstrap Process, Personality Design, Agent Identity, User Context, Tool Configuration, Memory Management, Agent Behavior Customization, Prompt Injection Order, Context Loading, and Best Practices for Workspace Design."
+      }
+     ],
+     "topicsRaw": "OpenClaw Workspace &amp; Agent Identity: Understanding workspace architecture and the purpose of SOUL.md, IDENTITY.md, USER.md, AGENTS.md, TOOLS.md, HEARTBEAT.md, MEMORY.md. Bootstrap Process, Personality Design, Agent Identity, User Context, Tool Configuration, Memory Management, Agent Behavior Customization, Prompt Injection Order, Context Loading, and Best Practices for Workspace Design.",
+     "project": {
+      "title": "Workspace Customization Lab",
+      "text": "Build a personalized OpenClaw agent by customizing all major workspace files. Create a unique personality and identity, define user preferences and contextual information, configure tools, create long-term memory behavior, configure agent instructions, and validate consistent behavior across multiple conversations and sessions."
+     },
+     "deliverables": [
+      "Complete OpenClaw workspace",
+      "customized personality",
+      "memory configuration",
+      "tool configuration",
+      "agent documentation"
+     ],
+     "assessment": "Workspace organization, understanding of workspace files and loading behavior, agent consistency, memory usage, prompt design, identity configuration, tool configuration, and documentation quality"
+    },
+    {
+     "day": 3,
+     "session": 33,
+     "topics": [
+      {
+       "label": "OpenClaw Skills &amp; Browser Automation",
+       "text": "Introduction to OpenClaw Skills, Skill Architecture, Skill Discovery, Tool Invocation."
+      },
+      {
+       "label": "Browser Automation",
+       "text": "Web Navigation, Form Filling, Data Extraction. Understanding how production agents use reusable capabilities and browser-based actions to interact with web systems and complete repetitive tasks."
+      }
+     ],
+     "topicsRaw": "OpenClaw Skills &amp; Browser Automation: Introduction to OpenClaw Skills, Skill Architecture, Skill Discovery, Tool Invocation. Browser Automation: Web Navigation, Form Filling, Data Extraction. Understanding how production agents use reusable capabilities and browser-based actions to interact with web systems and complete repetitive tasks.",
+     "project": {
+      "title": "Skills &amp; Browser Automation Lab",
+      "text": "Install and use OpenClaw skills, explore skill discovery and invocation, automate browser navigation, perform form-filling tasks, extract structured information from webpages, and create or configure a custom skill implementation for a selected workflow. Test browser automation for accuracy and repeatability."
+     },
+     "deliverables": [
+      "Browser Automation Workflow",
+      "Custom Skill Implementation",
+      "skill/tool configuration evidence"
+     ],
+     "assessment": "Skill architecture understanding, tool invocation, browser-navigation accuracy, form automation, data extraction, custom skill implementation, workflow reliability, and automation efficiency"
+    },
+    {
+     "day": 4,
+     "session": 34,
+     "topics": [
+      {
+       "label": "Scheduling, Heartbeats &amp; Long-Running Agents",
+       "text": "Cron Jobs, Scheduled Tasks, Heartbeat Jobs, Background Automation, Event Scheduling, Long-Running Agents, and Automation Best Practices. Understanding the difference between one-time execution and persistent/scheduled agent behavior. Designing agents that can perform recurring activities while maintaining reliability and appropriate workflow logic."
+      }
+     ],
+     "topicsRaw": "Scheduling, Heartbeats &amp; Long-Running Agents: Cron Jobs, Scheduled Tasks, Heartbeat Jobs, Background Automation, Event Scheduling, Long-Running Agents, and Automation Best Practices. Understanding the difference between one-time execution and persistent/scheduled agent behavior. Designing agents that can perform recurring activities while maintaining reliability and appropriate workflow logic.",
+     "project": {
+      "title": "Scheduling &amp; Background Automation Lab",
+      "text": "Create and configure scheduled cron jobs, configure heartbeat routines, automate repetitive workflows, schedule recurring agent activities, test background execution, and validate that scheduled actions execute correctly. Integrate browser automation or previously configured skills into at least one scheduled or heartbeat-driven workflow."
+     },
+     "deliverables": [
+      "Cron Job Configuration",
+      "Heartbeat Automation Workflow",
+      "scheduled/background automation evidence",
+      "validated repetitive workflow"
+     ],
+     "assessment": "Scheduling logic, cron configuration, heartbeat design, long-running agent concepts, background workflow reliability, automation efficiency, and correct use of recurring execution patterns"
+    },
+    {
+     "day": 5,
+     "session": 35,
+     "topics": [
+      {
+       "label": "Security &amp; MCP Integration",
+       "text": "AI Security Fundamentals, Secure AI Deployments, Secrets Management, API Key Management, Bitwarden Integration, Environment Security, Agent Permissions, Secure Tool Execution."
+      },
+      {
+       "label": "MCP Integration with OpenClaw",
+       "text": "MCP Fundamentals, MCP Architecture, Zapier MCP, Connecting MCP Servers to OpenClaw, Tool Discovery, MCP Resources, MCP Security, and Best Practices for Production Agents."
+      }
+     ],
+     "topicsRaw": "Security &amp; MCP Integration: AI Security Fundamentals, Secure AI Deployments, Secrets Management, API Key Management, Bitwarden Integration, Environment Security, Agent Permissions, Secure Tool Execution. MCP Integration with OpenClaw: MCP Fundamentals, MCP Architecture, Zapier MCP, Connecting MCP Servers to OpenClaw, Tool Discovery, MCP Resources, MCP Security, and Best Practices for Production Agents.",
+     "project": {
+      "title": "Security &amp; MCP Lab",
+      "text": "Configure Bitwarden for secure credential management, apply secure environment/API-key practices, configure appropriate agent permissions, connect Zapier MCP to OpenClaw, configure one or more MCP servers, test tool/resource discovery, validate secure tool execution, and build an MCP-enabled automation workflow using OpenClaw."
+     },
+     "deliverables": [
+      "Secure OpenClaw configuration",
+      "Bitwarden integration",
+      "working MCP server connection",
+      "MCP Automation Workflow"
+     ],
+     "assessment": "Security implementation, MCP architecture and configuration, secure credential management, agent permissions, MCP security, tool/resource discovery, workflow functionality, production-agent best practices, and troubleshooting skills"
+    },
+    {
+     "day": 6,
+     "session": 36,
+     "topics": [
+      {
+       "label": "Major Project – Production AI Agent with OpenClaw",
+       "text": "Designing an enterprise-ready AI agent by combining LLM configuration, custom workspace files, persistent memory, browser automation, skills, cron jobs, heartbeat automation, messaging channels, MCP integration, Bitwarden security, external tools, session/runtime concepts, and production-agent best practices into one end-to-end system capable of real-world business automation."
+      }
+     ],
+     "topicsRaw": "Major Project – Production AI Agent with OpenClaw: Designing an enterprise-ready AI agent by combining LLM configuration, custom workspace files, persistent memory, browser automation, skills, cron jobs, heartbeat automation, messaging channels, MCP integration, Bitwarden security, external tools, session/runtime concepts, and production-agent best practices into one end-to-end system capable of real-world business automation.",
+     "project": {
+      "title": "Final Major Project",
+      "text": "Build a complete production AI agent using OpenClaw. The agent should communicate through Telegram or Discord, maintain persistent memory, use customized workspace files, execute browser automation, invoke skills, run scheduled heartbeat tasks, securely retrieve credentials from Bitwarden, connect to Zapier MCP, and complete end-to-end business automation scenarios. Prepare the final live demonstration, architecture diagram, documentation, and project presentation."
+     },
+     "deliverables": [
+      "Fully Functional OpenClaw AI Agent",
+      "Workspace Configuration",
+      "MCP Integration",
+      "Browser Automation Workflow",
+      "Security Configuration",
+      "Live Demonstration",
+      "Architecture Diagram",
+      "Documentation",
+      "Project Presentation"
+     ],
+     "assessment": "System architecture, OpenClaw configuration, MCP integration, browser automation, security implementation, workflow orchestration, documentation quality, scalability, and presentation"
+    }
+   ]
+  }
+ ]
+}

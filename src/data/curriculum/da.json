@@ -1,0 +1,1360 @@
+{
+ "modules": [
+  {
+   "title": "Advanced Excel & Power Query",
+   "days": [
+    {
+     "week": 1,
+     "day": 1,
+     "title": "Excel Architecture, Foundations &amp; Structuring",
+     "points": [
+      {
+       "label": "System Familiarization",
+       "text": "Mandatory execution of Excel interface navigation, Ribbon customization, and Quick Access Toolbar configurations."
+      },
+      {
+       "label": "Architectural Logic",
+       "text": "Strict breakdown of Excel Workbook structures, data storage schemas, and essential keyboard shortcuts."
+      },
+      {
+       "label": "Terminology &amp; Application",
+       "text": "Concrete definition of Data, Database hierarchies, Tables, Columns, and Rows. Extensive overview of data-driven decision-making protocols in corporate environments."
+      },
+      {
+       "label": "Data Entry Protocols",
+       "text": "Standardized procedures for entering text, generating formatted tables (merge/center, wrap, alignment), and temporal data (Date values)."
+      },
+      {
+       "label": "Reference Mechanics",
+       "text": "Rigorous implementation of Relative vs. Absolute cell references."
+      },
+      {
+       "label": "Formula Construction",
+       "text": "Building and validating foundational Excel formulas to automate basic computational workflows."
+      }
+     ]
+    },
+    {
+     "week": 1,
+     "day": 2,
+     "title": "Text Manipulation &amp; String Operations",
+     "points": [
+      {
+       "label": "Function Architecture",
+       "text": "Anatomy of an Excel Function."
+      },
+      {
+       "label": "Data Sanitization",
+       "text": "Enforcing clean data using UPPER, LOWER, PROPER, and TRIM."
+      },
+      {
+       "label": "String Engineering",
+       "text": "Combining datasets via CONCATENATE (&amp;); extracting precise strings utilizing LEFT, MID, RIGHT, and LEN; locating substrings with SEARCH and FIND; dynamic data replacement using SUBSTITUTE."
+      }
+     ]
+    },
+    {
+     "week": 1,
+     "day": 3,
+     "title": "Temporal &amp; Conditional Logic Automation",
+     "points": [
+      {
+       "label": "Time-Series Functions",
+       "text": "Deep dive into Date Syntax (DATEVALUE), formatting series, and real-time functions (TODAY, NOW)."
+      },
+      {
+       "label": "Temporal Extraction &amp; Differentials",
+       "text": "Parsing time periods (YEAR, MONTH, DAY, HOUR) and calculating critical business intervals using EOMONTH, WEEKDAY, WORKDAY, NETWORKDAYS, and DATEDIF."
+      },
+      {
+       "label": "Automation",
+       "text": "Leveraging AutoSum and AutoFill for rapid mathematical execution across massive datasets."
+      },
+      {
+       "label": "Logical Operators",
+       "text": "Implementation of comparison and text operators for boolean validation."
+      },
+      {
+       "label": "Decision Trees in Excel",
+       "text": "Constructing complex conditional statements utilizing IF, IFERROR, Nested IFs, and IFS."
+      },
+      {
+       "label": "Visual Cueing",
+       "text": "Programming robust Conditional Formatting rules to highlight critical data anomalies automatically."
+      }
+     ]
+    },
+    {
+     "week": 1,
+     "day": 4,
+     "title": "Core &amp; Advanced Conditional Aggregation",
+     "points": [
+      {
+       "label": "Base Metrics",
+       "text": "Execution of foundational statistical functions (SUM, MIN, MAX, AVERAGE, COUNT)."
+      },
+      {
+       "label": "Data Modification Operations",
+       "text": "Standard operating procedures for moving/copying data, row/column insertion and deletion, and dimensional adjustments (width/height formatting)."
+      },
+      {
+       "label": "Workbook Management",
+       "text": "Structural organization including hiding/unhiding elements, and renaming, deleting, or duplicating operational worksheets."
+      },
+      {
+       "label": "Value Extraction &amp; Ranking",
+       "text": "Identifying dataset extremes via SMALL/LARGE and formulating percentiles via RANK/PERCENTRANK."
+      },
+      {
+       "label": "Multi-Condition Logic",
+       "text": "Executing precise conditional aggregation using COUNTIFS, SUMIFS, and AVERAGEIFS."
+      },
+      {
+       "label": "Matrix Multiplication &amp; Deduplication",
+       "text": "Row-level calculations (SUMPRODUCT) for business operations (e.g., shipping costs) and rigorous duplicate tracking methodologies using COUNTIF."
+      }
+     ]
+    },
+    {
+     "week": 1,
+     "day": 5,
+     "title": "Dynamic Array Computation",
+     "points": [
+      {
+       "label": "Modern Array Mechanics",
+       "text": "Transitioning to Office 365 Dynamic Array Formulas to process data sets simultaneously."
+      },
+      {
+       "label": "Sorting &amp; Filtering Engines",
+       "text": "Implementation of SORT, SORTBY, and FILTER functions to dynamically organize raw data pipelines."
+      },
+      {
+       "label": "Unique Extractions",
+       "text": "Isolating distinct records via the UNIQUE function and combining it with SORT/FILTER for multi-layered data queries."
+      }
+     ]
+    },
+    {
+     "week": 2,
+     "day": 6,
+     "title": "Data Visualization Fundamentals &amp; Complex Mapping",
+     "points": [
+      {
+       "label": "Chart Architecture",
+       "text": "Customizing chart elements, layouts, styles, and configuring secondary axes for multi-dimensional data."
+      },
+      {
+       "label": "Categorical &amp; Trend Visuals",
+       "text": "Deploying standard enterprise visuals including Bar, Column, Line Charts, and Trendlines."
+      },
+      {
+       "label": "Distribution Analysis",
+       "text": "Constructing Histograms and Pareto Charts to evaluate statistical frequency and optimization priorities."
+      },
+      {
+       "label": "Proportion &amp; Scatter Models",
+       "text": "Utilizing Area, Pie, Donut, Scatter Plots, and Bubble Charts for relational analysis."
+      },
+      {
+       "label": "Advanced Statistical &amp; Hierarchical Charts",
+       "text": "Developing Box &amp; Whisker plots for outlier detection, and Tree Maps / Sunburst Charts for hierarchical data representation."
+      },
+      {
+       "label": "Specialized Financial &amp; Spatial Visuals",
+       "text": "Waterfall, Radar, Stock Charts, Heat Maps, Surface/3D Contours, and an introduction to Geo-Spatial Mapping via Excel Power Map."
+      }
+     ]
+    },
+    {
+     "week": 2,
+     "day": 7,
+     "title": "Advanced Visualization Mechanics",
+     "points": [
+      {
+       "label": "Micro-Visuals &amp; Overlays",
+       "text": "Embedding Excel Sparklines for row-level trending and creating Custom Image Overlay Charts."
+      },
+      {
+       "label": "Dynamic Highlighting",
+       "text": "Using binary logic arrays to emphasize specific time periods visually."
+      },
+      {
+       "label": "Automation via Named Ranges",
+       "text": "Constructing self-updating chart elements utilizing OFFSET and COUNTA formulas to accommodate expanding data."
+      }
+     ]
+    },
+    {
+     "week": 2,
+     "day": 8,
+     "title": "Dynamic Dashboard Architecture I &amp; II",
+     "points": [
+      {
+       "label": "Interactive UI Elements",
+       "text": "Engineering scroll and zoom functionalities via Form Controls to create application-like spreadsheets."
+      },
+      {
+       "label": "Temporal Interactivity",
+       "text": "Building interactive Area Charts that adapt to user-selected timeframes."
+      },
+      {
+       "label": "Dashboard Integration",
+       "text": "Structuring a consolidated, dynamic Excel Dashboard interface (Phase 1) focused on aesthetic alignment and user experience."
+      },
+      {
+       "label": "Contextual Formatting",
+       "text": "Programming dynamic chart formatting that autonomously alters states based on numerical thresholds."
+      },
+      {
+       "label": "Executive Visuals",
+       "text": "Designing Custom Pacing Charts and Gauge Charts to monitor KPI progress against corporate targets."
+      },
+      {
+       "label": "Array Visualization",
+       "text": "Utilizing array functions to cleanly visualize percentages and complete the finalized Dynamic Excel Dashboard (Phase 2)."
+      }
+     ]
+    },
+    {
+     "week": 2,
+     "day": 9,
+     "title": "Power Query Ingestion &amp; Sanitization",
+     "points": [
+      {
+       "label": "ETL Foundations",
+       "text": "Introduction to the Power Query ecosystem for robust Data Extraction, Transformation, and Loading."
+      },
+      {
+       "label": "Data Cleansing Protocols",
+       "text": "Establishing strict procedures for importing raw data and standardizing text, numerical, and date/time structures."
+      },
+      {
+       "label": "Formatting Tools",
+       "text": "Leveraging built-in Text, Numerical, and Date &amp; Time tools to repair disorganized datasets prior to analysis."
+      }
+     ]
+    },
+    {
+     "week": 2,
+     "day": 10,
+     "title": "Advanced Query Transformations",
+     "points": [
+      {
+       "label": "Programmatic Columns",
+       "text": "Formulating Index and Conditional Columns directly within the Power Query interface."
+      },
+      {
+       "label": "Relational Data Merging",
+       "text": "Executing complex query merges to join disparate tables based on primary/foreign keys."
+      },
+      {
+       "label": "Query Appending",
+       "text": "Appending vast historical datasets together into a single, continuous, and normalized master table."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "SQL",
+   "days": [
+    {
+     "week": 3,
+     "day": 11,
+     "title": "Relational Database Principles &amp; DDL",
+     "points": [
+      {
+       "label": "Database Architecture",
+       "text": "Differentiating between standard Data Storage, DBMS, and strictly Relational Database Management Systems (RDBMS)."
+      },
+      {
+       "label": "SQL Infrastructure",
+       "text": "Why SQL is mandatory for Data analytics. Understanding SQL Command Types (DDL, DML, DQL, DCL, TCL)."
+      },
+      {
+       "label": "Environment Configuration",
+       "text": "Systematic installation, setup support, and initial connection to the database server."
+      },
+      {
+       "label": "Schema Creation",
+       "text": "Executing CREATE to establish distinct databases and tables."
+      },
+      {
+       "label": "Database Navigation",
+       "text": "Utilizing USE, SHOW, and DESCRIBE to map database topologies and table schemas."
+      },
+      {
+       "label": "Schema Modification",
+       "text": "Rigorously applying ALTER to modify existing table structures and DROP to permanently eradicate obsolete data architecture."
+      }
+     ]
+    },
+    {
+     "week": 3,
+     "day": 12,
+     "title": "Data Manipulation Language (DML)",
+     "points": [
+      {
+       "label": "Record Integration",
+       "text": "Inserting new data rows meticulously using INSERT statements."
+      },
+      {
+       "label": "Data Mutation",
+       "text": "Safely modifying live database records with the UPDATE command and purging specific records utilizing DELETE."
+      },
+      {
+       "label": "Integrity Constraints",
+       "text": "Enforcing strict data governance through Primary Key, Foreign Key, Unique, Not Null, and Check constraints."
+      }
+     ]
+    },
+    {
+     "week": 3,
+     "day": 13,
+     "title": "DQL, Logical Operators &amp; Grouping",
+     "points": [
+      {
+       "label": "Data Extraction Protocols",
+       "text": "Structuring comprehensive SELECT statements to pull specific fields FROM targeted tables."
+      },
+      {
+       "label": "Result Modification",
+       "text": "Standardizing output utilizing ORDER BY for structured sorting, LIMIT for pagination, and DISTINCT for duplicate elimination."
+      },
+      {
+       "label": "Conditional Retrieval",
+       "text": "Utilizing the WHERE clause to filter query results based on strict mathematical and boolean conditions."
+      },
+      {
+       "label": "Advanced Filtering",
+       "text": "Deploying standard mathematical operators along with IN, BETWEEN, LIKE, and IS NULL for complex WHERE clause logic."
+      },
+      {
+       "label": "Aggregation Framework",
+       "text": "Implementing the GROUP BY clause to consolidate distinct categories."
+      },
+      {
+       "label": "Summary Statistics in SQL",
+       "text": "Pairing grouped data with core aggregate functions (SUM, MAX, MIN, AVG, COUNT) to generate high-level business metrics."
+      }
+     ]
+    },
+    {
+     "week": 3,
+     "day": 14,
+     "title": "Relational Joins &amp; Data Merging I",
+     "points": [
+      {
+       "label": "Relational Mathematics",
+       "text": "Conceptualizing Venn diagrams in the context of database architecture."
+      },
+      {
+       "label": "Inner Joins",
+       "text": "Executing strict relational matches to extract overlapping records between primary and secondary tables."
+      },
+      {
+       "label": "Left Joins",
+       "text": "Ensuring comprehensive data retention from the primary (left) table while retrieving matching attributes from the secondary table."
+      }
+     ]
+    },
+    {
+     "week": 3,
+     "day": 15,
+     "title": "Relational Joins &amp; Data Merging II",
+     "points": [
+      {
+       "label": "Outer &amp; Right Joins",
+       "text": "Extracting complete datasets regardless of match failures (Full Outer Join) and prioritizing secondary table retention."
+      },
+      {
+       "label": "Complex Mapping",
+       "text": "Implementing Self Joins to map hierarchical data within the same table (e.g., employee-manager structures)."
+      },
+      {
+       "label": "Cartesian Products",
+       "text": "Utilizing Cross Joins strictly for matrix generation and permutational data requirements."
+      }
+     ]
+    },
+    {
+     "week": 4,
+     "day": 16,
+     "title": "Set Operations &amp; String/Null Handling",
+     "points": [
+      {
+       "label": "Vertical Data Appending",
+       "text": "Using UNION to append non-duplicate queries and UNION ALL for complete, unedited vertical data stacking."
+      },
+      {
+       "label": "Query Differentials",
+       "text": "Applying EXCEPT to isolate records present in the first dataset but absent in the second."
+      },
+      {
+       "label": "Strict Intersections",
+       "text": "Utilizing INTERSECT to definitively identify records existing concurrently across multiple independent queries."
+      },
+      {
+       "label": "SQL String Formatting",
+       "text": "Concatenating fields via CONCAT and enforcing structural casing using UPPER and LOWER."
+      },
+      {
+       "label": "String Truncation",
+       "text": "Sanitizing inputs utilizing TRIM, isolating substrings with LEFT/RIGHT and SUBSTRING, and determining data length via LEN."
+      },
+      {
+       "label": "Character Swapping",
+       "text": "Utilizing REPLACE to clean dirty data inputs directly at the query level."
+      }
+     ]
+    },
+    {
+     "week": 4,
+     "day": 17,
+     "title": "Temporal Data Operations",
+     "points": [
+      {
+       "label": "Date Parsing",
+       "text": "Extracting specific time units strictly utilizing DAY, MONTH, YEAR, and DATEPART."
+      },
+      {
+       "label": "Temporal Formatting",
+       "text": "Standardizing timestamps with DATENAME, DATETRUNC, and identifying month boundaries via EOMONTH."
+      },
+      {
+       "label": "Data Type Conversion",
+       "text": "Calculating time differentials using DATEADD and DATEDIFF, and converting data types rigorously via FORMAT, CAST, and CONVERT."
+      }
+     ]
+    },
+    {
+     "week": 4,
+     "day": 18,
+     "title": "Structural Aliasing &amp; Conditional Logic",
+     "points": [
+      {
+       "label": "Virtual Topology",
+       "text": "Creating readable outputs utilizing column and table Aliases."
+      },
+      {
+       "label": "Data Preservation",
+       "text": "Generating Backup Tables and Duplicate Tables for safe analytical sandboxing."
+      },
+      {
+       "label": "Dynamic Classification",
+       "text": "Constructing highly complex CASE Statements to categorize and flag data dynamically during query runtime without altering the base table."
+      }
+     ]
+    },
+    {
+     "week": 4,
+     "day": 19,
+     "title": "Subquery Architecture",
+     "points": [
+      {
+       "label": "Nested Execution Flow",
+       "text": "Understanding the execution order of internal versus external queries."
+      },
+      {
+       "label": "Subquery Placement",
+       "text": "Embedding secondary queries rigorously within SELECT (as scalar values), FROM (as derived tables), and WHERE/HAVING (as dynamic filters)."
+      },
+      {
+       "label": "Advanced Correlated Logic",
+       "text": "Deploying EXISTS, ANY, ALL, and Correlated Subqueries where inner queries depend on outer query processing."
+      }
+     ]
+    },
+    {
+     "week": 4,
+     "day": 20,
+     "title": "CTEs &amp; Window Functions",
+     "points": [
+      {
+       "label": "Modular Querying",
+       "text": "Constructing Common Table Expressions (WITH clause) for enhanced readability compared to nested subqueries and Temp Tables."
+      },
+      {
+       "label": "Iterative Logic",
+       "text": "Implementing Recursive CTEs for hierarchical data traversal."
+      },
+      {
+       "label": "Window Operations",
+       "text": "Utilizing FIRST_VALUE, LAST_VALUE, NTH_VALUE, LEAD, LAG, and NTILE to perform calculations across partition frames without collapsing data rows."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Power BI",
+   "days": [
+    {
+     "week": 5,
+     "day": 21,
+     "title": "Business Intelligence (BI) Ecosystem, Data Ingestion &amp; Basic Visualization",
+     "points": [
+      {
+       "label": "BI Paradigms",
+       "text": "Exploring the transition from raw data querying to high-level Business Intelligence."
+      },
+      {
+       "label": "Power BI Introduction",
+       "text": "Dissecting the core components of Power BI Desktop vs. Power BI Service, and reviewing its dominance in Gartner’s Quadrant."
+      },
+      {
+       "label": "Environment Setup",
+       "text": "Strict workflow overview, interface navigation, and localized installation protocols."
+      },
+      {
+       "label": "Data Connectivity",
+       "text": "Establishing active connections to flat files, SQL databases, and web sources from within Power BI."
+      },
+      {
+       "label": "Canvas Mechanics",
+       "text": "Mastering the Report View canvas, understanding Cartesian coordinate mapping (X-Axis and Y-Axis) in the context of Power BI."
+      },
+      {
+       "label": "Visualization Execution",
+       "text": "Importing datasets and generating the first iterations of fundamental enterprise charts."
+      }
+     ]
+    },
+    {
+     "week": 5,
+     "day": 22,
+     "title": "Advanced Filtering &amp; Slicing Mechanics",
+     "points": [
+      {
+       "label": "High-Fidelity Visuals",
+       "text": "Transitioning from basic charting to advanced Categorical and Trend Data Visualization."
+      },
+      {
+       "label": "Interactive Slicing",
+       "text": "Deploying varied Slicers (Dropdown, List, Date Range) to empower end-user data exploration."
+      },
+      {
+       "label": "Executive Formatting",
+       "text": "Constructing Matrix Tables and standardizing visual titles, labels, colors, and KPI Indicator Cards to match corporate branding strictures."
+      }
+     ]
+    },
+    {
+     "week": 5,
+     "day": 23,
+     "title": "Power Query Integration &amp; Complex BI Data Transformations",
+     "points": [
+      {
+       "label": "ETL in BI",
+       "text": "Launching the Power Query Editor within the Power BI ecosystem for pre-visualization data normalization."
+      },
+      {
+       "label": "M Language Foundations",
+       "text": "Introduction to the underlying M Language formula syntax driving all Power Query transformations."
+      },
+      {
+       "label": "Structural Edits",
+       "text": "Applying strict data typing, filtering protocols, and comprehensive Column/Row-level structural transformations."
+      },
+      {
+       "label": "Relational Query Operations",
+       "text": "Executing advanced Merge Queries (simulating SQL Joins) and Append Queries (simulating SQL Unions) purely within Power Query."
+      },
+      {
+       "label": "Web Scraping via BI",
+       "text": "Establishing direct connections to HTML tables online to pull dynamic web data."
+      },
+      {
+       "label": "Optimization",
+       "text": "Ensuring query steps are streamlined for maximum refresh efficiency in the Power BI Service layer."
+      }
+     ]
+    },
+    {
+     "week": 5,
+     "day": 24,
+     "title": "Data Modeling &amp; Relational Cardinality",
+     "points": [
+      {
+       "label": "Power Pivot Architecture",
+       "text": "Transitioning from flat tables to star and snowflake schemas."
+      },
+      {
+       "label": "Cardinality Rules",
+       "text": "Strict establishment and enforcement of One-to-One, One-to-Many, and Many-to-Many entity relationships."
+      },
+      {
+       "label": "Filter Directionality",
+       "text": "Configuring Single vs. Bi-Directional Cross Filtering to ensure accurate data propagation without causing ambiguous path errors."
+      }
+     ]
+    },
+    {
+     "week": 5,
+     "day": 25,
+     "title": "ER Diagrams &amp; DAX Introduction",
+     "points": [
+      {
+       "label": "Topology Mapping",
+       "text": "Utilizing the Relationship View to map out comprehensive Entity-Relationship (ER) diagrams."
+      },
+      {
+       "label": "Architectural Decisions",
+       "text": "Defining the exact mathematical and performance differences between Calculated Columns and Measures."
+      },
+      {
+       "label": "DAX Foundations",
+       "text": "Introduction to Data Analysis Expressions (DAX) syntax and core logical frameworks (IF, AND, OR, SWITCH, IFERROR)."
+      }
+     ]
+    },
+    {
+     "week": 6,
+     "day": 26,
+     "title": "Advanced DAX &amp; Aggregation",
+     "points": [
+      {
+       "label": "Iterative vs Standard Aggregation",
+       "text": "Differentiating between basic aggregations and iterators (SUMX, AVERAGEX, COUNTX, MAXX, MINX) for row-by-row context evaluation."
+      },
+      {
+       "label": "String &amp; Math Functions",
+       "text": "Implementing advanced Text, Mathematical, and Statistical functions via DAX to generate dynamic KPIs."
+      },
+      {
+       "label": "Hands-On Implementation",
+       "text": "Rigorous practice creating base measures for corporate dashboards."
+      }
+     ]
+    },
+    {
+     "week": 6,
+     "day": 27,
+     "title": "Filter Context &amp; Time Intelligence",
+     "points": [
+      {
+       "label": "Context Modification",
+       "text": "Mastering the CALCULATE function to override visual filter contexts."
+      },
+      {
+       "label": "Advanced Filter Modifiers",
+       "text": "Deploying FILTER, ALL, ALLEXCEPT, and REMOVEFILTERS to manipulate table parameters mathematically."
+      },
+      {
+       "label": "Temporal Dynamics",
+       "text": "Creating dedicated Date Dimension Tables and executing Time Intelligence Functions (YTD, MTD, SAMEPERIODLASTYEAR) alongside RELATED table lookups."
+      }
+     ]
+    },
+    {
+     "week": 6,
+     "day": 28,
+     "title": "Power BI Service, Security Protocols &amp; Interactive Report Design",
+     "points": [
+      {
+       "label": "Cloud Deployment",
+       "text": "Publishing validated reports from Power BI Desktop to the Power BI Service cloud environment."
+      },
+      {
+       "label": "Dashboard Architecture",
+       "text": "Pinning visuals to create high-level Executive Dashboards and configuring Workspace sharing permissions."
+      },
+      {
+       "label": "Row Level Security (RLS)",
+       "text": "Programming strict security roles to ensure users only access data legally permitted by their departmental clearance."
+      },
+      {
+       "label": "UX/UI Interactivity",
+       "text": "Configuring precise Visual Interactions to prevent unwanted cross-filtering."
+      },
+      {
+       "label": "Deep-Dive Mechanics",
+       "text": "Implementing Drill Through and Drilldown features for granular root-cause analysis."
+      },
+      {
+       "label": "Extensibility",
+       "text": "Adding custom Buttons, UI navigational elements, and embedding Python-scripted Visuals directly into the Power BI canvas."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Python",
+   "days": [
+    {
+     "week": 6,
+     "day": 29,
+     "title": "Intro to Python, Environment Setup, Variables, Numbers &amp; Text",
+     "points": [
+      {
+       "label": null,
+       "text": "A foundational start to get you comfortable with the tools. We will set up your coding environment using Anaconda and Jupyter Notebooks. We'll explore how to write your very first lines of Python, understand basic syntax and indentation, and learn how to run simple interactive commands."
+      },
+      {
+       "label": null,
+       "text": "A gentle dive into how Python stores information. We will cover basic data types like integers (whole numbers), floats (decimals), and booleans (True/False). We will also learn how to manipulate text (Strings) and use basic operators to perform simple math and logical comparisons."
+      }
+     ]
+    },
+    {
+     "week": 6,
+     "day": 30,
+     "title": "Collections Part 1 &amp; 2: Lists, Tuples, Dictionaries &amp; Sets",
+     "points": [
+      {
+       "label": null,
+       "text": "Instead of single variables, learn how to store groups of data. We will focus heavily on Lists (collections that can be added to or modified) and Tuples (collections that are locked). We will clearly explain the crucial concept of \"Mutability\"—understanding what can and cannot be changed after creation."
+      },
+      {
+       "label": null,
+       "text": "We continue our data journey by exploring Dictionaries, which store data in real-world \"key-value\" pairs (like a contact list). We will also cover Sets, which are perfect for storing unique, non-repeating items. By the end of this session, you will know exactly when to use each data structure."
+      }
+     ]
+    },
+    {
+     "week": 7,
+     "day": 31,
+     "title": "Making Decisions &amp; Looping",
+     "points": [
+      {
+       "label": null,
+       "text": "Time to add logic to our code. We will teach programs how to make choices using simple if, elif, and else conditional statements. Then, we will learn how to completely automate repetitive tasks so you don't have to rewrite code, utilizing for loops, while loops, and the range() function."
+      }
+     ]
+    },
+    {
+     "week": 7,
+     "day": 32,
+     "title": "Functions &amp; Built-in Modules",
+     "points": [
+      {
+       "label": null,
+       "text": "Learn to keep your code clean and organized by grouping it into reusable blocks called Functions. We will practice giving functions inputs (parameters) and getting results back (return values). We will also learn how to import helpful, pre-built Python tools (Modules) like math, random, and datetime to make our work much easier."
+      }
+     ]
+    },
+    {
+     "week": 7,
+     "day": 33,
+     "title": "Intro to OOP &amp; Next Steps: Inheritance &amp; Magic Methods",
+     "points": [
+      {
+       "label": null,
+       "text": "A beginner-friendly introduction to thinking about code as real-world objects. We will strip away the confusing jargon and learn the simple difference between a Class (a blueprint) and an Object (the actual house). We will practice creating simple classes and adding data using the __init__ setup method."
+      },
+      {
+       "label": null,
+       "text": "Building gently on our OOP basics, we will learn Inheritance—how a new class can easily borrow code and features from an existing one to save you time. We will briefly touch on how to keep certain data hidden (Encapsulation) and how to use helpful \"Magic Methods\" (like __str__) so your objects work smoothly with basic commands like print()."
+      }
+     ]
+    },
+    {
+     "week": 7,
+     "day": 34,
+     "title": "I/O File Handling &amp; Error Management",
+     "points": [
+      {
+       "label": "File Stream Operations",
+       "text": "Programmatic execution of Create, Read, Write, and Append commands for external file manipulation."
+      },
+      {
+       "label": "Error Parsing",
+       "text": "Differentiating between syntax errors and runtime exceptions."
+      },
+      {
+       "label": "Exception Handling",
+       "text": "Constructing robust try-except-finally blocks to prevent system crashes during faulty data processing."
+      }
+     ]
+    },
+    {
+     "week": 7,
+     "day": 35,
+     "title": "Unstructured Data, Regex Foundations &amp; Advanced Extraction",
+     "points": [
+      {
+       "label": "Data Paradigms",
+       "text": "Analytical breakdown distinguishing structured datasets from unstructured text streams."
+      },
+      {
+       "label": "Regular Expressions Syntax",
+       "text": "Mastering Regex literals, meta-characters, and boundary identifiers for strict pattern recognition."
+      },
+      {
+       "label": "Pattern Matching",
+       "text": "Formulating fundamental search strings to isolate specific data topologies."
+      },
+      {
+       "label": "Pandas Regex Integration",
+       "text": "Embedding Regular Expressions directly within Pandas DataFrames for automated column parsing."
+      },
+      {
+       "label": "Inbuilt System Methods",
+       "text": "Utilizing core Python string methods in conjunction with Regex re module capabilities."
+      },
+      {
+       "label": "Flag Modifications",
+       "text": "Deploying advanced Regex flags (e.g., ignorecase, multiline) for comprehensive text sanitization."
+      }
+     ]
+    },
+    {
+     "week": 8,
+     "day": 36,
+     "title": "NumPy Core Architecture",
+     "points": [
+      {
+       "label": "Array Dimensionality",
+       "text": "Mandatory initialization of N-dimensional arrays via Numerical Python."
+      },
+      {
+       "label": "Creation &amp; Printing",
+       "text": "Standardizing array generation pipelines and console output validations."
+      },
+      {
+       "label": "Vectorization Protocols",
+       "text": "Strict comparative analysis proving the computational superiority of Vectorization vs. standard Python loops."
+      }
+     ]
+    },
+    {
+     "week": 8,
+     "day": 37,
+     "title": "Advanced NumPy Mathematics",
+     "points": [
+      {
+       "label": "Matrix Arithmetic",
+       "text": "Executing foundational and complex mathematical operations directly on NumPy arrays."
+      },
+      {
+       "label": "Image Array Processing",
+       "text": "Translating raw image pixels into functional N-dimensional arrays for analytical manipulation."
+      },
+      {
+       "label": "Descriptive Arrays",
+       "text": "Generating instant statistical summaries utilizing built-in NumPy descriptor functions."
+      }
+     ]
+    },
+    {
+     "week": 8,
+     "day": 38,
+     "title": "Pandas Framework, Data Ingestion, Indexing &amp; Dimensional Slicing",
+     "points": [
+      {
+       "label": "Data Structures",
+       "text": "Differentiating purely between 1D Series and 2D DataFrames within the Pandas ecosystem."
+      },
+      {
+       "label": "I/O Operations",
+       "text": "Importing and exporting massive datasets via Excel and CSV pipelines."
+      },
+      {
+       "label": "Web &amp; JSON Formatting",
+       "text": "Programmatic ingestion of HTML tables, JSON files, and executing strict JSON normalization protocols."
+      },
+      {
+       "label": "Data Assessment",
+       "text": "Executing preliminary structural understanding operations (head, info, describe)."
+      },
+      {
+       "label": "Coordinate Indexing",
+       "text": "Isolating specific data subsets utilizing exact row/column slicing mechanics."
+      },
+      {
+       "label": "Conditional Filtering",
+       "text": "Applying complex boolean parameters for conditional slicing and dynamic text manipulation across string columns."
+      }
+     ]
+    },
+    {
+     "week": 8,
+     "day": 39,
+     "title": "Categorical Grouping &amp; Reshaping",
+     "points": [
+      {
+       "label": "Aggregation Pipelines",
+       "text": "Grouping highly dimensional data via the groupby engine to calculate localized metrics."
+      },
+      {
+       "label": "Pivot Operations",
+       "text": "Restructuring continuous datasets into multi-dimensional Pivot tables."
+      },
+      {
+       "label": "Cross Tabulation",
+       "text": "Generating comprehensive Cross Tab outputs to evaluate the frequency distribution between categorical variables."
+      }
+     ]
+    },
+    {
+     "week": 8,
+     "day": 40,
+     "title": "Relational Merging &amp; DataFrame Operations",
+     "points": [
+      {
+       "label": "Vertical/Horizontal Stacking",
+       "text": "Appending disjointed DataFrames sequentially via Concatenating operations."
+      },
+      {
+       "label": "Relational Merging",
+       "text": "Replicating SQL Joins strictly within Pandas via the merge function."
+      },
+      {
+       "label": "Sanitization",
+       "text": "Identifying and programmatically obliterating duplicate records from the analytical pipeline."
+      }
+     ]
+    },
+    {
+     "week": 9,
+     "day": 41,
+     "title": "Temporal Manipulation, Window Functions &amp; Missing Data Imputation",
+     "points": [
+      {
+       "label": "Time-Series Logic",
+       "text": "Executing rigorous Date Time manipulations, enforcing datetime data types, and extracting periodic components."
+      },
+      {
+       "label": "Rolling Calculations",
+       "text": "Deploying Pandas Window Functions to generate moving averages and expanding statistical metrics over sequential datasets."
+      },
+      {
+       "label": "Missingness Mechanisms",
+       "text": "Diagnosing data gaps strictly as MCAR (Missing Completely At Random), MAR, or MNAR."
+      },
+      {
+       "label": "Visual Diagnostics",
+       "text": "Generating programmatic visualizations to map out the density of missing values."
+      },
+      {
+       "label": "Imputation Logic",
+       "text": "Executing mathematical imputation techniques using Pandas to accurately fill data voids without skewing variances."
+      }
+     ]
+    },
+    {
+     "week": 9,
+     "day": 42,
+     "title": "Matplotlib Foundational Plotting &amp; Categorical/Distribution Plotting",
+     "points": [
+      {
+       "label": "Visualization Infrastructure",
+       "text": "Setting up the Matplotlib backend and generating the very first visual axes."
+      },
+      {
+       "label": "Plot Properties",
+       "text": "Strict modification of granular plotting properties (ticks, legends, color codes)."
+      },
+      {
+       "label": "Multi-Plotting",
+       "text": "Engineering Subplot grids to display simultaneous analytical metrics."
+      },
+      {
+       "label": "Linear Trajectories",
+       "text": "Constructing functional Line plots for continuous variable tracking."
+      },
+      {
+       "label": "Proportional Visuals",
+       "text": "Deploying Pie Charts and Bar Graphs for strict categorical proportions."
+      },
+      {
+       "label": "Frequency Mapping",
+       "text": "Generating robust Histograms to map out mathematical data distributions clearly."
+      }
+     ]
+    },
+    {
+     "week": 9,
+     "day": 43,
+     "title": "Advanced Seaborn Visualizations",
+     "points": [
+      {
+       "label": "Statistical Mapping",
+       "text": "Transitioning to Seaborn to execute advanced Box and Violin Plots for dense outlier detection."
+      },
+      {
+       "label": "Relational Plots",
+       "text": "Constructing Scatterplots and Joint Plots for multidimensional feature correlation."
+      },
+      {
+       "label": "Categorical Engine",
+       "text": "Utilizing Cat Plot mechanics for layered sub-group analysis."
+      }
+     ]
+    },
+    {
+     "week": 9,
+     "day": 44,
+     "title": "Web Scraping &amp; Multi-Dimensional Exploratory Analysis (EDA)",
+     "points": [
+      {
+       "label": "Data Collection Mechanics",
+       "text": "Engineering programmatic web-scraping scripts to autonomously collect raw, unformatted data from external network sources."
+      },
+      {
+       "label": "Formatting Pipelines",
+       "text": "Converting scraped web text into structured relational tables ready for statistical ingestion."
+      },
+      {
+       "label": "Variable Deep-Dive",
+       "text": "Systematically performing Uni-Variate and Bi-Variate mathematical analysis across all model features."
+      },
+      {
+       "label": "Complex Visual Matrices",
+       "text": "Deploying dense Pair Plots and Heat Maps to visualize systemic correlations across the entire dataset concurrently."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Statistics",
+   "days": [
+    {
+     "week": 9,
+     "day": 45,
+     "title": "Descriptive Statistics, Central Tendency &amp; Variance Metrics",
+     "points": [
+      {
+       "label": "Statistical Taxonomy",
+       "text": "Hard delineations between Descriptive vs. Inferential statistics, and Quantitative vs. Qualitative variables."
+      },
+      {
+       "label": "Central Metrics",
+       "text": "Calculating and validating the fundamental measures of central tendency: Mean, Median, and Mode against skewed arrays."
+      },
+      {
+       "label": "Spread Quantification",
+       "text": "Deriving the absolute limits of data dispersion using Variance, Standard Deviation, Range, and Interquartile Range (IQR)."
+      },
+      {
+       "label": "Shape Diagnostics",
+       "text": "Mathematically defining the asymmetry and tailedness of distributions via Skewness and Kurtosis metrics."
+      }
+     ]
+    },
+    {
+     "week": 10,
+     "day": 46,
+     "title": "Probability Theory Axioms",
+     "points": [
+      {
+       "label": "Core Definitions",
+       "text": "Systematically defining probabilistic experiments, strict outcomes, and discrete events."
+      },
+      {
+       "label": "Event Dynamics",
+       "text": "Calculating baseline probability rules and mathematically distinguishing between Independent versus Dependent events."
+      }
+     ]
+    },
+    {
+     "week": 10,
+     "day": 47,
+     "title": "Conditional Probability &amp; Bayes' Theorem",
+     "points": [
+      {
+       "label": "Conditional Logic",
+       "text": "Computing the probability of events constrained by the occurrence of preceding events."
+      },
+      {
+       "label": "Bayesian Mechanics",
+       "text": "Formulating Bayes' Theorem and applying it as the strict foundational intuition for machine learning classification models."
+      }
+     ]
+    },
+    {
+     "week": 10,
+     "day": 48,
+     "title": "Density Functions, Sampling Methodology &amp; Mathematical Distributions",
+     "points": [
+      {
+       "label": "Continuous Probability",
+       "text": "Plotting and analyzing the Probability Density Function (PDF) and Cumulative Distribution Function (CDF)."
+      },
+      {
+       "label": "Sampling Strategies",
+       "text": "Enforcing strict sampling protocols including Simple random, Stratified, Cluster, Systematic, and Non-probability sampling methodologies."
+      },
+      {
+       "label": "Gaussian Dynamics",
+       "text": "Analyzing the parameters, symmetries, and empirical rules governing the Normal distribution."
+      },
+      {
+       "label": "Discrete Probabilities",
+       "text": "Calculating success/failure outcomes utilizing the Binomial distribution framework."
+      }
+     ]
+    },
+    {
+     "week": 10,
+     "day": 49,
+     "title": "Tailed Distributions &amp; Significance Setup",
+     "points": [
+      {
+       "label": "Standardization",
+       "text": "Converting continuous distributions into standard Normal forms utilizing the Z-distribution."
+      },
+      {
+       "label": "Small Sample Adjustments",
+       "text": "Transitioning to the T-distribution to account for elevated variance within constrained or limited datasets."
+      }
+     ]
+    },
+    {
+     "week": 10,
+     "day": 50,
+     "title": "Hypothesis Formulation &amp; Intervals",
+     "points": [
+      {
+       "label": "Scientific Testing",
+       "text": "Defining strict Null and Alternative hypotheses prior to algorithmic experimentation."
+      },
+      {
+       "label": "Margin of Error",
+       "text": "Formulating precise Confidence Intervals to estimate population parameters from sample metrics mathematically."
+      }
+     ]
+    },
+    {
+     "week": 11,
+     "day": 51,
+     "title": "Statistical Testing Methodologies, Central Limit Theorem &amp; Advanced Variance Testing",
+     "points": [
+      {
+       "label": "Parametric Tests",
+       "text": "Executing critical hypothesis testing models including the Z-test and t-test for mean comparisons."
+      },
+      {
+       "label": "Categorical Variance",
+       "text": "Implementing the chi-square test for categorical independence."
+      },
+      {
+       "label": "Error Risk",
+       "text": "Calculating strict thresholds for Type I (False Positive) and Type II (False Negative) errors."
+      },
+      {
+       "label": "Sampling Normalcy",
+       "text": "Proving the Central Limit Theorem via programmatic sampling distributions."
+      },
+      {
+       "label": "Multi-Group Analysis",
+       "text": "Executing Analysis of Variance (ANOVA) and Analysis of Covariance (ANCOVA) to isolate distinct statistical differences across multiple independent populations."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Generative AI",
+   "days": [
+    {
+     "week": 11,
+     "day": 52,
+     "title": "Generative AI Foundations, LLMs &amp; Open-Source Ecosystem",
+     "points": [
+      {
+       "label": "AI Taxonomy",
+       "text": "Delineating exact operational differences between Predictive/Discriminative AI and Generative AI paradigms."
+      },
+      {
+       "label": "Generative Logic",
+       "text": "Exploring Generative Modeling concepts anchored strictly in deep probability distributions."
+      },
+      {
+       "label": "Model Architectures",
+       "text": "Deep dive into the mechanics of the GPT Family (GPT-3.5, GPT-4, GPT-4o), LLaMA, and Claude."
+      },
+      {
+       "label": "Paradigm Shifts",
+       "text": "Understanding the computational and financial distinctions between the Pre-training phase and Fine-tuning processes."
+      }
+     ]
+    },
+    {
+     "week": 11,
+     "day": 53,
+     "title": "Prompt Engineering Architecture",
+     "points": [
+      {
+       "label": "Inference Programming",
+       "text": "Crafting deterministic outputs via Zero-shot, One-shot, and Few-shot prompting methodologies."
+      },
+      {
+       "label": "Logical Sequencing",
+       "text": "Forcing complex reasoning steps utilizing Chain-of-Thought prompting techniques."
+      },
+      {
+       "label": "Reusability",
+       "text": "Constructing robust Prompt Templates for repeatable enterprise iteration and evaluation."
+      }
+     ]
+    },
+    {
+     "week": 11,
+     "day": 54,
+     "title": "Enterprise AI Use Cases, AI Agent Architectures &amp; Ethics Guardrails",
+     "points": [
+      {
+       "label": "Corporate Integration",
+       "text": "Deploying LLMs for programmatic text generation, complex document summarization, and automated code generation via Developer Productivity Tools."
+      },
+      {
+       "label": "Augmentation Systems",
+       "text": "Structuring Knowledge Assistants and Search Augmentation/Question Answering Systems based on proprietary datasets."
+      },
+      {
+       "label": "Autonomous Logic",
+       "text": "Building AI agents utilizing No-Code/Low-Code workflow builders to automate business decisions."
+      },
+      {
+       "label": "System Audits",
+       "text": "Evaluating feasibility, ROI, Risk Assessment, Bias, and model Hallucinations."
+      },
+      {
+       "label": "Security",
+       "text": "Enforcing Human-in-the-loop control, compliance guidelines, and strict Input/Output Validation policies."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Big Data Fundamentals",
+   "days": [
+    {
+     "week": 11,
+     "day": 55,
+     "title": "Big Data Fundamentals, Hadoop &amp; Distributed Processing",
+     "points": [
+      {
+       "label": "Scale Paradigms",
+       "text": "Initiation into Big Data architecture. Defining Volume, Velocity, and Variety constraints beyond standard computing limits."
+      },
+      {
+       "label": "Ecosystem Mapping",
+       "text": "Overview of the enterprise environments required to process massive unstructured and structured workloads seamlessly."
+      },
+      {
+       "label": "Hadoop Framework",
+       "text": "Dissecting the core mechanisms of distributed data nodes within the enterprise."
+      },
+      {
+       "label": "Data Redundancy",
+       "text": "Understanding how raw files are fragmented, stored, and protected across massive cluster arrays ensuring total fault tolerance."
+      }
+     ]
+    },
+    {
+     "week": 12,
+     "day": 56,
+     "title": "Apache Spark Architecture &amp; Structured Query Processing",
+     "points": [
+      {
+       "label": "In-Memory Computation",
+       "text": "Transitioning from disk-based processing to the hyper-fast, in-memory execution models of Apache Spark."
+      },
+      {
+       "label": "Resilient Structures",
+       "text": "Governing data fault tolerance utilizing internal Directed Acyclic Graphs (DAGs)."
+      },
+      {
+       "label": "Distributed Logic",
+       "text": "Interfacing with massive datasets using Spark DataFrames."
+      },
+      {
+       "label": "Parallel Execution",
+       "text": "Writing and deploying distributed SQL queries that partition and compute simultaneously across hundreds of remote worker nodes."
+      }
+     ]
+    },
+    {
+     "week": 12,
+     "day": 57,
+     "title": "Microsoft Fabric Ecosystem",
+     "points": [
+      {
+       "label": "Unified Analytics",
+       "text": "Implementing Microsoft Fabric as a holistic, SaaS-based enterprise data foundation."
+      },
+      {
+       "label": "Pipeline Integration",
+       "text": "Fusing Spark computing nodes, Data Engineering pipelines, and BI endpoints into a single, cohesive cloud-based data architecture."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Introduction to Machine Learning",
+   "days": [
+    {
+     "week": 12,
+     "day": 58,
+     "title": "Machine Learning Core Principles &amp; Simple Linear Regression",
+     "points": [
+      {
+       "label": "Algorithmic Foundations",
+       "text": "Defining the rigorous mathematical objectives of Machine Learning within Data Science."
+      },
+      {
+       "label": "Algorithm Classification",
+       "text": "Distinguishing supervised methodologies from unsupervised schemas."
+      },
+      {
+       "label": "Feature Matrix",
+       "text": "Preparing multi-dimensional data vectors strictly for algorithmic consumption."
+      },
+      {
+       "label": "Linear Intuition",
+       "text": "Mapping the exact mathematical relationship between a single dependent and independent variable."
+      },
+      {
+       "label": "Optimization",
+       "text": "Executing Ordinary Least Squares (OLS) to define the line of best fit and calculating definitive error margins."
+      }
+     ]
+    },
+    {
+     "week": 12,
+     "day": 59,
+     "title": "Multiple Linear Regression Execution &amp; Polynomial Regression Models",
+     "points": [
+      {
+       "label": "Multi-Feature Modeling",
+       "text": "Expanding regression parameters to evaluate simultaneous independent variables impacting a single target vector."
+      },
+      {
+       "label": "Feature Importance",
+       "text": "Standardizing weights, assessing multicollinearity risks, and utilizing Adjusted R-squared to punish non-contributing dimensions."
+      },
+      {
+       "label": "Non-Linear Dynamics",
+       "text": "Re-engineering linear algorithms to capture curved, complex boundary thresholds via polynomial degree elevation."
+      },
+      {
+       "label": "Model Tuning",
+       "text": "Mathematically navigating the Bias-Variance Tradeoff to strictly prevent algorithmic overfitting or underfitting."
+      }
+     ]
+    },
+    {
+     "week": 12,
+     "day": 60,
+     "title": "Logistic Regression &amp; Classification",
+     "points": [
+      {
+       "label": "Categorical Prediction",
+       "text": "Shifting from continuous numerical prediction to binary/categorical probability clustering."
+      },
+      {
+       "label": "Sigmoid Application",
+       "text": "Compressing output values between zero and one utilizing the Sigmoid function, and optimizing boundary accuracy via Maximum Likelihood Estimation."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

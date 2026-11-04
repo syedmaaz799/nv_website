@@ -1,0 +1,3464 @@
+{
+ "months": [
+  {
+   "month": 1,
+   "title": "Python Foundations, OOP, &amp; Data Engineering",
+   "range": [
+    1,
+    20
+   ],
+   "days": [
+    {
+     "day": 1,
+     "titles": [
+      "Introduction to Programming &amp; Environment Setup"
+     ],
+     "points": [
+      {
+       "label": "Concepts",
+       "text": "Differentiate between Algorithms (logic) and Programs (code)."
+      },
+      {
+       "label": "Environment",
+       "text": "Install Anaconda and configure VS Code/Jupyter."
+      },
+      {
+       "label": "Execution",
+       "text": "Run your first interactive Python commands (print(\"Hello World\"))."
+      },
+      {
+       "label": "Virtual Environments",
+       "text": "Introduce venv and conda to prevent package conflicts early on."
+      }
+     ]
+    },
+    {
+     "day": 2,
+     "titles": [
+      "Variables, Data Types &amp; I/O"
+     ],
+     "points": [
+      {
+       "label": "Syntax",
+       "text": "Master Python indentation, variable naming rules, and comments."
+      },
+      {
+       "label": "Core Types",
+       "text": "Understand int, float, str, and bool natively."
+      },
+      {
+       "label": "Inspection",
+       "text": "Use type() to check objects and id() to see memory addresses."
+      },
+      {
+       "label": "I/O",
+       "text": "Capture dynamic user input via input() and explicitly type-cast variables."
+      }
+     ]
+    },
+    {
+     "day": 3,
+     "titles": [
+      "String Manipulation &amp; Formatting",
+      "Core Data Structures &amp; Mutability"
+     ],
+     "points": [
+      {
+       "label": "Indexing",
+       "text": "Access characters and slice strings using [start:stop:step]."
+      },
+      {
+       "label": "Methods",
+       "text": "Apply .upper(), .lower(), .strip(), .replace(), and .split()."
+      },
+      {
+       "label": "Formatting",
+       "text": "Master modern f-strings for dynamic text injection."
+      },
+      {
+       "label": "Regex Intro",
+       "text": "Use the re module for basic pattern matching and text normalization."
+      },
+      {
+       "label": "Lists &amp; Tuples",
+       "text": "Create ordered sequences. Compare mutable Lists vs. immutable Tuples."
+      },
+      {
+       "label": "Dicts &amp; Sets",
+       "text": "Implement key-value mappings and unique unordered sets."
+      },
+      {
+       "label": "Mutability",
+       "text": "Understand why modifying a list changes it in memory, but modifying a string creates a new object."
+      },
+      {
+       "label": "Methods",
+       "text": "Use .append(), .pop(), .keys(), and .items()."
+      }
+     ]
+    },
+    {
+     "day": 4,
+     "titles": [
+      "Operators &amp; Control Flow"
+     ],
+     "points": [
+      {
+       "label": "Operators",
+       "text": "Apply Arithmetic (+, %, //), Comparison (==, &gt;), and Logical (and, or, not)."
+      },
+      {
+       "label": "Conditionals",
+       "text": "Build complex branching logic using if, elif, and else."
+      },
+      {
+       "label": "Loops",
+       "text": "Iterate over data using for loops and manage state with while loops."
+      },
+      {
+       "label": "Control",
+       "text": "Master break, continue, and pass statements within loops."
+      }
+     ]
+    },
+    {
+     "day": 5,
+     "titles": [
+      "Functions, Scope (LEGB) &amp; Argument Unpacking"
+     ],
+     "points": [
+      {
+       "label": "Definition",
+       "text": "Create reusable logic blocks using def and return."
+      },
+      {
+       "label": "Arguments",
+       "text": "Pass positional, keyword, and default parameters."
+      },
+      {
+       "label": "Flexibility",
+       "text": "Build dynamic pipelines using *args and **kwargs."
+      },
+      {
+       "label": "Scope",
+       "text": "Understand variable visibility via the LEGB rule."
+      }
+     ]
+    },
+    {
+     "day": 6,
+     "titles": [
+      "Functional Programming &amp; Comprehensions",
+      "File I/O &amp; Exception Handling"
+     ],
+     "points": [
+      {
+       "label": "Anonymous",
+       "text": "Write single-line logic using lambda functions."
+      },
+      {
+       "label": "Mapping",
+       "text": "Transform and filter arrays cleanly using map() and filter()."
+      },
+      {
+       "label": "Comprehensions",
+       "text": "Replace heavy loops with optimized List, Dict, and Set comprehensions."
+      },
+      {
+       "label": "Efficiency",
+       "text": "Compare the execution speed of loops vs. comprehensions."
+      },
+      {
+       "label": "Files",
+       "text": "Read and write raw TXT and CSV files natively."
+      },
+      {
+       "label": "Context",
+       "text": "Use the with open() statement to ensure safe resource teardown."
+      },
+      {
+       "label": "Errors",
+       "text": "Prevent code crashes using try, except, else, and finally blocks."
+      },
+      {
+       "label": "Custom Errors",
+       "text": "raise custom Exceptions for strict data validation."
+      }
+     ]
+    },
+    {
+     "day": 7,
+     "titles": [
+      "Object-Oriented Programming (OOP): Part 1"
+     ],
+     "points": [
+      {
+       "label": "Blueprints",
+       "text": "Define class structures and instantiate objects."
+      },
+      {
+       "label": "State",
+       "text": "Initialize attributes using the __init__ constructor and self."
+      },
+      {
+       "label": "Inheritance",
+       "text": "Pass behaviors from parent classes to child classes to avoid redundant code."
+      },
+      {
+       "label": "MRO",
+       "text": "Understand Method Resolution Order in multiple inheritance."
+      }
+     ]
+    },
+    {
+     "day": 8,
+     "titles": [
+      "Object-Oriented Programming (OOP): Part 2"
+     ],
+     "points": [
+      {
+       "label": "Encapsulation",
+       "text": "Protect internal variables using name mangling (__attr)."
+      },
+      {
+       "label": "Magic Methods",
+       "text": "Override dunders (__str__, __len__, __add__) to make custom classes behave like native types."
+      },
+      {
+       "label": "Properties",
+       "text": "Use @property decorators for controlled variable access."
+      },
+      {
+       "label": "Polymorphism",
+       "text": "Ensure identical method names behave differently across subclasses."
+      }
+     ]
+    },
+    {
+     "day": 9,
+     "titles": [
+      "Decorators, Generators &amp; Lazy Evaluation",
+      "CPython Internals &amp; Memory Layout"
+     ],
+     "points": [
+      {
+       "label": "Generators",
+       "text": "Use yield to stream massive datasets without crashing RAM."
+      },
+      {
+       "label": "Decorators",
+       "text": "Wrap functions with @ decorators to inject logic without altering core code."
+      },
+      {
+       "label": "Itertools",
+       "text": "Build combinatoric pipelines using chain, cycle, and product."
+      },
+      {
+       "label": "Preservation",
+       "text": "Use functools.wraps to keep function metadata intact."
+      },
+      {
+       "label": "Bytecode",
+       "text": "Understand how Python compiles to .pyc and runs on the PVM."
+      },
+      {
+       "label": "References",
+       "text": "Analyze memory pointers, reference counting, and garbage collection."
+      },
+      {
+       "label": "The GIL",
+       "text": "Learn why the Global Interpreter Lock prevents true multi-threading in pure Python."
+      },
+      {
+       "label": "Profiling",
+       "text": "Track memory leaks utilizing the tracemalloc library."
+      }
+     ]
+    },
+    {
+     "day": 10,
+     "titles": [
+      "Concurrency: Threading, Multiprocessing &amp; Asyncio"
+     ],
+     "points": [
+      {
+       "label": "Threading",
+       "text": "Handle network/I/O tasks via ThreadPoolExecutor."
+      },
+      {
+       "label": "Multiprocessing",
+       "text": "Bypass the GIL for heavy math utilizing ProcessPoolExecutor."
+      },
+      {
+       "label": "Asyncio",
+       "text": "Build single-threaded, non-blocking loops using async and await."
+      },
+      {
+       "label": "Safety",
+       "text": "Prevent race conditions using Locks and Semaphores."
+      }
+     ]
+    },
+    {
+     "day": 11,
+     "titles": [
+      "Advanced Packaging, Type Hints &amp; Pydantic"
+     ],
+     "points": [
+      {
+       "label": "Typing",
+       "text": "Enforce strict parameter types using the typing module and mypy."
+      },
+      {
+       "label": "Validation",
+       "text": "Ensure JSON data integrity natively using Pydantic schemas."
+      },
+      {
+       "label": "Boilerplate",
+       "text": "Auto-generate class structures using @dataclass."
+      },
+      {
+       "label": "Modules",
+       "text": "Structure large projects with __init__.py and pyproject.toml."
+      }
+     ]
+    },
+    {
+     "day": 12,
+     "titles": [
+      "NumPy: Arrays, Broadcasting &amp; Vectorization",
+      "Pandas Fundamentals &amp; Data Structures"
+     ],
+     "points": [
+      {
+       "label": "Tensors",
+       "text": "Create N-dimensional matrices (np.zeros, np.arange)."
+      },
+      {
+       "label": "Vectorization",
+       "text": "Execute C-level mathematical operations natively without slow Python loops."
+      },
+      {
+       "label": "Broadcasting",
+       "text": "Perform arithmetic mathematically on arrays of mismatched shapes."
+      },
+      {
+       "label": "Linear Algebra",
+       "text": "Compute dot products (np.dot) and matrix multiplications."
+      },
+      {
+       "label": "Series/DataFrames",
+       "text": "Master 1D and 2D tabular data structures."
+      },
+      {
+       "label": "Importing",
+       "text": "Ingest pd.read_csv, pd.read_json, and pd.read_sql."
+      },
+      {
+       "label": "Inspection",
+       "text": "Assess datasets rapidly utilizing .head(), .info(), and .describe()."
+      },
+      {
+       "label": "Selection",
+       "text": "Filter columns and rows explicitly via .loc[] and .iloc[]."
+      }
+     ]
+    },
+    {
+     "day": 13,
+     "titles": [
+      "Advanced Pandas: Cleaning &amp; Aggregation"
+     ],
+     "points": [
+      {
+       "label": "Missing Data",
+       "text": "Impute or drop nulls using .fillna() and .dropna()."
+      },
+      {
+       "label": "Transformations",
+       "text": "Apply complex custom logic across rows via .apply()."
+      },
+      {
+       "label": "GroupBy",
+       "text": "Execute SQL-style aggregations utilizing .groupby() and .agg()."
+      },
+      {
+       "label": "Dates",
+       "text": "Parse and manipulate temporal features via the .dt accessor."
+      }
+     ]
+    },
+    {
+     "day": 14,
+     "titles": [
+      "Data Merging &amp; Automated Web Scraping"
+     ],
+     "points": [
+      {
+       "label": "Combining",
+       "text": "Join disparate datasets using pd.merge() (Inner, Left, Right)."
+      },
+      {
+       "label": "Requests",
+       "text": "Fetch raw HTML securely via the requests HTTP library."
+      },
+      {
+       "label": "Parsing",
+       "text": "Extract targeted data tags using BeautifulSoup."
+      },
+      {
+       "label": "Dynamic",
+       "text": "Automate browser interactions for JS-rendered sites via Selenium."
+      }
+     ]
+    },
+    {
+     "day": 15,
+     "titles": [
+      "Code Testing &amp; Logging",
+      "Capstone: End-to-End Extraction Pipeline"
+     ],
+     "points": [
+      {
+       "label": "Unit Testing",
+       "text": "Write robust test cases using the pytest framework."
+      },
+      {
+       "label": "Mocking",
+       "text": "Simulate API responses to test functions in isolation."
+      },
+      {
+       "label": "Logging",
+       "text": "Replace print() with the logging module (Info, Warning, Error, Critical)."
+      },
+      {
+       "label": "Debugging",
+       "text": "Master the pdb debugger to step through code execution dynamically."
+      },
+      {
+       "label": "Extraction",
+       "text": "Write a scraper to collect raw data from a multi-page website."
+      },
+      {
+       "label": "Cleaning",
+       "text": "Utilize Pandas to parse strings, handle missing values, and type-cast."
+      },
+      {
+       "label": "Architecture",
+       "text": "Structure the code using strict OOP principles, Type Hints, and Decorators."
+      },
+      {
+       "label": "Output",
+       "text": "Export the finalized, clean dataset to a SQLite database or Parquet file."
+      }
+     ]
+    },
+    {
+     "day": 16,
+     "titles": [
+      "Data Visualization with Matplotlib"
+     ],
+     "points": [
+      {
+       "label": "Core API",
+       "text": "Build layouts via plt.subplots() rather than the state machine."
+      },
+      {
+       "label": "Plot Types",
+       "text": "Generate line, bar, scatter, histogram, and pie charts."
+      },
+      {
+       "label": "Customization",
+       "text": "Apply labels, legends, colormaps, and annotations."
+      },
+      {
+       "label": "Export",
+       "text": "Save high-res publication figures using plt.savefig()."
+      }
+     ]
+    },
+    {
+     "day": 17,
+     "titles": [
+      "Data Visualization with Seaborn &amp; Plotly"
+     ],
+     "points": [
+      {
+       "label": "Seaborn",
+       "text": "Plot distributions (boxplot, violinplot, heatmap, pairplot)."
+      },
+      {
+       "label": "Plotly Express",
+       "text": "Build interactive 3D scatters, animations, and maps."
+      },
+      {
+       "label": "Plotly Graph Objects",
+       "text": "Gain fine-grained control over complex interactive plots."
+      },
+      {
+       "label": "Dash",
+       "text": "Introduction to web-based interactive ML dashboard frameworks."
+      }
+     ]
+    },
+    {
+     "day": 18,
+     "titles": [
+      "Exploratory Data Analysis (EDA) Framework",
+      "Descriptive Statistics: Central Tendency &amp; Dispersion"
+     ],
+     "points": [
+      {
+       "label": "Univariate",
+       "text": "Analyze shape, skewness, and kurtosis via histograms and KDEs."
+      },
+      {
+       "label": "Bivariate",
+       "text": "Identify feature-target correlations using point-biserial and scatter plots."
+      },
+      {
+       "label": "Multivariate",
+       "text": "Detect multicollinearity using Variance Inflation Factor (VIF)."
+      },
+      {
+       "label": "Automation",
+       "text": "Rapidly generate reports using the ydata-profiling library."
+      },
+      {
+       "label": "Centrality",
+       "text": "Calculate mean, median, mode, and geometric mean."
+      },
+      {
+       "label": "Spread",
+       "text": "Measure variance, standard deviation, range, and Interquartile Range (IQR)."
+      },
+      {
+       "label": "Outliers",
+       "text": "Apply Tukey's fences (Q1 − 1.5 × IQR, Q3 + 1.5 × IQR)."
+      },
+      {
+       "label": "Dependencies",
+       "text": "Compute covariance and Pearson correlation mathematically."
+      }
+     ]
+    },
+    {
+     "day": 19,
+     "titles": [
+      "Probability Foundations &amp; Bayes' Theorem"
+     ],
+     "points": [
+      {
+       "label": "Axioms",
+       "text": "Define sample spaces, unions, intersections, and conditional probability."
+      },
+      {
+       "label": "Bayes' Theorem",
+       "text": "Compute Posterior from Prior, Likelihood, and Evidence."
+      },
+      {
+       "label": "Distributions",
+       "text": "Differentiate Discrete vs. Continuous random variables."
+      },
+      {
+       "label": "ML Application",
+       "text": "Connect Bayes' to Naive Bayes classifiers and updating."
+      }
+     ]
+    },
+    {
+     "day": 20,
+     "titles": [
+      "Discrete &amp; Continuous Probability Distributions"
+     ],
+     "points": [
+      {
+       "label": "Discrete",
+       "text": "Model outcomes using Bernoulli, Binomial, and Poisson distributions."
+      },
+      {
+       "label": "The Gaussian Curve",
+       "text": "Master the Normal distribution and Z-score standardization."
+      },
+      {
+       "label": "Heavy Tails",
+       "text": "Apply the Student's t-distribution for small-sample continuous data."
+      },
+      {
+       "label": "Computation",
+       "text": "Generate PDFs/PMFs programmatically using scipy.stats."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "month": 2,
+   "title": "Statistics, EDA &amp; Foundational ML Models",
+   "range": [
+    21,
+    40
+   ],
+   "days": [
+    {
+     "day": 21,
+     "titles": [
+      "Central Limit Theorem &amp; Sampling",
+      "Correlation Analysis &amp; Feature Relationships"
+     ],
+     "points": [
+      {
+       "label": "CLT",
+       "text": "Prove that sample means converge to a Normal distribution regardless of shape."
+      },
+      {
+       "label": "Standard Error",
+       "text": "Calculate precision using SE = σ/√n."
+      },
+      {
+       "label": "Bootstrapping",
+       "text": "Generate non-parametric sampling distributions via resampling."
+      },
+      {
+       "label": "Strategies",
+       "text": "Execute Random, Stratified, and Cluster sampling methodologies."
+      },
+      {
+       "label": "Parametric vs Non-Parametric",
+       "text": "Compare Pearson's r against Spearman's rank ρ."
+      },
+      {
+       "label": "Categorical Links",
+       "text": "Compute point-biserial and Phi coefficients."
+      },
+      {
+       "label": "Information Theory",
+       "text": "Calculate Mutual Information for non-linear feature selection."
+      },
+      {
+       "label": "Causality",
+       "text": "Identify spurious correlations and understand Simpson's Paradox."
+      }
+     ]
+    },
+    {
+     "day": 22,
+     "titles": [
+      "Hypothesis Testing: Framework &amp; p-values"
+     ],
+     "points": [
+      {
+       "label": "Framework",
+       "text": "Define the Null (H₀) and Alternative (H₁) hypotheses clearly."
+      },
+      {
+       "label": "Risk Matrix",
+       "text": "Quantify Type I (False Positive) and Type II (False Negative) errors."
+      },
+      {
+       "label": "Metrics",
+       "text": "Calculate p-values, significance levels (α), and statistical power (1-β)."
+      },
+      {
+       "label": "Confidence Bounds",
+       "text": "Construct 95% CIs using Z-values and t-values."
+      }
+     ]
+    },
+    {
+     "day": 23,
+     "titles": [
+      "Statistical Testing: Parametric &amp; Non-Parametric"
+     ],
+     "points": [
+      {
+       "label": "Mean Comparisons",
+       "text": "Execute Z-tests, independent T-tests, and paired T-tests."
+      },
+      {
+       "label": "Multi-Group",
+       "text": "Run One-Way and Two-Way ANOVA utilizing the F-statistic."
+      },
+      {
+       "label": "Rank Tests",
+       "text": "Use Mann-Whitney U and Kruskal-Wallis for non-normal data."
+      },
+      {
+       "label": "Categorical",
+       "text": "Execute Chi-Square tests of independence and A/B test setups."
+      }
+     ]
+    },
+    {
+     "day": 24,
+     "titles": [
+      "Intro to ML Taxonomy &amp; The Bias-Variance Tradeoff",
+      "Feature Engineering &amp; Scaling"
+     ],
+     "points": [
+      {
+       "label": "Taxonomy",
+       "text": "Define Supervised, Unsupervised, Semi-Supervised, and RL paradigms."
+      },
+      {
+       "label": "Workflow",
+       "text": "Map the pipeline from EDA to Deployment and Monitoring."
+      },
+      {
+       "label": "Tradeoff",
+       "text": "Mathematically decompose MSE into Bias², Variance, and Noise."
+      },
+      {
+       "label": "Mitigation",
+       "text": "Counter underfitting/overfitting via regularization and ensembles."
+      },
+      {
+       "label": "Scaling",
+       "text": "Normalize features via StandardScaler, MinMaxScaler, and RobustScaler."
+      },
+      {
+       "label": "Encoding",
+       "text": "Apply One-Hot and Target encoding using get_dummies and scikit-learn."
+      },
+      {
+       "label": "Imbalance",
+       "text": "Generate synthetic minority instances using SMOTE and ADASYN."
+      },
+      {
+       "label": "Pipelines",
+       "text": "Automate workflows safely using ColumnTransformer and Pipeline."
+      }
+     ]
+    },
+    {
+     "day": 25,
+     "titles": [
+      "Model Validation &amp; Leakage Prevention"
+     ],
+     "points": [
+      {
+       "label": "Splitting",
+       "text": "Implement strict Train/Validation/Test splits with class stratification."
+      },
+      {
+       "label": "CV Methods",
+       "text": "Execute k-Fold, LOOCV, and TimeSeriesSplit."
+      },
+      {
+       "label": "Data Leakage",
+       "text": "Identify and prevent temporal violations and pre-split scaling."
+      },
+      {
+       "label": "Nested CV",
+       "text": "Tune hyperparameters without optimistic bias via nested loops."
+      }
+     ]
+    },
+    {
+     "day": 26,
+     "titles": [
+      "Linear Regression: OLS &amp; Diagnostics"
+     ],
+     "points": [
+      {
+       "label": "OLS Math",
+       "text": "Solve regression weights using closed-form algebra."
+      },
+      {
+       "label": "Assumptions",
+       "text": "Validate the Gauss-Markov theorems (linearity, homoscedasticity)."
+      },
+      {
+       "label": "Diagnostics",
+       "text": "Plot residuals vs. fitted values and calculate Cook's Distance."
+      },
+      {
+       "label": "Evaluation",
+       "text": "Calculate MSE, RMSE, MAE, and Adjusted R<sup>2</sup> mathematically."
+      }
+     ]
+    },
+    {
+     "day": 27,
+     "titles": [
+      "Multiple Regression, Collinearity &amp; Regularization",
+      "Logistic Regression &amp; Decision Boundaries"
+     ],
+     "points": [
+      {
+       "label": "Multivariate",
+       "text": "Interpret partial derivative coefficients in multiple dimensions."
+      },
+      {
+       "label": "Collinearity",
+       "text": "Detect feature correlation using VIF and mitigate via PCA."
+      },
+      {
+       "label": "Optimization",
+       "text": "Implement Batch, Stochastic (SGD), and Mini-Batch Gradient Descent."
+      },
+      {
+       "label": "Regularization",
+       "text": "Induce sparsity via L1 (Lasso) and shrink weights via L2 (Ridge)."
+      },
+      {
+       "label": "Sigmoid",
+       "text": "Squash linear outputs into probabilities using σ(z) = 1/(1 + e<sup>−z</sup>)."
+      },
+      {
+       "label": "Interpretability",
+       "text": "Extract log-odds and convert to multiplicative Odds Ratios."
+      },
+      {
+       "label": "Optimization",
+       "text": "Minimize Binary Cross-Entropy loss via Maximum Likelihood."
+      },
+      {
+       "label": "Implementation",
+       "text": "Train via LogisticRegression using lbfgs and saga solvers."
+      }
+     ]
+    },
+    {
+     "day": 28,
+     "titles": [
+      "Classification Evaluation Metrics"
+     ],
+     "points": [
+      {
+       "label": "Confusion Matrix",
+       "text": "Map True/False Positives and Negatives."
+      },
+      {
+       "label": "Ratios",
+       "text": "Calculate Precision (purity), Recall (completeness), and the F1-Score."
+      },
+      {
+       "label": "ROC-AUC",
+       "text": "Evaluate threshold-independent performance using TPR vs. FPR."
+      },
+      {
+       "label": "Imbalance Tools",
+       "text": "Plot Precision-Recall curves and calculate Matthews Correlation."
+      }
+     ]
+    },
+    {
+     "day": 29,
+     "titles": [
+      "Naive Bayes Classifiers &amp; Text Applications"
+     ],
+     "points": [
+      {
+       "label": "Bayesian Math",
+       "text": "Apply conditional independence assumptions for rapid O(n · p) fitting."
+      },
+      {
+       "label": "Variants",
+       "text": "Use GaussianNB for continuous data and MultinomialNB for NLP counts."
+      },
+      {
+       "label": "Smoothing",
+       "text": "Implement Laplace additive smoothing to handle zero-probability features."
+      },
+      {
+       "label": "NLP Pipelines",
+       "text": "Combine Naive Bayes with TF-IDF vectorization for text sorting."
+      }
+     ]
+    },
+    {
+     "day": 30,
+     "titles": [
+      "K-Nearest Neighbors (KNN)",
+      "Support Vector Machines (SVM)"
+     ],
+     "points": [
+      {
+       "label": "Lazy Learning",
+       "text": "Classify via majority vote without an explicit training phase."
+      },
+      {
+       "label": "Metrics",
+       "text": "Calculate Euclidean, Manhattan (L1), and Cosine similarities."
+      },
+      {
+       "label": "Hyperparameters",
+       "text": "Tune k using cross-validation to balance bias/variance."
+      },
+      {
+       "label": "Scaling",
+       "text": "Accelerate search queries using KD-trees and Ball trees."
+      },
+      {
+       "label": "Hyperplanes",
+       "text": "Maximize the geometric margin between separable classes."
+      },
+      {
+       "label": "Soft Margins",
+       "text": "Introduce slack variables (ξ) to handle non-linearly separable data."
+      },
+      {
+       "label": "Kernel Trick",
+       "text": "Map features to infinite dimensions via Linear, Polynomial, and RBF kernels."
+      },
+      {
+       "label": "Hyperparameter C",
+       "text": "Tune the strictness of the margin constraint (bias vs variance)."
+      }
+     ]
+    },
+    {
+     "day": 31,
+     "titles": [
+      "Decision Trees: CART, Information Gain &amp; Splitting"
+     ],
+     "points": [
+      {
+       "label": "Splitting Logic",
+       "text": "Partition features by minimizing Gini Impurity or Entropy."
+      },
+      {
+       "label": "CART Algorithm",
+       "text": "Perform exhaustive greedy search for optimal threshold splits."
+      },
+      {
+       "label": "Importance",
+       "text": "Extract normalized feature importance scores based on impurity drops."
+      },
+      {
+       "label": "Visualization",
+       "text": "Plot hierarchical splits utilizing sklearn.tree.plot_tree."
+      }
+     ]
+    },
+    {
+     "day": 32,
+     "titles": [
+      "Tree Pruning &amp; Hyperparameter Tuning"
+     ],
+     "points": [
+      {
+       "label": "Overfitting",
+       "text": "Understand how unconstrained trees memorize noise."
+      },
+      {
+       "label": "Pruning",
+       "text": "Constrain growth using max_depth, min_samples_leaf, and ccp_alpha."
+      },
+      {
+       "label": "Tuning Pipeline",
+       "text": "Automate optimal parameter discovery using GridSearchCV."
+      },
+      {
+       "label": "Decision Boundaries",
+       "text": "Visualize orthogonal, step-wise decision boundaries mathematically."
+      }
+     ]
+    },
+    {
+     "day": 33,
+     "titles": [
+      "Ensemble Methods Part 1: Bagging &amp; Random Forests",
+      "Ensemble Methods Part 2: Boosting Foundations"
+     ],
+     "points": [
+      {
+       "label": "Ensemble Theory",
+       "text": "Combine weak learners to build a highly robust generalized model."
+      },
+      {
+       "label": "Bagging",
+       "text": "Train independent models on bootstrapped data subsets."
+      },
+      {
+       "label": "Random Forests",
+       "text": "Force spatial decorrelation via random feature subset selection."
+      },
+      {
+       "label": "OOB Scoring",
+       "text": "Validate model performance dynamically using Out-of-Bag data metrics."
+      },
+      {
+       "label": "Boosting Theory",
+       "text": "Train sequential models to explicitly correct predecessor residuals."
+      },
+      {
+       "label": "AdaBoost",
+       "text": "Dynamically reweight misclassified instances to force mathematical attention."
+      },
+      {
+       "label": "Gradient Boosting",
+       "text": "Fit trees directly to the negative gradients of any differentiable loss function."
+      },
+      {
+       "label": "Learning Rate",
+       "text": "Balance the shrinkage parameter against the number of estimators."
+      }
+     ]
+    },
+    {
+     "day": 34,
+     "titles": [
+      "Advanced Boosting: XGBoost, LightGBM &amp; CatBoost"
+     ],
+     "points": [
+      {
+       "label": "XGBoost",
+       "text": "Leverage second-order Taylor expansions and strict L1/L2 leaf regularization."
+      },
+      {
+       "label": "LightGBM",
+       "text": "Achieve extreme speed via histogram-based binning and leaf-wise node growth."
+      },
+      {
+       "label": "CatBoost",
+       "text": "Handle high-cardinality categorical targets natively using ordered boosting algorithms."
+      },
+      {
+       "label": "Implementation",
+       "text": "Train APIs utilizing xgb.XGBClassifier() and lgb.LGBMClassifier()."
+      }
+     ]
+    },
+    {
+     "day": 35,
+     "titles": [
+      "K-Means Clustering &amp; Centroid Initialization"
+     ],
+     "points": [
+      {
+       "label": "Lloyd's Algorithm",
+       "text": "Alternate iteratively between centroid assignment and WCSS minimization."
+      },
+      {
+       "label": "Initialization",
+       "text": "Prevent local-minima traps using probabilistic k-means++."
+      },
+      {
+       "label": "Metrics",
+       "text": "Determine the optimal k using the visual Elbow Method."
+      },
+      {
+       "label": "Scaling",
+       "text": "Deploy MiniBatchKMeans for memory-efficient multi-million row arrays."
+      }
+     ]
+    },
+    {
+     "day": 36,
+     "titles": [
+      "Hierarchical Clustering &amp; Dendrograms",
+      "Density-Based Clustering (DBSCAN)"
+     ],
+     "points": [
+      {
+       "label": "Agglomerative",
+       "text": "Build bottom-up nested structures using AgglomerativeClustering."
+      },
+      {
+       "label": "Linkage Rules",
+       "text": "Evaluate distances using Ward's, Complete, and Average linkage metrics."
+      },
+      {
+       "label": "Visualization",
+       "text": "Map relationship hierarchies visually using dendrograms."
+      },
+      {
+       "label": "Cut-offs",
+       "text": "Determine dynamic cluster counts by drawing horizontal thresholds across trees."
+      },
+      {
+       "label": "Arbitrary Shapes",
+       "text": "Identify complex geometric clusters rather than forcing spherical assumptions."
+      },
+      {
+       "label": "Parameters",
+       "text": "Define spatial density thresholds using eps and min_samples."
+      },
+      {
+       "label": "Noise",
+       "text": "Natively isolate sparse anomalous data points (labeled as -1)."
+      },
+      {
+       "label": "HDBSCAN",
+       "text": "Extract variable-density clusters without strict parameter tuning."
+      }
+     ]
+    },
+    {
+     "day": 37,
+     "titles": [
+      "Gaussian Mixture Models (GMM)"
+     ],
+     "points": [
+      {
+       "label": "Probabilistic Clustering",
+       "text": "Model data as a mixture of multiple multivariate Gaussian distributions."
+      },
+      {
+       "label": "EM Algorithm",
+       "text": "Optimize parameters via the Expectation-Maximization mathematical loop."
+      },
+      {
+       "label": "Soft Clustering",
+       "text": "Return probability distributions for point assignments rather than hard labels."
+      },
+      {
+       "label": "Covariance Matrices",
+       "text": "Allow for elliptical clusters using covariance_type='full'."
+      }
+     ]
+    },
+    {
+     "day": 38,
+     "titles": [
+      "Clustering Evaluation &amp; Internal Metrics"
+     ],
+     "points": [
+      {
+       "label": "Silhouette Score",
+       "text": "Quantify separation distance between resulting clusters mathematically."
+      },
+      {
+       "label": "Davies-Bouldin Index",
+       "text": "Evaluate intra-cluster similarity against inter-cluster differences."
+      },
+      {
+       "label": "Rand Index",
+       "text": "Compare clustering outputs against known ground-truth labels if available."
+      },
+      {
+       "label": "Validation",
+       "text": "Ensure unsupervised metrics align with EDA assumptions and domain knowledge."
+      }
+     ]
+    },
+    {
+     "day": 39,
+     "titles": [
+      "Dimensionality Reduction: PCA Mathematics",
+      "Manifold Learning: t-SNE &amp; UMAP"
+     ],
+     "points": [
+      {
+       "label": "Curse of Dimensionality",
+       "text": "Understand the exponential volume expansion in high-dimensional space."
+      },
+      {
+       "label": "Covariance",
+       "text": "Extract principal components via covariance matrix eigendecomposition."
+      },
+      {
+       "label": "Variance",
+       "text": "Analyze Scree Plots using pca.explained_variance_ratio_."
+      },
+      {
+       "label": "Requirement",
+       "text": "Enforce StandardScaler prior to PCA to ensure strict scale invariance."
+      },
+      {
+       "label": "t-SNE",
+       "text": "Prevent spatial \"crowding\" by minimizing KL divergence via Student t-distributions."
+      },
+      {
+       "label": "UMAP",
+       "text": "Preserve both local neighborhoods and global topological structures simultaneously."
+      },
+      {
+       "label": "Pipelines",
+       "text": "Combine PCA for initial reduction before feeding into computationally heavy t-SNE."
+      },
+      {
+       "label": "Visuals",
+       "text": "Map extremely high-dimensional ML outputs onto human-readable 2D/3D scatter plots."
+      }
+     ]
+    },
+    {
+     "day": 40,
+     "titles": [
+      "Anomaly &amp; Outlier Detection Algorithms"
+     ],
+     "points": [
+      {
+       "label": "Isolation Forest",
+       "text": "Detect anomalies via shortest path lengths in randomized tree partitions."
+      },
+      {
+       "label": "Boundaries",
+       "text": "Fit tight geometric hyperspheres around normal data using OneClassSVM."
+      },
+      {
+       "label": "Local Outlier Factor (LOF)",
+       "text": "Flag points with substantially lower density than their neighbors."
+      },
+      {
+       "label": "Pipelines",
+       "text": "Automate the removal of mathematical anomalies before feeding data into linear models."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "month": 3,
+   "title": "Advanced ML, Deep Learning &amp; Vision",
+   "range": [
+    41,
+    60
+   ],
+   "days": [
+    {
+     "day": 41,
+     "titles": [
+      "Time Series Forecasting Foundations"
+     ],
+     "points": [
+      {
+       "label": "Components",
+       "text": "Decompose data into Trend, Seasonality, Cyclical, and Noise elements."
+      },
+      {
+       "label": "Stationarity",
+       "text": "Validate constant mean/variance via Augmented Dickey-Fuller tests (adfuller)."
+      },
+      {
+       "label": "Modeling",
+       "text": "Forecast sequential data using ARIMA, SARIMA, and Facebook Prophet."
+      },
+      {
+       "label": "Validation",
+       "text": "Enforce temporal order via TimeSeriesSplit to prevent look-ahead bias."
+      }
+     ]
+    },
+    {
+     "day": 42,
+     "titles": [
+      "Automated Hyperparameter Tuning (Optuna)",
+      "Model Interpretability: SHAP &amp; LIME"
+     ],
+     "points": [
+      {
+       "label": "Grid vs Random",
+       "text": "Compare exhaustive grid mapping against stochastic RandomizedSearchCV."
+      },
+      {
+       "label": "Bayesian Optimization",
+       "text": "Navigate mathematical loss surfaces intelligently utilizing Gaussian Processes."
+      },
+      {
+       "label": "Optuna Framework",
+       "text": "Build dynamic objective functions utilizing optuna.create_study()."
+      },
+      {
+       "label": "Pruning",
+       "text": "Abort unpromising ML training trials early using the Median Pruning algorithm."
+      },
+      {
+       "label": "The Black Box",
+       "text": "Break down complex tree ensembles into human-understandable rules."
+      },
+      {
+       "label": "SHAP Values",
+       "text": "Calculate precise marginal feature contributions based on game theory mathematics."
+      },
+      {
+       "label": "Visualization",
+       "text": "Plot shap.summary_plot and shap.force_plot for individual predictions."
+      },
+      {
+       "label": "LIME",
+       "text": "Fit interpretable linear surrogate models around specific localized predictions."
+      }
+     ]
+    },
+    {
+     "day": 43,
+     "titles": [
+      "Advanced Interpretability: PDP &amp; ICE"
+     ],
+     "points": [
+      {
+       "label": "Partial Dependence",
+       "text": "Isolate and plot the marginal effect of one or two features on the predicted outcome globally."
+      },
+      {
+       "label": "ICE Plots",
+       "text": "Use Individual Conditional Expectation to map feature relationships strictly at the instance level."
+      },
+      {
+       "label": "Feature Interactions",
+       "text": "Identify non-linear interaction terms programmatically utilizing Friedman's H-statistic."
+      },
+      {
+       "label": "Dashboarding",
+       "text": "Generate interactive interpretability reports natively using ExplainerDashboard."
+      }
+     ]
+    },
+    {
+     "day": 44,
+     "titles": [
+      "Auto-ML Frameworks &amp; Meta-Learning"
+     ],
+     "points": [
+      {
+       "label": "PyCaret / TPOT",
+       "text": "Automate entire ML lifecycles from data imputation to model ensembling mathematically."
+      },
+      {
+       "label": "Search Spaces",
+       "text": "Define robust search boundaries for genetic algorithms to find optimal pipeline architectures."
+      },
+      {
+       "label": "H2O.ai",
+       "text": "Build extreme gradient boosting and deep learning ensembles via automated leaderboards."
+      },
+      {
+       "label": "Efficiency",
+       "text": "Drastically reduce boilerplate modeling time to focus heavily on advanced feature engineering."
+      }
+     ]
+    },
+    {
+     "day": 45,
+     "titles": [
+      "Advanced Validation &amp; Imbalance Calibration",
+      "Capstone: End-to-End ML Pipeline"
+     ],
+     "points": [
+      {
+       "label": "Learning Curves",
+       "text": "Diagnose Bias vs. Variance explicitly by plotting performance against training set sizes."
+      },
+      {
+       "label": "Probability Calibration",
+       "text": "Correct overconfident model probabilities natively via Isotonic Regression or Platt Scaling."
+      },
+      {
+       "label": "Custom Metrics",
+       "text": "Define custom scorer functions in scikit-learn strictly tied to real-world business KPIs."
+      },
+      {
+       "label": "Threshold Tuning",
+       "text": "Shift default 0.5 decision thresholds explicitly to optimize the Precision/Recall tradeoff."
+      },
+      {
+       "label": "The Project",
+       "text": "Build an end-to-end classification/regression system predicting a high-value metric."
+      },
+      {
+       "label": "Engineering",
+       "text": "Combine Pandas pipelines, Target Encoding, SMOTE, and XGBoost into an sklearn.pipeline."
+      },
+      {
+       "label": "Evaluation",
+       "text": "Validate via robust ROC-AUC tracking, Learning Curves, and SHAP interpretability reports."
+      },
+      {
+       "label": "Output",
+       "text": "Serialize the final, fully optimized champion model object."
+      }
+     ]
+    },
+    {
+     "day": 46,
+     "titles": [
+      "TensorFlow Foundations, Tensors &amp; GPU Compute"
+     ],
+     "points": [
+      {
+       "label": "Tensors",
+       "text": "Initialize arrays via tf.zeros(), tf.random.normal(), and tf.constant()."
+      },
+      {
+       "label": "Execution",
+       "text": "Understand Eager Execution vs. static Graph compilation utilizing @tf.function for speed."
+      },
+      {
+       "label": "Device Management",
+       "text": "Map operations to hardware explicitly utilizing with tf.device('/GPU:0'): and configure memory growth."
+      },
+      {
+       "label": "Gradient Tape",
+       "text": "Automate reverse-mode differentiation fundamentally by recording operations within tf.GradientTape()."
+      }
+     ]
+    },
+    {
+     "day": 47,
+     "titles": [
+      "The Perceptron, Dense Layers &amp; Keras API"
+     ],
+     "points": [
+      {
+       "label": "Mechanics",
+       "text": "Compute standard dot products via ŷ = σ(w<sup>T</sup>x + b)."
+      },
+      {
+       "label": "Limitations",
+       "text": "Understand mathematically why single layers fail on non-linear XOR distributions."
+      },
+      {
+       "label": "Sequential API",
+       "text": "Stack linear transformations rapidly utilizing tf.keras.Sequential and tf.keras.layers.Dense."
+      },
+      {
+       "label": "Theory",
+       "text": "Prove network capacity via the Universal Approximation Theorem."
+      }
+     ]
+    },
+    {
+     "day": 48,
+     "titles": [
+      "Backpropagation &amp; Computation Graphs",
+      "Activation Functions &amp; Gradient Flow"
+     ],
+     "points": [
+      {
+       "label": "Calculus",
+       "text": "Apply the chain rule explicitly across TensorFlow Directed Acyclic Graphs (DAGs)."
+      },
+      {
+       "label": "Routing",
+       "text": "Understand how gradients sum at addition nodes and switch at multiplications."
+      },
+      {
+       "label": "Instability",
+       "text": "Identify the mathematical causes of Vanishing and Exploding gradients."
+      },
+      {
+       "label": "Clipping",
+       "text": "Prevent parameter explosion dynamically natively within optimizers (e.g., clipnorm, clipvalue)."
+      },
+      {
+       "label": "Saturating",
+       "text": "Analyze why Sigmoid and Tanh destroy gradients in deep layer architectures."
+      },
+      {
+       "label": "ReLU",
+       "text": "Fix saturation using max(0,x) via tf.keras.activations.relu while mitigating \"dying neurons\"."
+      },
+      {
+       "label": "Modern Variants",
+       "text": "Implement tf.keras.layers.LeakyReLU, PReLU, and exponential ELU adjustments as distinct layers."
+      },
+      {
+       "label": "GELU",
+       "text": "Apply Gaussian Error Linear Units (used heavily in Transformers) for state-of-the-art flow."
+      }
+     ]
+    },
+    {
+     "day": 49,
+     "titles": [
+      "Model Compilation, Losses &amp; Custom Training"
+     ],
+     "points": [
+      {
+       "label": "Loss Functions",
+       "text": "Optimize MeanSquaredError for regression and CategoricalCrossentropy for classification."
+      },
+      {
+       "label": "Optimizers",
+       "text": "Transition from basic tf.keras.optimizers.SGD to adaptive methods like AdamW."
+      },
+      {
+       "label": "Batch Normalization",
+       "text": "Stabilize deep networks using tf.keras.layers.BatchNormalization to re-center activations to zero-mean."
+      },
+      {
+       "label": "Training Loop",
+       "text": "Compare high-level model.fit() against low-level custom loops: tape.gradient() -&gt; optimizer.apply_gradients()."
+      }
+     ]
+    },
+    {
+     "day": 50,
+     "titles": [
+      "Image Tensors, tf.data &amp; Feature Extraction"
+     ],
+     "points": [
+      {
+       "label": "Tensors",
+       "text": "Treat images as 3D matrices [Height, Width, Channels] typical in TensorFlow."
+      },
+      {
+       "label": "I/O",
+       "text": "Read, decode, and display images natively utilizing tf.io.read_file() and tf.image."
+      },
+      {
+       "label": "Data Pipelines",
+       "text": "Build highly optimized, asynchronous data loaders utilizing tf.data.Dataset."
+      },
+      {
+       "label": "Transforms",
+       "text": "Prepare input tensors utilizing tf.keras.layers.Rescaling(1./255) and mapping functions."
+      }
+     ]
+    },
+    {
+     "day": 51,
+     "titles": [
+      "Spatial Filters, Kernels &amp; Convolutions",
+      "Pooling Layers &amp; Receptive Fields"
+     ],
+     "points": [
+      {
+       "label": "Mechanics",
+       "text": "Understand how sliding kernels compute local dot products using tf.keras.layers.Conv2D()."
+      },
+      {
+       "label": "Invariance",
+       "text": "Achieve translation invariance through shared spatial kernel weights."
+      },
+      {
+       "label": "Hyperparameters",
+       "text": "Control output dimensions using strides and 'valid'/'same' padding arguments."
+      },
+      {
+       "label": "Math",
+       "text": "Calculate spatial shapes using the strict formula: ⌊(W − K + 2P) / S⌋ + 1."
+      },
+      {
+       "label": "Downsampling",
+       "text": "Compress spatial dimensions to aggressively reduce mathematical parameter load."
+      },
+      {
+       "label": "Methods",
+       "text": "Implement tf.keras.layers.MaxPool2D() for sharp feature retention and AveragePooling2D."
+      },
+      {
+       "label": "Receptive Field",
+       "text": "Calculate how deep layer pixels logically map back to large regions of the original image."
+      },
+      {
+       "label": "Flattening",
+       "text": "Transition from 2D spatial maps to 1D vectors via tf.keras.layers.Flatten()."
+      }
+     ]
+    },
+    {
+     "day": 52,
+     "titles": [
+      "Deep Architectures: VGG &amp; Inception"
+     ],
+     "points": [
+      {
+       "label": "VGG",
+       "text": "Build deep, uniform architectures utilizing strictly 3x3 kernels."
+      },
+      {
+       "label": "Inception",
+       "text": "Capture multiple spatial scales simultaneously using parallel filter branches."
+      },
+      {
+       "label": "Efficiency",
+       "text": "Deploy 1x1 convolutions explicitly for channel-wise dimensionality reduction."
+      },
+      {
+       "label": "Transfer Learning",
+       "text": "Load pre-trained weights utilizing tf.keras.applications.VGG16 and adapt classification heads."
+      }
+     ]
+    },
+    {
+     "day": 53,
+     "titles": [
+      "Residual Networks (ResNet) &amp; Skip Connections"
+     ],
+     "points": [
+      {
+       "label": "Degradation",
+       "text": "Analyze why ultra-deep networks natively suffer from vanishing gradients."
+      },
+      {
+       "label": "Skip Connections",
+       "text": "Implement residual blocks where output is F(x) + x to provide gradient highways via Functional API."
+      },
+      {
+       "label": "Bottlenecks",
+       "text": "Optimize deep ResNets using 1x1 convolutions to compress and expand computational channels."
+      },
+      {
+       "label": "Implementation",
+       "text": "Fine-tune tf.keras.applications.ResNet50(weights='imagenet') specifically on custom image data."
+      }
+     ]
+    },
+    {
+     "day": 54,
+     "titles": [
+      "Efficient Architectures: MobileNet &amp; EfficientNet",
+      "Two-Stage Object Detectors (R-CNN Family)"
+     ],
+     "points": [
+      {
+       "label": "Edge AI",
+       "text": "Adapt complex vision models for strict mobile/IoT computational budgets."
+      },
+      {
+       "label": "MobileNet",
+       "text": "Split standard convolutions utilizing Depthwise Separable Convolutions."
+      },
+      {
+       "label": "EfficientNet",
+       "text": "Scale models uniformly across depth, width, and resolution using compound constants."
+      },
+      {
+       "label": "Quantization",
+       "text": "Compress memory weights from 32-bit floats down to 8-bit integers."
+      },
+      {
+       "label": "Evolution",
+       "text": "Trace the history from R-CNN to Fast R-CNN utilizing RoI pooling."
+      },
+      {
+       "label": "Faster R-CNN",
+       "text": "Replace selective search with a fully integrated Region Proposal Network (RPN)."
+      },
+      {
+       "label": "Anchors",
+       "text": "Generate fixed-size anchor boxes mathematically to regress exact object boundaries."
+      },
+      {
+       "label": "Metrics",
+       "text": "Evaluate models using Intersection over Union (IoU) and Mean Average Precision (mAP)."
+      }
+     ]
+    },
+    {
+     "day": 55,
+     "titles": [
+      "Single-Stage Detectors (YOLO architectures)"
+     ],
+     "points": [
+      {
+       "label": "Real-Time",
+       "text": "Frame object detection as a single holistic regression problem for extreme speed."
+      },
+      {
+       "label": "Grid Division",
+       "text": "Divide images into an S×S grid predicting bounding boxes directly."
+      },
+      {
+       "label": "NMS",
+       "text": "Filter overlapping prediction boxes utilizing Non-Maximum Suppression algorithms."
+      },
+      {
+       "label": "Deployment",
+       "text": "Utilize the ultralytics Python library to train and deploy YOLOv8/v10 pipelines."
+      }
+     ]
+    },
+    {
+     "day": 56,
+     "titles": [
+      "Semantic &amp; Instance Segmentation"
+     ],
+     "points": [
+      {
+       "label": "Semantic (FCN/U-Net)",
+       "text": "Classify every pixel natively utilizing a symmetric encoder-decoder structure."
+      },
+      {
+       "label": "Instance (Mask R-CNN)",
+       "text": "Distinguish between overlapping objects of the identical class."
+      },
+      {
+       "label": "Mask Branch",
+       "text": "Add a parallel fully convolutional branch to generate precise binary masks."
+      },
+      {
+       "label": "Losses",
+       "text": "Optimize utilizing Pixel-wise Cross Entropy and mathematical Dice Loss."
+      }
+     ]
+    },
+    {
+     "day": 57,
+     "titles": [
+      "Advanced Data Augmentation (Albumentations)",
+      "Vision Transformers (ViT)"
+     ],
+     "points": [
+      {
+       "label": "Overfitting Defense",
+       "text": "Synthetically expand small datasets to force model generalizability."
+      },
+      {
+       "label": "Transforms",
+       "text": "Apply robust pipelines using the high-performance albumentations library."
+      },
+      {
+       "label": "Photometric",
+       "text": "Inject Gaussian noise, modify HSV, and adjust brightness/contrast dynamically."
+      },
+      {
+       "label": "Occlusion",
+       "text": "Force networks to learn holistic structures by dropping rectangular patches via Cutout."
+      },
+      {
+       "label": "Paradigm Shift",
+       "text": "Discard convolutions entirely for self-attention mechanisms."
+      },
+      {
+       "label": "Tokenization",
+       "text": "Split images into flattened 16x16 patches, linearly embedded as sequential tokens."
+      },
+      {
+       "label": "Global Context",
+       "text": "Process patches through standard Transformers for immediate global image context."
+      },
+      {
+       "label": "Class Token",
+       "text": "Prepend a learnable [CLS] token to aggregate image-level classification features."
+      }
+     ]
+    },
+    {
+     "day": 58,
+     "titles": [
+      "State-of-the-Art Augmentation: Mixup &amp; CutMix"
+     ],
+     "points": [
+      {
+       "label": "Mixup",
+       "text": "Blend two different images and their one-hot labels linearly for smooth boundaries."
+      },
+      {
+       "label": "CutMix",
+       "text": "Paste a rectangular patch from one image directly onto another distinct image."
+      },
+      {
+       "label": "Synergy",
+       "text": "Combine the regularization of spatial Dropout with the label smoothing of Mixup."
+      },
+      {
+       "label": "Application",
+       "text": "Apply these techniques natively within custom tf.data map functions."
+      }
+     ]
+    },
+    {
+     "day": 59,
+     "titles": [
+      "Deep Learning Loss Functions"
+     ],
+     "points": [
+      {
+       "label": "Class Imbalance",
+       "text": "Apply Focal Loss to down-weight easy examples and hyper-focus on hard mistakes."
+      },
+      {
+       "label": "Segmentation Loss",
+       "text": "Implement Dice Loss and IoU Loss to maximize exact boundary overlaps."
+      },
+      {
+       "label": "Metric Learning",
+       "text": "Use Triplet Margin Loss to build similarity embeddings natively."
+      },
+      {
+       "label": "Custom Loss",
+       "text": "Subclass tf.keras.losses.Loss to author complex, multi-objective loss formulas."
+      }
+     ]
+    },
+    {
+     "day": 60,
+     "titles": [
+      "Transfer Learning &amp; Parameter Freezing",
+      "Capstone: Custom CV Object Detection Pipeline"
+     ],
+     "points": [
+      {
+       "label": "Strategies",
+       "text": "Determine when to fine-tune the entire network versus only the final classifier head."
+      },
+      {
+       "label": "Freezing",
+       "text": "Explicitly disable gradient calculations using layer.trainable = False."
+      },
+      {
+       "label": "Learning Rates",
+       "text": "Apply Differential Learning Rates or Cosine Decay scheduling explicitly."
+      },
+      {
+       "label": "Callbacks",
+       "text": "Implement EarlyStopping and ModelCheckpoint natively in Keras."
+      },
+      {
+       "label": "Data Handling",
+       "text": "Parse complex bounding box XML/JSON formats into a custom TensorFlow pipeline."
+      },
+      {
+       "label": "Augmentation",
+       "text": "Construct a rigorous Albumentations bounding-box-aware augmentation pipeline."
+      },
+      {
+       "label": "Modeling",
+       "text": "Train a custom YOLOv10 model via Transfer Learning on a specialized dataset."
+      },
+      {
+       "label": "Evaluation",
+       "text": "Calculate mAP scores and run inference scripts plotting boxes directly via cv2.rectangle()."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "month": 4,
+   "title": "NLP, Transformers &amp; Generative AI Intro",
+   "range": [
+    61,
+    80
+   ],
+   "days": [
+    {
+     "day": 61,
+     "titles": [
+      "Text Normalization &amp; Regex Pipelines"
+     ],
+     "points": [
+      {
+       "label": "Cleaning",
+       "text": "Standardize casing, remove HTML markup, and expand linguistic contractions."
+      },
+      {
+       "label": "Regex Operations",
+       "text": "Extract and sanitize exact patterns utilizing re.sub() and re.findall()."
+      },
+      {
+       "label": "Noise Reduction",
+       "text": "Strip special characters and URLs to prevent deep learning embedding distortion."
+      },
+      {
+       "label": "Unicode",
+       "text": "Handle text encoding anomalies securely utilizing the unicodedata library."
+      }
+     ]
+    },
+    {
+     "day": 62,
+     "titles": [
+      "Lemmatization, POS Tagging &amp; NER (spaCy)"
+     ],
+     "points": [
+      {
+       "label": "Stemming vs Lemmatization",
+       "text": "Compare algorithmic chopping against linguistic dictionary roots via spaCy."
+      },
+      {
+       "label": "Stop Words",
+       "text": "Filter low-information structural words to condense vocabularies."
+      },
+      {
+       "label": "POS Tagging",
+       "text": "Identify syntactic roles natively (Nouns, Verbs) using sequence taggers."
+      },
+      {
+       "label": "Named Entity Recognition",
+       "text": "Extract geopolitical entities and names automatically via en_core_web_sm."
+      }
+     ]
+    },
+    {
+     "day": 63,
+     "titles": [
+      "Tokenization Algorithms &amp; Subword Paradigms",
+      "Bag of Words (BoW) &amp; TF-IDF Vectorization"
+     ],
+     "points": [
+      {
+       "label": "Word Tokenization",
+       "text": "Understand the massive vocabulary limits of naive .split() operations."
+      },
+      {
+       "label": "Subword",
+       "text": "Solve Out-Of-Vocabulary (OOV) problems by mathematically fragmenting unknown words."
+      },
+      {
+       "label": "Algorithms",
+       "text": "Detail Byte-Pair Encoding (BPE), WordPiece (BERT), and SentencePiece architectures."
+      },
+      {
+       "label": "Implementation",
+       "text": "Train custom tokenizers natively using tokenizers.ByteLevelBPETokenizer."
+      },
+      {
+       "label": "Sparse Matrices",
+       "text": "Convert raw text into numerical tensors utilizing frequency occurrences."
+      },
+      {
+       "label": "Count Vectorizer",
+       "text": "Implement n-gram counting via sklearn...CountVectorizer."
+      },
+      {
+       "label": "TF-IDF Formula",
+       "text": "Weigh term importance mathematically (Term Frequency × Inverse Document Frequency)."
+      },
+      {
+       "label": "Application",
+       "text": "Feed sparse TF-IDF outputs into Naive Bayes for baseline document classification."
+      }
+     ]
+    },
+    {
+     "day": 64,
+     "titles": [
+      "Dense Word Embeddings (Word2Vec / GloVe)"
+     ],
+     "points": [
+      {
+       "label": "Continuous Space",
+       "text": "Map semantic word meaning explicitly to high-dimensional geometric proximity."
+      },
+      {
+       "label": "Word2Vec",
+       "text": "Train shallow networks utilizing Continuous Bag of Words (CBOW) and Skip-Gram methods."
+      },
+      {
+       "label": "GloVe",
+       "text": "Factorize global co-occurrence matrices for contextual mathematical embeddings."
+      },
+      {
+       "label": "Libraries",
+       "text": "Train domain-specific word vectors natively utilizing the gensim.models package."
+      }
+     ]
+    },
+    {
+     "day": 65,
+     "titles": [
+      "Markov Assumptions &amp; n-gram Language Models"
+     ],
+     "points": [
+      {
+       "label": "Pre-Neural Modeling",
+       "text": "Predict the next word using strict probabilistic conditional counts."
+      },
+      {
+       "label": "Markov Property",
+       "text": "Assume context strictly depends only on a fixed preceding window."
+      },
+      {
+       "label": "Sparsity",
+       "text": "Implement Laplace smoothing mathematically to prevent zero-probability crashes."
+      },
+      {
+       "label": "Perplexity",
+       "text": "Evaluate LM quality by calculating the inverse probability of an unseen test set."
+      }
+     ]
+    },
+    {
+     "day": 66,
+     "titles": [
+      "Recurrent Neural Networks (RNN) &amp; BPTT",
+      "Vanishing &amp; Exploding Gradients Analysis"
+     ],
+     "points": [
+      {
+       "label": "Recurrence",
+       "text": "Process sequential data by maintaining an internal hidden state vector utilizing tf.keras.layers.SimpleRNN."
+      },
+      {
+       "label": "Weight Sharing",
+       "text": "Apply the exact same weight matrix natively to every element in a temporal sequence."
+      },
+      {
+       "label": "BPTT",
+       "text": "Mathematically unroll the network to sum gradient contributions across time steps."
+      },
+      {
+       "label": "Padding",
+       "text": "Handle variable-length text batches via tf.keras.preprocessing.sequence.pad_sequences."
+      },
+      {
+       "label": "The Flaw",
+       "text": "Analyze how continuous matrix multiplication causes exponential decay or explosions."
+      },
+      {
+       "label": "Amnesia",
+       "text": "Prove mathematically why standard RNNs cannot retain long-term linguistic dependencies."
+      },
+      {
+       "label": "Mitigation",
+       "text": "Implement strict gradient clipping explicitly within TensorFlow optimizers (clipnorm=1.0)."
+      },
+      {
+       "label": "Initialization",
+       "text": "Deploy orthogonal weight initialization to preserve eigen-values temporarily."
+      }
+     ]
+    },
+    {
+     "day": 67,
+     "titles": [
+      "Long Short-Term Memory (LSTM) Networks"
+     ],
+     "points": [
+      {
+       "label": "Cell States",
+       "text": "Establish a persistent \"memory highway\" unhindered by non-linearities."
+      },
+      {
+       "label": "Forget Gate",
+       "text": "Determine what context to discard using a sigmoid layer (f<sub>t</sub>)."
+      },
+      {
+       "label": "Input/Output Gates",
+       "text": "Regulate new information addition and extraction into the hidden state."
+      },
+      {
+       "label": "Keras",
+       "text": "Implement multi-layer stacked LSTMs natively utilizing tf.keras.layers.LSTM(return_sequences=True)."
+      }
+     ]
+    },
+    {
+     "day": 68,
+     "titles": [
+      "Gated Recurrent Units (GRU) &amp; Bi-Directional Models"
+     ],
+     "points": [
+      {
+       "label": "GRU Simplification",
+       "text": "Merge forget and input gates into a single 'Update Gate' for computational speed."
+      },
+      {
+       "label": "Implementation",
+       "text": "Substitute LSTMs with tf.keras.layers.GRU while maintaining sequence retention parity."
+      },
+      {
+       "label": "Bi-Directionality",
+       "text": "Process sequences forwards and backwards simultaneously via tf.keras.layers.Bidirectional."
+      },
+      {
+       "label": "Concatenation",
+       "text": "Merge the hidden states of both directions natively to enrich contextual representation."
+      }
+     ]
+    },
+    {
+     "day": 69,
+     "titles": [
+      "Sequence-to-Sequence (Seq2Seq) Translators",
+      "The Information Bottleneck Problem"
+     ],
+     "points": [
+      {
+       "label": "Asymmetric Generation",
+       "text": "Map variable-length inputs natively to variable-length outputs."
+      },
+      {
+       "label": "Encoder",
+       "text": "Compress the entire source sequence into a final, fixed-size hidden Context Vector."
+      },
+      {
+       "label": "Decoder",
+       "text": "Autoregressively generate output sequences, conditioned strictly on the Encoder's state."
+      },
+      {
+       "label": "Teacher Forcing",
+       "text": "Accelerate training by feeding ground-truth tokens as next-step decoder inputs."
+      },
+      {
+       "label": "Architectural Failure",
+       "text": "Analyze why a single, fixed-size vector fails to capture massive document nuances."
+      },
+      {
+       "label": "Degradation",
+       "text": "Observe BLEU score collapse mathematically on sentences longer than 20 words."
+      },
+      {
+       "label": "Reversing Inputs",
+       "text": "Discuss classic workarounds (feeding sentences backwards) to shorten dependencies."
+      },
+      {
+       "label": "Necessity",
+       "text": "Establish the theoretical necessity for a dynamic, variable routing mechanism."
+      }
+     ]
+    },
+    {
+     "day": 70,
+     "titles": [
+      "Introduction to Attention Mechanisms"
+     ],
+     "points": [
+      {
+       "label": "The Breakthrough",
+       "text": "Allow the Decoder to dynamically \"look back\" at ALL Encoder hidden states."
+      },
+      {
+       "label": "Dynamic Context",
+       "text": "Calculate a unique, weighted sum of encoder states specifically for each generated token."
+      },
+      {
+       "label": "Alignment",
+       "text": "Train an internal feed-forward network natively to score semantic relevance between states."
+      },
+      {
+       "label": "Interpretability",
+       "text": "Plot attention weight matrices natively to physically map translation focus."
+      }
+     ]
+    },
+    {
+     "day": 71,
+     "titles": [
+      "QKV (Query, Key, Value) Alignments"
+     ],
+     "points": [
+      {
+       "label": "Soft Attention",
+       "text": "Calculate differentiable attention distributions over all tokens using Softmax."
+      },
+      {
+       "label": "QKV Framework",
+       "text": "Introduce the Query (decoder state), Key (encoder states), and Value (encoder outputs) mental model."
+      },
+      {
+       "label": "Dot Product",
+       "text": "Compute rapid similarity alignment using pure, highly-optimized matrix multiplication QK<sup>T</sup>."
+      },
+      {
+       "label": "Masking",
+       "text": "Inject -inf into pad token locations to nullify their mathematical attention weights."
+      }
+     ]
+    },
+    {
+     "day": 72,
+     "titles": [
+      "Neural Machine Translation &amp; BLEU Metrics",
+      "Self-Attention &amp; Parallel Processing"
+     ],
+     "points": [
+      {
+       "label": "Pipeline",
+       "text": "Assemble complete end-to-end NMT architectures substituting phrase-based statistics."
+      },
+      {
+       "label": "BLEU Score",
+       "text": "Evaluate text generation mathematically against references using n-gram overlap penalties."
+      },
+      {
+       "label": "ROUGE Score",
+       "text": "Calculate recall-oriented evaluation metrics natively for summarization tasks."
+      },
+      {
+       "label": "Shortcut Gradients",
+       "text": "Prove how Attention implicitly bypasses vanishing gradients by shortening logic paths."
+      },
+      {
+       "label": "Attention Is All You Need",
+       "text": "Discard RNN recurrence entirely; process sequential tokens fully in parallel."
+      },
+      {
+       "label": "Self-Attention",
+       "text": "Contextualize words explicitly by attending to other words within the same sentence."
+      },
+      {
+       "label": "Linear Projections",
+       "text": "Project token embeddings into Query, Key, and Value matrices."
+      },
+      {
+       "label": "Math",
+       "text": "Execute the core formula: Attention(Q, K, V) = softmax(QK<sup>T</sup> / √d<sub>k</sub>)V."
+      }
+     ]
+    },
+    {
+     "day": 73,
+     "titles": [
+      "Multi-Head Attention &amp; Scaled Dot-Products"
+     ],
+     "points": [
+      {
+       "label": "Scaling Factor",
+       "text": "Prevent large dot-product magnitudes from pushing Softmax into zero-gradient zones."
+      },
+      {
+       "label": "Multi-Head",
+       "text": "Deploy parallel attention heads (MultiHeadAttention) to capture divergent linguistic rules."
+      },
+      {
+       "label": "Concatenation",
+       "text": "Merge parallel head outputs natively and project via a final linear weight matrix."
+      },
+      {
+       "label": "Residuals",
+       "text": "Apply LayerNorm and residual connections securely around every block."
+      }
+     ]
+    },
+    {
+     "day": 74,
+     "titles": [
+      "Positional Encoding &amp; Causal Masking"
+     ],
+     "points": [
+      {
+       "label": "Injection",
+       "text": "Resolve order-invariance mathematically by injecting sinusoidal waves into input embeddings."
+      },
+      {
+       "label": "RoPE",
+       "text": "Implement modern Rotary Positional Embeddings natively utilized in architectures like Llama."
+      },
+      {
+       "label": "Causal Masks",
+       "text": "Implement lower-triangular matrices to block autoregressive decoders from \"seeing the future\"."
+      },
+      {
+       "label": "Integration",
+       "text": "Pass boolean masks securely into the attention algorithms."
+      }
+     ]
+    },
+    {
+     "day": 75,
+     "titles": [
+      "Transformer Encoders (BERT structure)",
+      "Capstone: NMT Transformer from Scratch"
+     ],
+     "points": [
+      {
+       "label": "Bidirectional Context",
+       "text": "Analyze BERT's architecture using strictly the Transformer Encoder stack."
+      },
+      {
+       "label": "Pre-training",
+       "text": "Master Masked Language Modeling (MLM) and Next Sentence Prediction (NSP) objectives."
+      },
+      {
+       "label": "HuggingFace",
+       "text": "Load transformers.TFBertModel and utilize its [CLS] token natively for classification."
+      },
+      {
+       "label": "Fine-Tuning",
+       "text": "Swap the classification head and execute standard gradient updates on downstream tasks."
+      },
+      {
+       "label": "From Scratch",
+       "text": "Construct a complete multi-head attention mechanism using primitive tf.linalg.matmul operations."
+      },
+      {
+       "label": "Architecture",
+       "text": "Assemble Encoder and Decoder blocks including Feed-Forward networks and LayerNorms."
+      },
+      {
+       "label": "Data Handling",
+       "text": "Implement Byte-Pair Encoding and generate complex causal/padding tensors."
+      },
+      {
+       "label": "Task",
+       "text": "Train the scratch Transformer strictly on a Machine Translation dataset and visualize attention matrices."
+      }
+     ]
+    },
+    {
+     "day": 76,
+     "titles": [
+      "Transformer Decoders (GPT Family)"
+     ],
+     "points": [
+      {
+       "label": "Autoregressive Generation",
+       "text": "Build causal models where token N exclusively predicts token N+1."
+      },
+      {
+       "label": "Scaling Laws",
+       "text": "Analyze mathematical correlations between parameter count, dataset size, and compute budgets."
+      },
+      {
+       "label": "Emergent Abilities",
+       "text": "Understand zero-shot reasoning capabilities manifesting in models exceeding 10B parameters."
+      },
+      {
+       "label": "KV Cache",
+       "text": "Optimize inference memory structurally by caching previously computed Key and Value vectors."
+      }
+     ]
+    },
+    {
+     "day": 77,
+     "titles": [
+      "Decoding Strategies &amp; Output Entropy"
+     ],
+     "points": [
+      {
+       "label": "Deterministic",
+       "text": "Compare Greedy Search against the branching probabilistic logic of Beam Search."
+      },
+      {
+       "label": "Stochastic Sampling",
+       "text": "Implement Top-K (fixed list) and Nucleus Top-p (cumulative probability) constraints."
+      },
+      {
+       "label": "Temperature",
+       "text": "Adjust softmax T: T &gt; 1 flattens distribution (creative); T &lt; 1 sharpens it (factual)."
+      },
+      {
+       "label": "Penalties",
+       "text": "Tune frequency_penalty and presence_penalty natively to minimize generative repetition."
+      }
+     ]
+    },
+    {
+     "day": 78,
+     "titles": [
+      "Advanced Prompt Engineering (In-Context)",
+      "Chain/Tree of Thought Reasoning"
+     ],
+     "points": [
+      {
+       "label": "Anatomy",
+       "text": "Construct strict system prompts defining Persona, Context, Constraints, and Target schemas."
+      },
+      {
+       "label": "In-Context Learning",
+       "text": "Execute Zero-Shot, One-Shot, and Few-Shot conditioning without altering model weights."
+      },
+      {
+       "label": "Structured Output",
+       "text": "Force generations into strict computational structures utilizing JSON response formats."
+      },
+      {
+       "label": "Guardrails",
+       "text": "Design robust system boundaries proactively to mitigate adversarial prompt injection attacks."
+      },
+      {
+       "label": "CoT",
+       "text": "Mitigate hallucinations by prompting the model to generate step-by-step intermediate reasoning traces."
+      },
+      {
+       "label": "ToT",
+       "text": "Expand logic into non-linear heuristic search trees, evaluating multiple potential conversational branches."
+      },
+      {
+       "label": "Self-Consistency",
+       "text": "Generate multiple CoT paths and logically aggregate the most frequently deduced factual answer."
+      },
+      {
+       "label": "Application",
+       "text": "Deploy these algorithms strictly for multi-step math, logic, and coding generation tasks."
+      }
+     ]
+    },
+    {
+     "day": 79,
+     "titles": [
+      "ReAct (Reason and Act) Frameworks"
+     ],
+     "points": [
+      {
+       "label": "Agentic Bridge",
+       "text": "Interleave internal logic processing directly with external computational tool actions."
+      },
+      {
+       "label": "The Loop",
+       "text": "Force the model into a strict Thought -&gt; Action -&gt; Observation cyclical pipeline."
+      },
+      {
+       "label": "Tools",
+       "text": "Equip the prompt securely with simulated API definitions (Calculator, Web Search, SQL query)."
+      },
+      {
+       "label": "Autonomy",
+       "text": "Build a while loop allowing the LLM to recursively issue commands until final resolution."
+      }
+     ]
+    },
+    {
+     "day": 80,
+     "titles": [
+      "Embeddings &amp; Vector Databases"
+     ],
+     "points": [
+      {
+       "label": "The Architecture",
+       "text": "Ground generative language models dynamically in proprietary, private datasets."
+      },
+      {
+       "label": "Embedding Models",
+       "text": "Convert text into dense 1536-dimensional vectors utilizing text-embedding-3."
+      },
+      {
+       "label": "Vector DBs",
+       "text": "Provision and ingest vectors securely into databases like Pinecone, ChromaDB, or pgvector."
+      },
+      {
+       "label": "Indexing",
+       "text": "Understand the math behind HNSW for rapid Approximate Nearest Neighbor retrieval."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "month": 5,
+   "title": "Advanced GenAI, RAG, &amp; Agentic Systems",
+   "range": [
+    81,
+    100
+   ],
+   "days": [
+    {
+     "day": 81,
+     "titles": [
+      "Semantic Chunking &amp; Document Processing",
+      "Query Transformation (HyDE)"
+     ],
+     "points": [
+      {
+       "label": "Loaders",
+       "text": "Extract unstructured data via specialized PDF, HTML, and Markdown document parsers."
+      },
+      {
+       "label": "Recursive Splitting",
+       "text": "Implement RecursiveCharacterTextSplitter with explicit sliding chunk overlaps."
+      },
+      {
+       "label": "Semantic Chunking",
+       "text": "Split paragraphs dynamically by monitoring cosine distance shifts between sentences."
+      },
+      {
+       "label": "Metadata",
+       "text": "Preserve parent-child document relationships logically to feed wider context post-retrieval."
+      },
+      {
+       "label": "HyDE",
+       "text": "Implement Hypothetical Document Embeddings—prompt the LLM to hallucinate an answer, then embed it."
+      },
+      {
+       "label": "Query Expansion",
+       "text": "Utilize the LLM to mathematically break complex queries into multiple smaller sub-queries."
+      },
+      {
+       "label": "Metadata Filtering",
+       "text": "Tag document chunks securely to pre-filter retrieval pools based on hard constraints."
+      },
+      {
+       "label": "Self-Querying",
+       "text": "Build routers that autonomously convert natural language into structured Metadata + Vector filters."
+      }
+     ]
+    },
+    {
+     "day": 82,
+     "titles": [
+      "Hybrid Search &amp; Cross-Encoder Reranking"
+     ],
+     "points": [
+      {
+       "label": "Hybrid Search",
+       "text": "Combine Dense semantic vector search natively with Sparse keyword-matching (BM25)."
+      },
+      {
+       "label": "Fusion",
+       "text": "Merge disparate retrieval lists utilizing the Reciprocal Rank Fusion (RRF) mathematical algorithm."
+      },
+      {
+       "label": "Cross-Encoders",
+       "text": "Feed [Query + Document] into a classification model for absolute precision scoring."
+      },
+      {
+       "label": "Pipeline",
+       "text": "Retrieve Top-100 efficiently via Vectors, then logically sort the Top-10 via the Cross-Encoder."
+      }
+     ]
+    },
+    {
+     "day": 83,
+     "titles": [
+      "GraphRAG &amp; Knowledge Graphs"
+     ],
+     "points": [
+      {
+       "label": "Graph Theory",
+       "text": "Represent complex corporate data via strict Nodes (Entities) and Edges (Relationships)."
+      },
+      {
+       "label": "Extraction",
+       "text": "Use LLMs to autonomously perform unstructured text-to-graph translation pipelines."
+      },
+      {
+       "label": "Neo4j",
+       "text": "Store and traverse connected data utilizing the Cypher graph query language."
+      },
+      {
+       "label": "Multi-Hop",
+       "text": "Deploy GraphRAG natively to answer complex relational questions vector similarity fails to connect."
+      }
+     ]
+    },
+    {
+     "day": 84,
+     "titles": [
+      "Orchestration Frameworks: LangChain &amp; LlamaIndex",
+      "Self-RAG &amp; Corrective RAG (CRAG)"
+     ],
+     "points": [
+      {
+       "label": "LangChain",
+       "text": "Connect prompts, models, and parsers utilizing strict pipeline syntax (LCEL)."
+      },
+      {
+       "label": "Memory Modules",
+       "text": "Maintain contextual chat history securely using ConversationBufferMemory."
+      },
+      {
+       "label": "LlamaIndex",
+       "text": "Build specialized Data Connectors and Query Engines optimized explicitly for RAG systems."
+      },
+      {
+       "label": "Routing",
+       "text": "Implement semantic routers to dynamically direct queries to the appropriate vector/SQL database."
+      },
+      {
+       "label": "CRAG",
+       "text": "Design an evaluator pipeline where an LLM explicitly grades the relevance of retrieved vector documents."
+      },
+      {
+       "label": "Fallback Mechanics",
+       "text": "Automatically trigger external Web Search APIs if internal document grading fails entirely."
+      },
+      {
+       "label": "Self-RAG",
+       "text": "Train models to output distinct [Critique] tokens assessing if generation is factually supported."
+      },
+      {
+       "label": "Graphs",
+       "text": "Orchestrate cyclic, stateful decision flows securely utilizing the LangGraph framework."
+      }
+     ]
+    },
+    {
+     "day": 85,
+     "titles": [
+      "Tool Calling &amp; Model Context Protocol (MCP)"
+     ],
+     "points": [
+      {
+       "label": "Native Tool Use",
+       "text": "Bind Python functions dynamically to LLM inference utilizing strict JSON Schema declarations."
+      },
+      {
+       "label": "Execution",
+       "text": "Safely parse the LLM's requested parameters, execute the local function, and return the tool_message."
+      },
+      {
+       "label": "MCP",
+       "text": "Connect AI models securely to enterprise filesystems, Slack, and GitHub via standardized protocols."
+      },
+      {
+       "label": "HITL",
+       "text": "Implement \"Human-in-the-Loop\" manual approval breakpoints explicitly for destructive agentic actions."
+      }
+     ]
+    },
+    {
+     "day": 86,
+     "titles": [
+      "Parameter-Efficient Fine-Tuning (PEFT/LoRA)"
+     ],
+     "points": [
+      {
+       "label": "The Cost",
+       "text": "Understand the immense computational/VRAM requirements for full-weight Supervised Fine-Tuning."
+      },
+      {
+       "label": "LoRA Math",
+       "text": "Freeze base weights and inject trainable low-rank decomposition matrices (A and B) into attention layers."
+      },
+      {
+       "label": "QLoRA",
+       "text": "Execute 4-bit NormalFloat quantization to fine-tune 7B parameter models securely on a single GPU."
+      },
+      {
+       "label": "Libraries",
+       "text": "Deploy the HuggingFace peft and trl libraries to manage training loops natively."
+      }
+     ]
+    },
+    {
+     "day": 87,
+     "titles": [
+      "Preference Alignment (RLHF &amp; DPO)",
+      "Application Frontends: Streamlit &amp; Gradio"
+     ],
+     "points": [
+      {
+       "label": "Alignment Theory",
+       "text": "Ensure base completions map strictly to human behavioral preferences (Helpful, Honest, Harmless)."
+      },
+      {
+       "label": "RLHF",
+       "text": "Train a Reward Model on human preferences, then optimize policy utilizing Proximal Policy Optimization (PPO)."
+      },
+      {
+       "label": "DPO",
+       "text": "Direct Preference Optimization solves for optimal policy using simple classification loss directly on preference pairs."
+      },
+      {
+       "label": "Formatting",
+       "text": "Prepare ChatML datasets representing strictly chosen vs. rejected outputs."
+      },
+      {
+       "label": "Streamlit",
+       "text": "Convert pure Python pipelines instantly into interactive React-based web dashboards."
+      },
+      {
+       "label": "State Management",
+       "text": "Manipulate st.session_state natively to store API keys, chat history, and context."
+      },
+      {
+       "label": "Chat UI",
+       "text": "Deploy st.chat_message() interfaces structurally with live streaming text capabilities."
+      },
+      {
+       "label": "Gradio",
+       "text": "Build rapid, shareable API-based prototypes explicitly for multimodal model inference."
+      }
+     ]
+    },
+    {
+     "day": 88,
+     "titles": [
+      "Agentic Orchestration &amp; Workflows"
+     ],
+     "points": [
+      {
+       "label": "Visual Node Engines",
+       "text": "Use n8n or Flowise for low-code orchestration of complex multi-branch workflows."
+      },
+      {
+       "label": "Webhooks",
+       "text": "Integrate generative pipelines directly into SaaS tools via external API triggers."
+      },
+      {
+       "label": "Serverless Agents",
+       "text": "Deploy backend Python execution APIs natively via AWS Lambda or Google Cloud Run."
+      },
+      {
+       "label": "Async Task Queues",
+       "text": "Manage long-running agent tasks gracefully utilizing Celery and Redis."
+      }
+     ]
+    },
+    {
+     "day": 89,
+     "titles": [
+      "LLM Evaluation Metrics (RAGAS / DeepEval)"
+     ],
+     "points": [
+      {
+       "label": "Stochastic Testing",
+       "text": "Transition explicitly from deterministic Unit Tests to probabilistic evaluation rubrics."
+      },
+      {
+       "label": "Metrics",
+       "text": "Calculate strict metrics for Context Precision, Context Recall, Faithfulness, and Answer Relevance."
+      },
+      {
+       "label": "LLM-as-a-Judge",
+       "text": "Automate evaluations utilizing a superior LLM scoring generation outputs based on complex rubrics."
+      },
+      {
+       "label": "CI/CD",
+       "text": "Integrate automated evaluation scripts seamlessly into GitHub Actions prior to production deployment."
+      }
+     ]
+    },
+    {
+     "day": 90,
+     "titles": [
+      "Execution Tracing &amp; Data Drift",
+      "Capstone: Autonomous Multi-Agent System"
+     ],
+     "points": [
+      {
+       "label": "Execution Tracing",
+       "text": "Map complex nested agentic API calls visually utilizing platforms like LangSmith."
+      },
+      {
+       "label": "Latency",
+       "text": "Profile token burn rates, TTFT (Time To First Token), and bottleneck spans systematically across chains."
+      },
+      {
+       "label": "Prompt Management",
+       "text": "Version control prompt templates securely, independently of core codebase application logic."
+      },
+      {
+       "label": "Semantic Drift",
+       "text": "Monitor production vector databases dynamically for mathematical shifts in user queries over time."
+      },
+      {
+       "label": "The Project",
+       "text": "Architect and deploy a production-grade Autonomous Research Agent."
+      },
+      {
+       "label": "System",
+       "text": "Integrate Hybrid Search RAG, LangGraph Multi-Agent routing, and dynamic Python REPL APIs."
+      },
+      {
+       "label": "Interface",
+       "text": "Build an async streaming Streamlit interface supported by a secure FastAPI backend."
+      },
+      {
+       "label": "Monitoring",
+       "text": "Complete with deep LangSmith observability and automated RAGAS evaluations."
+      }
+     ]
+    },
+    {
+     "day": 91,
+     "titles": [
+      "Multimodal Models &amp; Vision-Language"
+     ],
+     "points": [
+      {
+       "label": "CLIP",
+       "text": "Understand Contrastive Language-Image Pretraining architecture."
+      },
+      {
+       "label": "Embeddings",
+       "text": "Align text and image vectors into a shared mathematical space."
+      },
+      {
+       "label": "Generation",
+       "text": "Deploy visual-question answering pipelines using specialized LLMs."
+      }
+     ]
+    },
+    {
+     "day": 92,
+     "titles": [
+      "AI Ethics, Bias Mitigation &amp; Fairness"
+     ],
+     "points": [
+      {
+       "label": "Disparate Impact",
+       "text": "Identify and measure hidden bias in historical training datasets."
+      },
+      {
+       "label": "Fairness Metrics",
+       "text": "Calculate Equal Opportunity and Demographic Parity natively."
+      },
+      {
+       "label": "Red Teaming",
+       "text": "Actively probe generative models for unsafe or restricted outputs."
+      }
+     ]
+    },
+    {
+     "day": 93,
+     "titles": [
+      "Model Security &amp; Adversarial Robustness",
+      "Federated Learning Foundations"
+     ],
+     "points": [
+      {
+       "label": "Attacks",
+       "text": "Understand Fast Gradient Sign Method (FGSM) and prompt injection."
+      },
+      {
+       "label": "Defense",
+       "text": "Train models with adversarial examples to increase robustness boundaries."
+      },
+      {
+       "label": "Sanitization",
+       "text": "Scrub inbound user prompts securely before reaching the inference engine."
+      },
+      {
+       "label": "Decentralization",
+       "text": "Train models collaboratively without centralizing raw user data."
+      },
+      {
+       "label": "Aggregation",
+       "text": "Apply Federated Averaging mathematically to update global weights."
+      },
+      {
+       "label": "Use Cases",
+       "text": "Analyze implementations in healthcare and cross-device personalization."
+      }
+     ]
+    },
+    {
+     "day": 94,
+     "titles": [
+      "ML System Design Frameworks"
+     ],
+     "points": [
+      {
+       "label": "Framework",
+       "text": "Master the 5-step approach (Requirements, Metrics, Architecture, Data, Scale)."
+      },
+      {
+       "label": "Trade-offs",
+       "text": "Justify architectural decisions (Batch vs Streaming, CPU vs GPU)."
+      },
+      {
+       "label": "Communication",
+       "text": "Lead whiteboarding discussions regarding single points of failure."
+      }
+     ]
+    },
+    {
+     "day": 95,
+     "titles": [
+      "Capstone Phase 1: Problem Scoping"
+     ],
+     "points": [
+      {
+       "label": "Ideation",
+       "text": "Define a high-impact business problem solvable via Advanced ML."
+      },
+      {
+       "label": "Requirements",
+       "text": "Draft strict technical specifications and success metrics."
+      },
+      {
+       "label": "Sourcing",
+       "text": "Identify, acquire, and validate necessary raw datasets."
+      }
+     ]
+    },
+    {
+     "day": 96,
+     "titles": [
+      "Capstone Phase 2: Data &amp; Modeling",
+      "Capstone Phase 3: Deployment Architecture"
+     ],
+     "points": [
+      {
+       "label": "Pipelines",
+       "text": "Construct automated EDA and feature engineering loops."
+      },
+      {
+       "label": "Training",
+       "text": "Train, tune, and log champion models utilizing robust cross-validation."
+      },
+      {
+       "label": "Validation",
+       "text": "Defend model selection based on mathematical metrics."
+      },
+      {
+       "label": "API",
+       "text": "Wrap the final serialized model natively in a strictly typed FastAPI container."
+      },
+      {
+       "label": "Local Run",
+       "text": "Ensure seamless local execution and API endpoint pinging."
+      },
+      {
+       "label": "Documentation",
+       "text": "Finalize README.md, architecture diagrams, and comprehensive API docs."
+      }
+     ]
+    },
+    {
+     "day": 97,
+     "titles": [
+      "Capstone Phase 4: UI/UX &amp; Polish"
+     ],
+     "points": [
+      {
+       "label": "Frontend",
+       "text": "Build a highly interactive frontend utilizing Streamlit or Gradio."
+      },
+      {
+       "label": "User Experience",
+       "text": "Ensure latency remains low and error messages are clear."
+      },
+      {
+       "label": "Portfolio",
+       "text": "Curate a professional, production-ready GitHub repository."
+      }
+     ]
+    },
+    {
+     "day": 98,
+     "titles": [
+      "Capstone Presentation &amp; Industry Graduation"
+     ],
+     "points": [
+      {
+       "label": "Pitch",
+       "text": "Deliver a 15-minute technical presentation to stakeholders."
+      },
+      {
+       "label": "Q&amp;A",
+       "text": "Defend architectural, systemic, and mathematical choices under intense scrutiny."
+      },
+      {
+       "label": "CORE GRADUATION",
+       "text": "Officially conclude the core AIML engineering program!"
+      }
+     ]
+    },
+    {
+     "day": 99,
+     "titles": [
+      "Big-O &amp; Problem Solving Mindset",
+      "Arrays &amp; Memory Basics"
+     ],
+     "points": [
+      {
+       "label": "Complexity",
+       "text": "Analyze basic Time &amp; Space Complexity (O(1), O(n), O(log n), O(n<sup>2</sup>))."
+      },
+      {
+       "label": "Relevance",
+       "text": "Understand why efficiency matters for large ML datasets."
+      },
+      {
+       "label": "Mindset",
+       "text": "Develop pattern recognition skills to map coding problems logically."
+      },
+      {
+       "label": "Data Structures",
+       "text": "Understand Python lists as dynamic arrays in memory."
+      },
+      {
+       "label": "Techniques",
+       "text": "Implement foundational Two-Pointer techniques for traversal."
+      },
+      {
+       "label": "Problems",
+       "text": "Solve basic array problems like Two Sum and reversing an array."
+      }
+     ]
+    },
+    {
+     "day": 100,
+     "titles": [
+      "String Manipulation Logic"
+     ],
+     "points": [
+      {
+       "label": "Immutability",
+       "text": "Understand how string manipulation affects memory."
+      },
+      {
+       "label": "Techniques",
+       "text": "Apply the Sliding Window technique to find substrings."
+      },
+      {
+       "label": "Problems",
+       "text": "Find longest non-repeating substrings and valid palindromes."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "month": 6,
+   "title": "Capstone Conclusion, DSA, SQL &amp; MLOps",
+   "range": [
+    101,
+    120
+   ],
+   "days": [
+    {
+     "day": 101,
+     "titles": [
+      "Basic Searching Algorithms"
+     ],
+     "points": [
+      {
+       "label": "Linear Search",
+       "text": "Understand standard O(N) iterative searching."
+      },
+      {
+       "label": "Binary Search",
+       "text": "Implement O(log N) search on sorted data."
+      },
+      {
+       "label": "Intuition",
+       "text": "Relate binary search concepts to hyperparameter space halving."
+      }
+     ]
+    },
+    {
+     "day": 102,
+     "titles": [
+      "Basic Sorting Algorithms",
+      "Linked Lists Foundations"
+     ],
+     "points": [
+      {
+       "label": "Algorithms",
+       "text": "Understand Bubble Sort, Selection Sort, and basic Merge Sort."
+      },
+      {
+       "label": "Time/Space",
+       "text": "Compare the O(N<sup>2</sup>) worst cases versus O(N log N) optimization."
+      },
+      {
+       "label": "Python API",
+       "text": "Utilize Python's internal sort() and sorted() efficiently."
+      },
+      {
+       "label": "Structures",
+       "text": "Understand Singly Linked List nodes and pointers."
+      },
+      {
+       "label": "Techniques",
+       "text": "Traverse, insert, and delete nodes without native array indexing."
+      },
+      {
+       "label": "Problems",
+       "text": "Reverse a linked list manually and detect basic cycles."
+      }
+     ]
+    },
+    {
+     "day": 103,
+     "titles": [
+      "Stacks &amp; Queues"
+     ],
+     "points": [
+      {
+       "label": "Structures",
+       "text": "Understand LIFO (Stacks) and FIFO (Queues) principles."
+      },
+      {
+       "label": "Implementation",
+       "text": "Build stacks using lists and queues using collections.deque."
+      },
+      {
+       "label": "Applications",
+       "text": "Solve valid parentheses and basic sequential tracking problems."
+      }
+     ]
+    },
+    {
+     "day": 104,
+     "titles": [
+      "Hashmaps &amp; Sets"
+     ],
+     "points": [
+      {
+       "label": "Dictionaries",
+       "text": "Deep dive into internal hashing mechanics and O(1) lookups."
+      },
+      {
+       "label": "Sets",
+       "text": "Perform fast containment checks and deduplication explicitly."
+      },
+      {
+       "label": "Problems",
+       "text": "Utilize frequency counting (collections.Counter) for rapid math."
+      }
+     ]
+    },
+    {
+     "day": 105,
+     "titles": [
+      "Introduction to Recursion",
+      "Basics of Binary Trees"
+     ],
+     "points": [
+      {
+       "label": "Mechanics",
+       "text": "Understand base cases and map basic execution flows."
+      },
+      {
+       "label": "Memory",
+       "text": "Visualize Call Stack execution during deep recursive functions."
+      },
+      {
+       "label": "Problems",
+       "text": "Calculate factorials and the Fibonacci sequence recursively."
+      },
+      {
+       "label": "Structures",
+       "text": "Build basic binary tree nodes and link children."
+      },
+      {
+       "label": "Traversals",
+       "text": "Implement Inorder, Preorder, and Postorder traversals natively."
+      },
+      {
+       "label": "Search",
+       "text": "Understand the basic properties of a Binary Search Tree (BST)."
+      }
+     ]
+    },
+    {
+     "day": 106,
+     "titles": [
+      "SQL Fundamentals and DDL"
+     ],
+     "points": [
+      {
+       "label": "RDBMS &amp; SELECT",
+       "text": "Understand the relational model. Master SELECT and WHERE filtering."
+      },
+      {
+       "label": "DDL",
+       "text": "Structure databases: CREATE TABLE, ALTER TABLE, and DROP TABLE."
+      },
+      {
+       "label": "Constraints",
+       "text": "Enforce integrity with Primary/Foreign Keys, UNIQUE, and NOT NULL."
+      }
+     ]
+    },
+    {
+     "day": 107,
+     "titles": [
+      "Data Manipulation &amp; Retrieval"
+     ],
+     "points": [
+      {
+       "label": "DML",
+       "text": "Insert (INSERT INTO), update (UPDATE), and delete (DELETE) data."
+      },
+      {
+       "label": "Transactions",
+       "text": "Maintain consistency using COMMIT and ROLLBACK."
+      },
+      {
+       "label": "DQL",
+       "text": "Use ORDER BY for sorting and DISTINCT to extract unique values."
+      }
+     ]
+    },
+    {
+     "day": 108,
+     "titles": [
+      "Aggregation &amp; Grouping",
+      "Advanced Filtering &amp; Set Operations"
+     ],
+     "points": [
+      {
+       "label": "Math",
+       "text": "Utilize COUNT, SUM, and AVG for column-level calculations."
+      },
+      {
+       "label": "Extremes",
+       "text": "Use MIN and MAX to find extremes within datasets."
+      },
+      {
+       "label": "Grouping",
+       "text": "Aggregate distinct categories via GROUP BY and filter them using HAVING."
+      },
+      {
+       "label": "Filtering",
+       "text": "Apply logical operators (AND, OR) and special operators (LIKE, IN, BETWEEN)."
+      },
+      {
+       "label": "Set Operators",
+       "text": "Combine multiple queries using UNION, UNION ALL, INTERSECT, and EXCEPT."
+      },
+      {
+       "label": "Execution Order",
+       "text": "Understand how SQL conceptually executes written commands."
+      }
+     ]
+    },
+    {
+     "day": 109,
+     "titles": [
+      "Relational Data Joins"
+     ],
+     "points": [
+      {
+       "label": "Inner/Outer Joins",
+       "text": "Master INNER JOIN, LEFT, RIGHT, and FULL OUTER JOIN handling unmatched rows."
+      },
+      {
+       "label": "Advanced Joins",
+       "text": "Explore non-equi joins, CROSS JOIN (Cartesian), and SELF-JOIN."
+      },
+      {
+       "label": "Architecture",
+       "text": "Understand why normalized relational schemas require heavy joining."
+      }
+     ]
+    },
+    {
+     "day": 110,
+     "titles": [
+      "Built-in Functions &amp; Null Handling"
+     ],
+     "points": [
+      {
+       "label": "Strings",
+       "text": "Manipulate text (SUBSTRING, LENGTH, UPPER, TRIM)."
+      },
+      {
+       "label": "Nulls",
+       "text": "Address missing data securely using IS NULL and COALESCE/ISNULL."
+      },
+      {
+       "label": "Dates",
+       "text": "Extract parts, calculate differences (DATEDIFF), and perform date arithmetic."
+      }
+     ]
+    },
+    {
+     "day": 111,
+     "titles": [
+      "Conditional Logic &amp; Subqueries",
+      "CTEs &amp; Procedures"
+     ],
+     "points": [
+      {
+       "label": "Aliases",
+       "text": "Use column and table ALIASES to write cleaner SQL code."
+      },
+      {
+       "label": "Logic",
+       "text": "Implement conditional mapping natively using the CASE expression."
+      },
+      {
+       "label": "Subqueries",
+       "text": "Write independent subqueries and use EXISTS for correlated subqueries."
+      },
+      {
+       "label": "Procedures",
+       "text": "Encapsulate basic SQL logic strictly inside Stored Procedures."
+      },
+      {
+       "label": "CTEs",
+       "text": "Define named, temporary result sets (WITH clause) to simplify complex reads."
+      },
+      {
+       "label": "Recursion",
+       "text": "Understand the concept of Recursive CTEs conceptually vs standard queries."
+      }
+     ]
+    },
+    {
+     "day": 112,
+     "titles": [
+      "Window Functions (Part 1)"
+     ],
+     "points": [
+      {
+       "label": "Concept",
+       "text": "Introduce calculations across a defined set of table rows dynamically."
+      },
+      {
+       "label": "Ranking",
+       "text": "Master strict ranking functions: RANK, DENSE_RANK, and ROW_NUMBER."
+      },
+      {
+       "label": "Application",
+       "text": "Rank distinct rows without grouping them down into single aggregated lines."
+      }
+     ]
+    },
+    {
+     "day": 113,
+     "titles": [
+      "Window Functions (Part 2)"
+     ],
+     "points": [
+      {
+       "label": "Partitions",
+       "text": "Use PARTITION BY to establish exact analytical window boundaries."
+      },
+      {
+       "label": "Analytics",
+       "text": "Calculate running totals and lagged/leaded values using LAG/LEAD."
+      },
+      {
+       "label": "Time-Series",
+       "text": "Utilize moving averages natively within SQL for financial/data analysis."
+      }
+     ]
+    },
+    {
+     "day": 114,
+     "titles": [
+      "Introduction to MLOps",
+      "Data &amp; Code Versioning"
+     ],
+     "points": [
+      {
+       "label": "Lifecycle",
+       "text": "Map the transition from local Jupyter Notebooks to strict production pipelines."
+      },
+      {
+       "label": "Concepts",
+       "text": "Understand Continuous Integration, Continuous Delivery, and Continuous Training (CI/CD/CT)."
+      },
+      {
+       "label": "Necessity",
+       "text": "Discuss why models degrade over time and require operational supervision."
+      },
+      {
+       "label": "Code",
+       "text": "Overview foundational Git commands (commit, push, branch) for ML scripts."
+      },
+      {
+       "label": "Data Control",
+       "text": "Understand the strict necessity of Data Version Control (DVC) conceptually."
+      },
+      {
+       "label": "Reproducibility",
+       "text": "Ensure environments and datasets can be mirrored by any other engineer."
+      }
+     ]
+    },
+    {
+     "day": 115,
+     "titles": [
+      "Experiment Tracking Basics"
+     ],
+     "points": [
+      {
+       "label": "Tracking",
+       "text": "Track hyperparameter choices, metric outputs, and random seeds programmatically."
+      },
+      {
+       "label": "Comparison",
+       "text": "Understand how comparing isolated experiments prevents \"lost\" champion models."
+      },
+      {
+       "label": "Metadata",
+       "text": "Log strict metadata associated with every specific training run."
+      }
+     ]
+    },
+    {
+     "day": 116,
+     "titles": [
+      "Introduction to MLflow"
+     ],
+     "points": [
+      {
+       "label": "Server",
+       "text": "Launch and navigate a local MLflow tracking server dashboard."
+      },
+      {
+       "label": "Logging",
+       "text": "Utilize mlflow.log_param and mlflow.log_metric inside Python training loops."
+      },
+      {
+       "label": "Autolog",
+       "text": "Implement mlflow.autolog() for rapid, out-of-the-box framework tracking."
+      }
+     ]
+    },
+    {
+     "day": 117,
+     "titles": [
+      "Model Serialization &amp; Packaging",
+      "Introduction to REST APIs"
+     ],
+     "points": [
+      {
+       "label": "Serialization",
+       "text": "Save and load trained ML models natively utilizing pickle and joblib."
+      },
+      {
+       "label": "Pipelines",
+       "text": "Bundle preprocessors (scalers/encoders) securely with the model object via sklearn.pipeline."
+      },
+      {
+       "label": "Dependencies",
+       "text": "Extract a precise requirements.txt file to prevent critical version drift."
+      },
+      {
+       "label": "Concepts",
+       "text": "Understand client-server architecture, HTTP verbs (GET/POST), and status codes."
+      },
+      {
+       "label": "JSON",
+       "text": "Map Python dictionaries natively into structured JSON payload transfers."
+      },
+      {
+       "label": "Inference",
+       "text": "Translate local model.predict() logic into a networked request-response cycle."
+      }
+     ]
+    },
+    {
+     "day": 118,
+     "titles": [
+      "Building Basic APIs with FastAPI"
+     ],
+     "points": [
+      {
+       "label": "Framework",
+       "text": "Initialize an asynchronous FastAPI application locally."
+      },
+      {
+       "label": "Endpoints",
+       "text": "Create a strict @app.post(\"/predict\") route to ingest feature data."
+      },
+      {
+       "label": "Pydantic",
+       "text": "Enforce inbound JSON data structures mathematically using Pydantic validation schemas."
+      }
+     ]
+    },
+    {
+     "day": 119,
+     "titles": [
+      "Testing &amp; Validating the API"
+     ],
+     "points": [
+      {
+       "label": "Swagger UI",
+       "text": "Test the endpoint interactively via the automatically generated Swagger docs (/docs)."
+      },
+      {
+       "label": "Postman/cURL",
+       "text": "Ping the local ML server securely using external networking tools."
+      },
+      {
+       "label": "Error Handling",
+       "text": "Return proper 400 Bad Request codes for malformed data inputs."
+      }
+     ]
+    },
+    {
+     "day": 120,
+     "titles": [
+      "Introduction to Docker",
+      "Writing a Dockerfile for ML"
+     ],
+     "points": [
+      {
+       "label": "Containerization",
+       "text": "Understand isolation constraints versus traditional heavy virtual machines."
+      },
+      {
+       "label": "Images/Containers",
+       "text": "Differentiate between a static Docker Image and a running Container."
+      },
+      {
+       "label": "Commands",
+       "text": "Use basic CLI tools like docker build, docker run, and docker ps."
+      },
+      {
+       "label": "Declarations",
+       "text": "Write a basic Dockerfile explicitly tailored for ML (FROM python:3.10, COPY, CMD)."
+      },
+      {
+       "label": "Execution",
+       "text": "Build the image and run the isolated API container locally, mapping internal ports."
+      },
+      {
+       "label": "Cloud Intro",
+       "text": "Discuss conceptual pathways for pushing this container to AWS/GCP for public access."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+/* ==========================================================================
+   Shared sections: CTA band, FAQ section, split text, program cards
+   ========================================================================== */
+.split-line { padding-bottom: 0.06em; margin-bottom: -0.06em; }
+.split-word { will-change: transform; }
+.grad-text .split-word, .brand-grad-text .split-word { background: inherit; -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent; padding-right: 0.02em; }
+
+/* CTA band */
+.cta-band__card {
+  position: relative; display: grid; gap: 34px; padding: clamp(36px, 6vw, 84px);
+  border-radius: var(--radius-xl); border: 1px solid var(--line-2); overflow: hidden;
+  background: radial-gradient(120% 120% at 0% 0%, rgba(var(--accent-rgb), 0.16), transparent 55%), linear-gradient(160deg, #0c1220, #070a12);
+}
+.cta-band__glow { position: absolute; right: -15%; bottom: -60%; width: 70%; aspect-ratio: 1; border-radius: 50%; background: radial-gradient(closest-side, rgba(245, 181, 68, 0.22), transparent); pointer-events: none; }
+.cta-band__copy { position: relative; z-index: 1; display: grid; gap: 18px; max-width: 820px; }
+.cta-band .btn-row { position: relative; z-index: 1; }
+.cta-band .bg-grid { opacity: 0.6; }
+
+/* FAQ section */
+.faq-sec__grid { display: grid; grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr); gap: clamp(32px, 6vw, 96px); align-items: start; }
+.faq-sec__head { position: sticky; top: calc(var(--hdr-h) + 32px); display: grid; gap: 18px; justify-items: start; }
+@media (max-width: 900px) { .faq-sec__grid { grid-template-columns: 1fr; } .faq-sec__head { position: static; } }
+
+/* Program meta row */
+.meta-row { display: flex; flex-wrap: wrap; gap: 8px; }
+.program-actions { gap: 10px; }
+
+/* Placeholder marker (visible until config is filled) */
+.is-placeholder { color: var(--amber) !important; }
+
+/* Program emblems (SVG) */
+.pviz { width: 100%; height: 100%; }
+.pviz--da .pviz__grid rect { fill: rgba(255,255,255,0.025); stroke: rgba(255,255,255,0.06); }
+.pviz--da .pviz__bars rect { fill: url(#none); fill: rgba(62, 224, 143, 0.32); stroke: rgba(62, 224, 143, 0.8); transform-box: fill-box; transform-origin: bottom; animation: pv-bar 1.4s var(--ease-out) both; animation-delay: calc(var(--i) * 80ms); }
+.pviz--da .pviz__line { fill: none; stroke: #3fd5e0; stroke-width: 2.5; stroke-dasharray: 400; stroke-dashoffset: 400; animation: pv-draw 2s 0.4s var(--ease-out) forwards; }
+.pviz--da .pviz__pt { fill: #061015; stroke: #3fd5e0; stroke-width: 2.5; }
+@keyframes pv-bar { from { transform: scaleY(0.05); } }
+@keyframes pv-draw { to { stroke-dashoffset: 0; } }
+.pviz--ds .pviz__d { opacity: 0.85; animation: pv-pop 0.6s var(--ease-spring) both; animation-delay: calc(var(--i) * 30ms); transform-box: fill-box; transform-origin: center; }
+.pviz--ds .pviz__d--0 { fill: #4aa8ff; } .pviz--ds .pviz__d--1 { fill: #8b7cff; } .pviz--ds .pviz__d--2 { fill: #5fe1e8; }
+.pviz--ds .pviz__ring { fill: none; stroke-width: 1.5; stroke-dasharray: 4 5; animation: pv-spin 14s linear infinite; transform-box: fill-box; transform-origin: center; }
+.pviz--ds .pviz__ring--0 { stroke: #4aa8ff; } .pviz--ds .pviz__ring--1 { stroke: #8b7cff; } .pviz--ds .pviz__ring--2 { stroke: #5fe1e8; }
+.pviz--ds .pviz__c { fill: #fff; } .pviz--ds .pviz__curve { fill: none; stroke: rgba(255,255,255,0.18); stroke-width: 1.5; }
+@keyframes pv-pop { from { transform: scale(0); opacity: 0; } }
+@keyframes pv-spin { to { transform: rotate(360deg); } }
+.pviz--aiml .pviz__e { fill: none; stroke: rgba(166, 133, 255, 0.35); stroke-width: 1.2; stroke-dasharray: 3 6; animation: pv-flow 1.6s linear infinite; }
+.pviz--aiml .pviz__n { fill: #0b0f1c; stroke: #c4b0ff; stroke-width: 2; animation: pv-glow 2.4s ease-in-out infinite; animation-delay: calc(var(--i) * 120ms); }
+@keyframes pv-flow { to { stroke-dashoffset: -18; } }
+@keyframes pv-glow { 50% { fill: #f472d0; stroke: #f472d0; } }
+.pviz--aaa .pviz__w { fill: none; stroke: rgba(245, 181, 68, 0.45); stroke-width: 2; stroke-dasharray: 5 6; animation: pv-flow 1.2s linear infinite; }
+.pviz--aaa .pviz__node { fill: #120f0a; stroke: rgba(245, 181, 68, 0.75); stroke-width: 1.5; }
+.pviz--aaa .pviz__node--a { stroke: #ff7a59; } .pviz--aaa .pviz__node--o { stroke: #ffd98a; }
+.pviz--aaa .pviz__pk { fill: #ffd98a; }
+.pviz--aaa text { fill: #f5b544; font-size: 16px; }
+@media (prefers-reduced-motion: reduce) { .pviz * { animation: none !important; stroke-dashoffset: 0 !important; } }

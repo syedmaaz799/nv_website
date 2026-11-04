@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://neuralvarsity.ai/sitemap.xml

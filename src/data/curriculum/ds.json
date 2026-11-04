@@ -1,0 +1,832 @@
+{
+ "months": [
+  {
+   "month": 1,
+   "title": "Python Programming, Data Handling &amp; EDA Foundation",
+   "weeks": [
+    {
+     "month": 1,
+     "weekInMonth": 1,
+     "week": 1,
+     "title": "Core Programming and Data Structures",
+     "days": [
+      {
+       "day": 1,
+       "title": "Introduction to Programming &amp; Environment Setup",
+       "body": "A foundational start, defining programming as the process of creating a sequence of instructions to automate tasks. We'll explore Computational Thinking, breaking complex problems into manageable steps, and the critical distinction between an <strong>Algorithm</strong> (the step-by-step procedure) and a <strong>Program</strong> (the implementation of the algorithm in code). Environment setup is crucial: Installation of <strong>Anaconda</strong> (a distribution for Python and R that simplifies package management), selection of an Integrated Development Environment (IDE) like <strong>VS Code</strong> or a cloud-based solution like <strong>Google Colab</strong>, and executing basic interactive commands within a <strong>Jupyter Notebook</strong> environment."
+      },
+      {
+       "day": 2,
+       "title": "Variables &amp; Data Types",
+       "body": "Dive into the mechanics of Python. Understanding the importance of correct <strong>Python Syntax</strong> and the rules for creating <strong>Identifiers</strong> (names for variables, functions, etc.). Introduction to the essential print() function for output. Focus on Python's dynamic typing with core <strong>Data Types</strong>: int (integers), float (floating-point numbers), string (text), and boolean (True/False). Learn to inspect data types using the type() function, capture user input with input(), and master <strong>type casting</strong> (explicitly converting one data type to another)."
+      },
+      {
+       "day": 3,
+       "title": "String Manipulation &amp; Formatting",
+       "body": "Text data is ubiquitous. This day covers advanced handling of the string data type. Techniques include <strong>String Indexing</strong> (accessing individual characters), <strong>Slicing</strong> (extracting substrings), and essential <strong>String Operations/Methods</strong> such like .upper(), .lower(), .replace(), and .split(). Crucially, we master modern string formatting using <strong>f-strings</strong> (formatted string literals) for readable and efficient code output."
+      },
+      {
+       "day": 4,
+       "title": "Data Structures &amp; Mutability",
+       "body": "A deep dive into Python's powerful built-in <strong>Data Structures</strong>. We explore <strong>Lists</strong> (ordered, mutable, allows duplicates), <strong>Sets</strong> (unordered, mutable, unique elements), <strong>Tuples</strong> (ordered, immutable, allows duplicates), and <strong>Dictionaries</strong> (unordered, mutable, key-value pairs). A key conceptual focus is understanding <strong>Mutability vs Immutability</strong>, which dictates how an object can be changed after creation and affects performance and safety."
+      },
+      {
+       "day": 5,
+       "title": "Operators in Python",
+       "body": "Mastering the tools for computation and logic. Comprehensive coverage of <strong>Arithmetic Operators</strong> (+, -, *, /, //, %, **), <strong>Comparison Operators</strong> (==, !=, &gt;, &lt;, &gt;=, &lt;=), and <strong>Logical Operators</strong> (and, or, not). Practical application of <strong>Assignment Operators</strong> (=, +=, -=, etc.) and <strong>Membership Operators</strong> (in, not in) for checking existence within sequences."
+      }
+     ]
+    },
+    {
+     "month": 1,
+     "weekInMonth": 2,
+     "week": 2,
+     "title": "Control Flow, Functions, and I/O",
+     "days": [
+      {
+       "day": 6,
+       "title": "Control Flow &amp; Conditional Statements",
+       "body": "Learning to control the execution path of a program. Implementation of the core decision structures: <strong>if</strong>, <strong>elif</strong> (else if), and <strong>else</strong> statements. Exploration of <strong>nested conditions</strong> for complex logic and applying conditional logic to build practical, real-world decision-making structures. Introduction to the range() function as preparation for loops."
+      },
+      {
+       "day": 7,
+       "title": "Loops &amp; Iterations",
+       "body": "Automating repetitive tasks. Utilizing <strong>while loops</strong> (for indefinite iteration) and <strong>for loops</strong> (for definite iteration, typically over a sequence). Understanding <strong>nested loops</strong> for multi-dimensional operations (like matrices). Control loop behavior with <strong>pass</strong> (placeholder), <strong>break</strong> (exit loop), and <strong>continue</strong> (skip current iteration). Conclude with an introduction to efficient, concise code writing using <strong>List and Dictionary comprehensions</strong>."
+      },
+      {
+       "day": 8,
+       "title": "Functions Basics",
+       "body": "The cornerstone of modular programming. Focus on <strong>defining functions</strong> (def), understanding the different <strong>types of functions</strong> (built-in, user-defined), and the critical concepts of <strong>parameters</strong> (inputs) and <strong>return values</strong> (outputs). Introduces the concept of <strong>code optimization</strong> and conciseness using single-expression <strong>Lambda functions</strong> (anonymous functions)."
+      },
+      {
+       "day": 9,
+       "title": "Advanced Functions &amp; Modules",
+       "body": "Extending functional programming. Deep dive into <strong>Higher-order functions</strong>: <strong>map</strong> (apply a function to all items), <strong>filter</strong> (filter items based on a function), and <strong>reduce</strong> (cumulative computation). Learn to import and utilize external <strong>modules</strong> and packages, understanding <strong>namespace</strong> and <strong>scope</strong>. Utility functions like help() and dir() are introduced. Practical work with built-in modules: math, random, datetime, and os (Operating System)."
+      },
+      {
+       "day": 10,
+       "title": "File Handling &amp; Exceptions",
+       "body": "Making programs robust and capable of data persistence. Detailed session on <strong>handling errors and exceptions</strong> using try, except, else, and finally blocks to gracefully prevent program crashes. Practical file input/output operations: <strong>creating, reading, and writing files</strong> in various common formats such as plain <strong>TXT</strong>, structured <strong>CSV</strong>, and semi-structured <strong>JSON</strong>."
+      }
+     ]
+    },
+    {
+     "month": 1,
+     "weekInMonth": 3,
+     "week": 3,
+     "title": "Object-Oriented Programming (OOP), Regex, and Web Scraping",
+     "days": [
+      {
+       "day": 11,
+       "title": "Object-Oriented Programming (OOP) Fundamentals",
+       "body": "Shifting to an object-centric paradigm. Understanding the <strong>OOP Philosophy</strong> and its advantages. Learning to create <strong>Classes</strong> (blueprints) and instantiate <strong>Objects</strong> (instances). Key components are <strong>Attributes</strong> (data/state) – specifically <strong>Instance</strong> and <strong>Class Variables</strong> – and the mandatory <strong>__init__ constructor method</strong> for object initialization."
+      },
+      {
+       "day": 12,
+       "title": "Advanced OOP Concepts",
+       "body": "Deeper exploration of class functionality. Implementing <strong>Instance Methods</strong>, <strong>Class Methods</strong> (@classmethod decorator for methods bound to the class), and <strong>Static Methods</strong> (@staticmethod for utility functions within a class). Comprehensive coverage of the <strong>Four Pillars of OOP</strong>: <strong>Encapsulation</strong> (data hiding using access modifiers), <strong>Inheritance</strong> (creating new classes from existing ones), <strong>Abstraction</strong> (showing only essential information), and <strong>Polymorphism</strong> (one interface, many forms)."
+      },
+      {
+       "day": 13,
+       "title": "OOP Implementation &amp; Magic Methods",
+       "body": "Practical application of OOP. Techniques include <strong>Method Overriding</strong> (redefining a parent's method in a child class) and using the <strong>super() function</strong> to call parent methods. Introduction to <strong>Special/Magic Methods</strong> (e.g., __str__, __len__). Concluding with the use of <strong>Abstract Base Classes (ABC module)</strong> for enforcing structure and a hands-on project: building a simple <strong>Console-Based Student Management System</strong> using all OOP concepts learned."
+      },
+      {
+       "day": 14,
+       "title": "Unstructured Data &amp; Regular Expressions",
+       "body": "Handling real-world data complexity. Differentiating between <strong>Structured, Semi-Structured, and Unstructured Data</strong>. Mastering <strong>Regular Expressions (Regex)</strong>, including <strong>Regex Literals</strong> and <strong>Meta Characters</strong> (., *, +, ?, [], etc.) for pattern matching. Practical focus on <strong>cleaning text data</strong> (e.g., removing noise) and validation tasks, such as <strong>Email validation</strong>."
+      },
+      {
+       "day": 15,
+       "title": "Web Scraping Basics",
+       "body": "The first step in data acquisition from the web. Learn the concept of <strong>Data Collection (web-scraping)</strong>: programmatically extracting data from websites. The goal is converting the initial <strong>unstructured web data (HTML)</strong> into <strong>structured formats</strong> (like a Pandas DataFrame) suitable for analysis and generating insights."
+      }
+     ]
+    },
+    {
+     "month": 1,
+     "weekInMonth": 4,
+     "week": 4,
+     "title": "NumPy, Pandas, and EDA Capstone",
+     "days": [
+      {
+       "day": 16,
+       "title": "NumPy (Numerical Python)",
+       "body": "The backbone of numerical computing in Python. Introduction to the ndarray (N-dimensional array). Mastering <strong>Array creation</strong>, basic <strong>printing</strong>, <strong>indexing</strong>, <strong>slicing</strong>, and <strong>reshaping</strong> arrays. Key topics include fundamental <strong>Basic operations</strong>, <strong>mathematical functions</strong> (trigonometric, exponential), and the efficiency of <strong>Broadcasting</strong> and <strong>Vectorization</strong> when compared to traditional Python loops."
+      },
+      {
+       "day": 17,
+       "title": "Pandas Fundamentals",
+       "body": "The essential library for data manipulation and analysis. Introduction to the two core data structures: <strong>Series</strong> (1-dimensional) and <strong>DataFrames</strong> (2-dimensional, tabular). Practical application in <strong>Data importing and exporting</strong> using common formats like <strong>CSV</strong>, <strong>Excel</strong>, <strong>JSON files</strong>, and even data extracted from <strong>HTML</strong> tables. Initial steps involve using basic data understanding operations like .head(), .info(), and .describe()."
+      },
+      {
+       "day": 18,
+       "title": "Advanced Pandas &amp; Data Manipulation",
+       "body": "Deepening Pandas proficiency. Techniques for data selection: <strong>Indexing</strong> (.loc, .iloc), <strong>Slicing</strong>, and <strong>Conditional Filtering</strong>. Essential data summarization with <strong>GroupBy operations</strong>. Comprehensive coverage of <strong>Handling Missing Data</strong> (categorizing as MCAR, MAR, MNAR, and implementing Imputation techniques). Other cleaning tasks include <strong>Removing Duplicates</strong> and practical <strong>String/DateTime Manipulations</strong>."
+      },
+      {
+       "day": 19,
+       "title": "Data Merging &amp; Feature Engineering",
+       "body": "Integrating and preparing data for modeling. Techniques for combining DataFrames: <strong>Concatenating</strong> (stacking), <strong>Merging</strong> (SQL-style joins), and <strong>Joining</strong> (index-based joins). Introduction to <strong>Window Functions</strong> (e.g., rolling means). Essential <strong>Feature Engineering</strong> concepts: <strong>Outlier detection</strong> using statistical methods (<strong>IQR, Z-score</strong>) and a critical discussion on <strong>addressing data leakage</strong> to ensure model integrity."
+      },
+      {
+       "day": 20,
+       "title": "Month 1 Capstone &amp; Consolidation",
+       "body": "A culmination of Month 1 skills. This day focuses on integrated, <strong>Comprehensive Case Studies</strong> that require synthesizing knowledge of Python, functions, and data manipulation with Pandas. A key component is applying <strong>Web Scraping from scratch</strong> to acquire data, followed by thorough data cleaning and preparation using the advanced Pandas techniques learned."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "month": 2,
+   "title": "Statistics, Exploratory Data Analysis &amp; Probability",
+   "weeks": [
+    {
+     "month": 2,
+     "weekInMonth": 1,
+     "week": 5,
+     "title": "Visualization and Descriptive Statistics",
+     "days": [
+      {
+       "day": 21,
+       "title": "Data Visualization with Matplotlib",
+       "body": "The foundational plotting library. Understanding the <strong>Principles of basic plotting</strong> (figure and axes). Mastering the creation of <strong>subplots</strong> for multi-panel visualizations and customizing <strong>properties</strong> (titles, labels, colors). Hands-on building of fundamental plot types: <strong>Line plots</strong>, <strong>Pie Charts</strong>, <strong>Bar Graphs</strong>, <strong>Histograms</strong> (for distribution), and <strong>Scatterplots</strong> (for correlation)."
+      },
+      {
+       "day": 22,
+       "title": "Data Visualization with Seaborn",
+       "body": "A high-level, statistically-focused visualization library built on Matplotlib. Constructing complex statistical plots like <strong>Box and Violin Plots</strong> (for distributions and comparisons), <strong>Joint Plots</strong> (bivariate analysis), <strong>Cat Plots</strong> (categorical data), <strong>Heatmaps</strong> (for correlation matrices), <strong>Pair Plots</strong> (all pairwise relationships), and <strong>Count plots</strong> (frequency)."
+      },
+      {
+       "day": 23,
+       "title": "Exploratory Data Analysis (EDA)",
+       "body": "The art of uncovering insights before modeling. Understanding the <strong>goals of EDA</strong> (data cleaning, structure identification, outlier detection, hypothesis generation). Practical steps in <strong>Uni-Variate</strong> (single variable) and <strong>Bi-Variate</strong> (two variables) Analysis. Focusing on <strong>Distribution analysis</strong>, creating a <strong>Correlation matrix</strong> to quantify relationships, and <strong>Trend identification</strong> in time-series or sequential data."
+      },
+      {
+       "day": 24,
+       "title": "Descriptive Statistics",
+       "body": "Quantifying data characteristics. Defining the distinction between <strong>Population vs Sample</strong> and <strong>Parameter vs Statistic</strong>. Reviewing <strong>Data Types</strong> (Nominal, Ordinal, Interval, Ratio). In-depth study of <strong>Measures of Central Tendency</strong>: <strong>Mean</strong> (average), <strong>Median</strong> (middle value), and <strong>Mode</strong> (most frequent value), and when to use each."
+      },
+      {
+       "day": 25,
+       "title": "Measures of Dispersion &amp; Shape",
+       "body": "Assessing data spread and form. Methods for quantifying variability: Calculating <strong>Variance</strong>, <strong>Standard deviation</strong> (the square root of variance), <strong>Range</strong>, and the <strong>Interquartile Range (IQR)</strong>. Understanding data shape using <strong>Skewness</strong> (asymmetry) and <strong>Kurtosis</strong> (peakedness). Utilizing <strong>Box Plots</strong> as a visual tool for measuring dispersion and effective <strong>outlier detection</strong>."
+      }
+     ]
+    },
+    {
+     "month": 2,
+     "weekInMonth": 2,
+     "week": 6,
+     "title": "Probability and Distributions",
+     "days": [
+      {
+       "day": 26,
+       "title": "Probability Basics",
+       "body": "The foundation of statistical inference. Defining <strong>Experiments</strong>, <strong>Sample Space</strong>, <strong>Events</strong>, and the calculation of classical probability. Covering the fundamental <strong>Probability rules/axioms</strong> (e.g., addition rule, multiplication rule)."
+      },
+      {
+       "day": 27,
+       "title": "Conditional Probability",
+       "body": "Probability based on prior information. Understanding the relationship between <strong>Independent vs dependent events</strong>. In-depth study and application of <strong>Bayes Theorem</strong> (reversing conditional probability) for practical scenarios like spam detection."
+      },
+      {
+       "day": 28,
+       "title": "Probability Distributions &amp; Random Variables",
+       "body": "Modeling uncertainty. Defining <strong>Random Variables</strong> (variables whose values are outcomes of random events). Distinguishing between <strong>Discrete</strong> (countable outcomes) and <strong>Continuous</strong> (any value in a range) probability distributions, and the difference between <strong>PMF</strong> (Probability Mass Function) and <strong>PDF</strong> (Probability Density Function)."
+      },
+      {
+       "day": 29,
+       "title": "Advanced Distributions",
+       "body": "Key distributions used in data science. Detailed analysis of <strong>Bernoulli</strong> (single trial), <strong>Binomial</strong> (multiple Bernoulli trials), and <strong>Poisson</strong> (count of events over time/space) distributions for discrete data. Mastering the <strong>Normal Distribution</strong> (bell curve), <strong>Standard Normal Distribution</strong> (Z-scores), <strong>Z-distribution</strong>, and <strong>T-distribution</strong> for continuous data and inference."
+      },
+      {
+       "day": 30,
+       "title": "Data Gathering &amp; Sampling Methods",
+       "body": "Techniques for collecting representative data. Reviewing different methods to select a subset of the population: <strong>Convenience</strong>, <strong>Simple Random</strong>, <strong>Stratified</strong> (proportional representation), <strong>Cluster</strong> (group-based), and <strong>Systematic Sampling</strong>."
+      }
+     ]
+    },
+    {
+     "month": 2,
+     "weekInMonth": 3,
+     "week": 7,
+     "title": "Inferential Statistics and ML Introduction",
+     "days": [
+      {
+       "day": 31,
+       "title": "Inferential Statistics",
+       "body": "Drawing conclusions about a population from a sample. Understanding <strong>Sampling variability</strong> and the cornerstone theorem: the <strong>Central Limit Theorem</strong> (CLT). Practical application in defining and calculating <strong>Confidence Intervals</strong> (CI) to estimate population parameters."
+      },
+      {
+       "day": 32,
+       "title": "Hypothesis Testing Fundamentals",
+       "body": "Formalizing statistical decision-making. The process of <strong>Setting Null (H<sub>0</sub>) &amp; alternative (H<sub>a</sub>) hypotheses</strong>. Understanding the critical concepts of <strong>p-value</strong>, <strong>significance level (α)</strong>, and the risks involved: <strong>Type I Error</strong> (α, false positive) and <strong>Type II Error</strong> (β, false negative)."
+      },
+      {
+       "day": 33,
+       "title": "Parametric vs Non-Parametric Tests",
+       "body": "Selecting the appropriate statistical test. Distinguishing between tests that assume a distribution (parametric) and those that do not (non-parametric). Executing tests for <strong>normality</strong> (e.g., Shapiro-Wilk), and implementing the workhorse tests: <strong>Z-tests</strong> (large sample, known σ) and <strong>T-tests</strong> (small sample, unknown σ)."
+      },
+      {
+       "day": 34,
+       "title": "Advanced Hypothesis Testing",
+       "body": "More complex comparative and association tests. Practical application of <strong>A/B testing</strong> (comparing two groups), <strong>Chi-Square Tests</strong> (for categorical association), <strong>F-Tests</strong> (comparing variances), and <strong>ANOVA</strong> (Analysis of Variance for comparing means of 3 or more groups)."
+      },
+      {
+       "day": 35,
+       "title": "Introduction to Machine Learning Workflow",
+       "body": "The transition to predictive modeling. Defining <strong>Supervised vs Unsupervised Learning</strong>. Overview of various <strong>algorithms' approaches</strong> (e.g., geometric, probabilistic). Critical discussion of the <strong>Bias-variance tradeoff</strong> as the central challenge in model building (underfitting vs. overfitting)."
+      }
+     ]
+    },
+    {
+     "month": 2,
+     "weekInMonth": 4,
+     "week": 8,
+     "title": "Pre-processing and Simple Regression",
+     "days": [
+      {
+       "day": 36,
+       "title": "Data Pre-processing for ML",
+       "body": "Preparing data for optimal model performance. Techniques for pre-processing <strong>Tabular, text, and image data</strong>. Key focus on identifying and diagnosing model fit: <strong>under fit</strong> (high bias), <strong>optimal fit</strong>, and <strong>over fit</strong> (high variance) scenarios. Practical implementation of building robust data processing <strong>pipelines using sklearn</strong>."
+      },
+      {
+       "day": 37,
+       "title": "Model Validation Methods",
+       "body": "Ensuring generalizability of the model. Implementing and understanding various methods to estimate a model's performance on unseen data: <strong>Hold-out validation</strong>, <strong>Cross-Validation</strong>, the exhaustive <strong>Leave-One-Out Cross-Validation (LOOCV)</strong>, and the industry-standard <strong>k-Fold Cross-Validation</strong>."
+      },
+      {
+       "day": 38,
+       "title": "Simple Linear Regression",
+       "body": "The foundation of predictive modeling. Understanding the <strong>Simple Linear Regression equation</strong> (ŷ = β<sub>0</sub> + β<sub>1</sub>x<sub>1</sub>). Techniques for <strong>estimating coefficients</strong> using the method of <strong>Ordinary Least Squares (OLS)</strong>. Crucial review of the <strong>OLS Assumptions</strong> (linearity, homoscedasticity, independence, normality of errors)."
+      },
+      {
+       "day": 39,
+       "title": "Multiple &amp; Polynomial Regression",
+       "body": "Extending the linear model. Expanding to <strong>Multiple Regression</strong> (ŷ = β<sub>0</sub> + β<sub>1</sub>x<sub>1</sub> + … + β<sub>n</sub>x<sub>n</sub>). Techniques for <strong>estimating regression coefficients</strong> in multivariate settings. Identifying and mitigating <strong>Multicollinearity</strong>. Handling non-linear relationships with <strong>Polynomial Regression</strong>, including detecting <strong>feature interactions</strong>, and methods for <strong>feature selection</strong> (forward, backward, stepwise)."
+      },
+      {
+       "day": 40,
+       "title": "Optimization &amp; Regularization",
+       "body": "Improving model training and preventing overfitting. Introduction to the fundamental optimization algorithm: <strong>Gradient Descent</strong> (including Batch, Stochastic, and Mini-Batch variants). Defining <strong>Cost functions</strong> (or Loss functions). Implementing <strong>Regularization</strong> techniques to penalize complex models: <strong>L1 (Lasso)</strong> (for feature selection), <strong>L2 (Ridge)</strong> (for shrinking coefficients), and <strong>ElasticNet</strong> (a combination of both)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "month": 3,
+   "title": "Supervised &amp; Unsupervised Machine Learning",
+   "weeks": [
+    {
+     "month": 3,
+     "weekInMonth": 1,
+     "week": 9,
+     "title": "Regression and Classification Metrics",
+     "days": [
+      {
+       "day": 41,
+       "title": "Evaluation Metrics for Regression",
+       "body": "Quantifying regression model performance. Deep dive into <strong>Residual Analysis</strong> (plotting errors). Using the <strong>Q-Q Plot</strong> to check for normality of residuals. Identifying the <strong>line of best fit</strong>. Essential metrics: <strong>Mean Squared Error (MSE)</strong>, <strong>Root Mean Squared Error (RMSE)</strong>, <strong>R Squared</strong> (coefficient of determination), and the penalty-adjusted <strong>Adjusted R Squared</strong>."
+      },
+      {
+       "day": 42,
+       "title": "Logistic Regression",
+       "body": "Classification using a linear approach. Understanding the <strong>Difference between Regression and Classification</strong> (predicting a value vs a class). The mathematical basis: the <strong>Logit/Sigmoid functions</strong> to squash output between 0 and 1. Defining <strong>decision boundaries</strong> and the crucial process of <strong>setting thresholds</strong> to convert probabilities into discrete classes."
+      },
+      {
+       "day": 43,
+       "title": "Classification Evaluation Metrics",
+       "body": "Comprehensive assessment of classification models. Mastering the <strong>Confusion Matrix</strong> (True Positives, False Negatives, etc.). Calculating key metrics: <strong>Accuracy</strong>, <strong>Error rate</strong>, <strong>Precision</strong> (purity), <strong>Recall</strong> (completeness), and the harmonic mean <strong>F1 Score</strong>. Understanding <strong>TPR/FPR</strong> (True/False Positive Rates) and the <strong>ROC-AUC</strong> (Receiver Operating Characteristic - Area Under the Curve) for threshold-independent performance."
+      },
+      {
+       "day": 44,
+       "title": "Naive Bayes Classifier",
+       "body": "A fast and simple probabilistic classifier. Understanding the <strong>Principles of Naive Bayes</strong>, which assumes feature independence. Defining <strong>Posterior</strong> (what we want to find), <strong>Prior</strong> (initial belief), and <strong>Likelihood</strong> (how well data fits hypothesis) probability. Exploring different practical <strong>types</strong> of Naive Bayes: <strong>Multinomial</strong> (for counts/text), <strong>Bernoulli</strong> (binary features), <strong>Gaussian</strong> (continuous data), and <strong>Categorical</strong>."
+      },
+      {
+       "day": 45,
+       "title": "K-Nearest Neighbors (KNN)",
+       "body": "A non-parametric, instance-based learning algorithm. Detailed exploration of the <strong>K-Nearest Neighbor Algorithm</strong> mechanics. Choosing appropriate <strong>distance metrics</strong> (Euclidean, Manhattan). The problem of the <strong>Curse of Dimensionality</strong> in KNN. Distinguishing between <strong>Eager vs Lazy learners</strong>. Practical application of <strong>Hyperparameter tuning</strong> (selecting the optimal 'K')."
+      }
+     ]
+    },
+    {
+     "month": 3,
+     "weekInMonth": 2,
+     "week": 10,
+     "title": "SVM, Trees, and Ensemble Methods",
+     "days": [
+      {
+       "day": 46,
+       "title": "Support Vector Machines (SVM) - Part 1",
+       "body": "A powerful classifier based on hyperplanes. Understanding the core concept: the <strong>Maximal Margin Classifier</strong>. Defining <strong>HyperPlanes</strong>, <strong>Support Vector Classifiers</strong>, and the difference between <strong>Hard vs Soft Margin Classification</strong> (allowing some misclassification)."
+      },
+      {
+       "day": 47,
+       "title": "Support Vector Machines (SVM) - Part 2",
+       "body": "Handling non-linear data with SVM. Techniques for <strong>Classification with Non-linear Decision Boundaries</strong>. The genius of the <strong>Kernel Trick</strong> for mapping data to higher dimensions, focusing on the <strong>Polynomial</strong> and <strong>Radial Basis Function (RBF)</strong> kernels. Practical knowledge on <strong>Tuning Hyper parameters</strong> like Gamma, Cost (C), and Epsilon (ε)."
+      },
+      {
+       "day": 48,
+       "title": "Decision Trees",
+       "body": "An interpretable, rule-based model. Mastering <strong>Basic Terminology</strong>: <strong>Root Node</strong>, <strong>Internal Nodes</strong>, and <strong>Terminal Node (Leaf)</strong>. Distinguishing between <strong>Classification vs Regression trees</strong>. The process of evaluating <strong>split quality</strong> using metrics like the <strong>Gini Index</strong> and <strong>Entropy</strong> (information gain)."
+      },
+      {
+       "day": 49,
+       "title": "Tree Optimization",
+       "body": "Improving the performance and generalizability of trees. Methods for <strong>Handling Overfitting</strong> in complex trees through <strong>Pruning</strong> (reducing tree complexity) and setting <strong>Stopping Criteria</strong> (e.g., minimum leaf size). <strong>Accuracy Estimation</strong> using cross-validation. Implementing automated <strong>Hyper parameter tuning</strong> using efficient methods like <strong>random search</strong> and <strong>grid search</strong>."
+      },
+      {
+       "day": 50,
+       "title": "Ensemble Methods &amp; Random Forest",
+       "body": "Combining multiple models for better performance. Core <strong>Concepts of Ensemble Learning</strong> (bagging, boosting). Understanding <strong>Bootstrap Aggregation (Bagging)</strong>. Deep dive into <strong>Random Forest mechanics</strong>: utilizing random subsets of features and data. Determining <strong>Variable selection</strong> and <strong>feature importance</strong>. Analyzing the <strong>OOB (Out-of-Bag) error</strong> estimate."
+      }
+     ]
+    },
+    {
+     "month": 3,
+     "weekInMonth": 3,
+     "week": 11,
+     "title": "Boosting and Dimensionality Reduction",
+     "days": [
+      {
+       "day": 51,
+       "title": "Boosting Algorithms",
+       "body": "Sequentially building models to correct previous errors. Implementing classic and modern boosting techniques: <strong>Adaboost</strong> (Adaptive Boosting), <strong>Gradient Boosting</strong>, and the highly efficient <strong>XG Boosting</strong> (eXtreme Gradient Boosting). Comprehensive review of key <strong>Hyper parameters</strong>, <strong>Pros</strong>, and <strong>Cons</strong> of these powerful boosting methods."
+      },
+      {
+       "day": 52,
+       "title": "Intro to Unsupervised Learning",
+       "body": "Discovering patterns in unlabeled data. Understanding the core <strong>Challenges of Unsupervised Learning</strong>. The key difference in goal: <strong>Clustering</strong> (grouping data) vs <strong>Classification</strong> (predicting a label)."
+      },
+      {
+       "day": 53,
+       "title": "Dimensionality Reduction - PCA",
+       "body": "Principal Component Analysis for feature space compression. Defining <strong>Principal Components</strong> (new orthogonal axes), <strong>EigenValues</strong> (variance along axes), and <strong>EigenVectors</strong> (direction of axes). The property of <strong>Orthogonality</strong>. The mathematical process of <strong>Transforming data</strong> and <strong>calculating the proportion of variance explained</strong> (scree plot analysis)."
+      },
+      {
+       "day": 54,
+       "title": "Dimensionality Reduction - t-SNE",
+       "body": "A non-linear technique for visualization. Understanding the complex <strong>Mechanics of t-Distributed Stochastic Neighbor Embedding (t-SNE)</strong> for visualizing high-dimensional data in 2D/3D space. <strong>Comparative case studies</strong> highlighting the strengths and weaknesses of <strong>PCA</strong> (linear) and <strong>t-SNE</strong> (non-linear, locally focused)."
+      },
+      {
+       "day": 55,
+       "title": "K-Means Clustering",
+       "body": "A centroid-based partitioning algorithm. The iterative process of <strong>Establishing Centroids</strong> and <strong>Medoids</strong>. Crucially, methods for <strong>deciding the optimal 'k'</strong> (number of clusters) using the <strong>Elbow Method/Inertia</strong> and evaluating cluster quality with the <strong>Silhouette score</strong>."
+      }
+     ]
+    },
+    {
+     "month": 3,
+     "weekInMonth": 4,
+     "week": 12,
+     "title": "Advanced Clustering and Capstone",
+     "days": [
+      {
+       "day": 56,
+       "title": "Hierarchical Clustering",
+       "body": "Building a hierarchy of clusters. Distinguishing between <strong>Divisive</strong> (top-down) vs <strong>Agglomerative</strong> (bottom-up) Clustering. Interpreting the results using <strong>Dendrograms</strong> (tree-like diagrams). Understanding different <strong>Linkage Methods</strong> (single, complete, average) and exploring <strong>practical clustering applications</strong>."
+      },
+      {
+       "day": 57,
+       "title": "DBSCAN",
+       "body": "Density-Based Spatial Clustering of Applications with Noise. The core concepts of <strong>Density-based clustering</strong>. Identifying data points as <strong>core points</strong>, <strong>border points</strong>, and <strong>noise</strong> (outliers) based on neighborhood density."
+      },
+      {
+       "day": 58,
+       "title": "Applied Machine Learning - Part 1",
+       "body": "Real-world application of ML models. Focus on advanced techniques for <strong>Missing Value imputation</strong> using sophisticated <strong>Machine Learning Algorithms</strong> (e.g., using regression to predict missing values, or MICE)."
+      },
+      {
+       "day": 59,
+       "title": "Applied Machine Learning - Part 2",
+       "body": "Another critical real-world application. Utilizing <strong>Machine Learning Algorithms</strong> (e.g., Isolation Forest, One-Class SVM) for <strong>Outlier and Anomalies detection</strong> in datasets, crucial for fraud detection or system monitoring."
+      },
+      {
+       "day": 60,
+       "title": "Month 3 Capstone &amp; ML Deployment Basics",
+       "body": "The final project for supervised/unsupervised learning and the first taste of MLOps. Developing and serving a functional <strong>Machine Learning Application</strong>. Utilizing <strong>Streamlit</strong> (a Python library) for creating a simple web interface. The culmination is a <strong>Customer Segmentation</strong> (unsupervised) or a <strong>classification</strong> (supervised) mini-project."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "month": 4,
+   "title": "Deep Learning &amp; Computer Vision",
+   "weeks": [
+    {
+     "month": 4,
+     "weekInMonth": 1,
+     "week": 13,
+     "title": "Deep Learning Fundamentals and ANNs",
+     "days": [
+      {
+       "day": 61,
+       "title": "Introduction to Deep Learning",
+       "body": "Setting the context for neural networks. Clarifying the hierarchy: <strong>AI vs ML vs DL</strong>. A brief <strong>History of Deep Learning</strong> (from perceptrons to modern ANNs). Understanding the functional analogy between <strong>Biological Neurons vs Perceptrons</strong> (the fundamental building block)."
+      },
+      {
+       "day": 62,
+       "title": "Deep Learning Frameworks",
+       "body": "Introducing the tools of the trade. Setting up and utilizing <strong>Google Colab</strong> for cloud-based GPU access. Introducing <strong>TensorFlow</strong> (Google's framework) with <strong>basic syntax</strong> for tensor operations. Understanding <strong>TensorFlow Graphs</strong> and using <strong>TensorBoard</strong> for model visualization and debugging."
+      },
+      {
+       "day": 63,
+       "title": "Artificial Neural Networks (ANN)",
+       "body": "The core structure of Deep Learning. Understanding the <strong>Multi-Layer Perceptron (MLP) Architecture</strong> (input, hidden, output layers). The process of <strong>Forward Propagation</strong> (data flowing through the network) and training a simple <strong>single neuron model</strong> (perceptron)."
+      },
+      {
+       "day": 64,
+       "title": "Backpropagation Mechanics",
+       "body": "The engine of neural network learning. In-depth understanding of the <strong>chain rule</strong> in calculus as applied to network training. The process of <strong>memorization in Backpropagation</strong> (adjusting weights based on error) and the critical step of <strong>calculating weight updates</strong> for each layer using the computed gradients."
+      },
+      {
+       "day": 65,
+       "title": "Activation Functions",
+       "body": "Introducing non-linearity into the network. Addressing the critical issues of the <strong>vanishing and exploding gradient problems</strong>. Implementing and understanding the properties of classic and modern functions: <strong>Sigmoid</strong>, <strong>Tanh</strong>, <strong>ReLU</strong> (Rectified Linear Unit), and the <strong>ReLU Variants</strong> (<strong>Leaky, Parametric, ELU, SELU</strong>)."
+      }
+     ]
+    },
+    {
+     "month": 4,
+     "weekInMonth": 2,
+     "week": 14,
+     "title": "Optimization, Keras, and Image Prep",
+     "days": [
+      {
+       "day": 66,
+       "title": "Optimizers &amp; Loss Functions",
+       "body": "Driving the network towards convergence. Distinguishing between <strong>Convex vs Non-Convex Functions</strong> in the loss landscape. Identifying and navigating <strong>Saddle Points</strong>. Implementing and comparing various advanced <strong>Optimizers</strong>: <strong>SGD with Momentum, NAG, RMSprop, AdaDelta, AdaGrad, ADAM</strong>, and <strong>NADAM</strong>."
+      },
+      {
+       "day": 67,
+       "title": "Regularization &amp; Tuning in DL",
+       "body": "Strategies for building robust, non-overfitting networks. Overcoming <strong>DNN failures</strong> by implementing <strong>Dropouts</strong> (randomly ignoring neurons), <strong>Batch Normalization</strong> (stabilizing learning), various <strong>Weight Initialization Techniques</strong> (e.g., Xavier, He), and <strong>Early Stopping</strong> (halting training when validation loss stalls)."
+      },
+      {
+       "day": 68,
+       "title": "Applied Keras &amp; TensorFlow (Regression)",
+       "body": "Hands-on model construction. Focus on the high-level API <strong>Keras</strong> for simplified network building. <strong>Hands-on model building</strong>: Constructing a <strong>Regression model</strong> (predicting a continuous value) using the <strong>MLP</strong> architecture with the <strong>Keras Sequential API</strong>."
+      },
+      {
+       "day": 69,
+       "title": "Deep Learning for Classification",
+       "body": "Applying ANNs to classification tasks. <strong>Hands-on model building</strong>: Constructing a <strong>Classification model</strong> (predicting a category) using the <strong>MLP</strong> architecture. Implementing appropriate activation functions (e.g., softmax) and loss functions (e.g., cross-entropy) in <strong>Keras</strong>."
+      },
+      {
+       "day": 70,
+       "title": "Image Processing Foundations",
+       "body": "The gateway to Computer Vision. Introduction to <strong>OpenCV</strong> (Open Source Computer Vision Library). Understanding <strong>how images are formed/stored</strong> (pixels, channels). Exploring different <strong>color spaces</strong> (RGB, Grayscale). Practical operations: <strong>reading/writing/saving images</strong>, and capturing live data <strong>via webcam</strong>."
+      }
+     ]
+    },
+    {
+     "month": 4,
+     "weekInMonth": 3,
+     "week": 15,
+     "title": "Convolutional Neural Networks (CNN)",
+     "days": [
+      {
+       "day": 71,
+       "title": "Advanced OpenCV",
+       "body": "Extending image manipulation. Techniques for <strong>Drawing on images/videos</strong> (shapes, text). Understanding <strong>bitwise operators</strong> for image masking. Building <strong>image histograms</strong> to analyze intensity distribution. Distinguishing between <strong>Affine vs Non-Affine Transformations</strong> for geometric adjustments."
+      },
+      {
+       "day": 72,
+       "title": "Convolutional Neural Networks (CNN) Intro",
+       "body": "The architecture for image understanding. The fundamental question: <strong>Why CNN over MLP for images?</strong> Detailed breakdown of <strong>how convolution works</strong> (filters/kernels), the purpose of <strong>Padding</strong> (maintaining size), <strong>Stride</strong> (movement of the filter), and the function of <strong>Pooling layers</strong> (downsampling)."
+      },
+      {
+       "day": 73,
+       "title": "CNN Architectures - Part 1",
+       "body": "Studying landmark network designs. Understanding and implementing the structure of <strong>early network structures</strong>: <strong>LeNet5</strong> (pioneering CNN for digit recognition) and <strong>AlexNet</strong> (the winner of the 2012 ImageNet challenge, proving the power of deep CNNs)."
+      },
+      {
+       "day": 74,
+       "title": "CNN Architectures - Part 2",
+       "body": "Deepening the understanding of state-of-the-art models. In-depth study of the architectures: <strong>VGG16</strong> and <strong>VGG19</strong> (focus on depth using 3x3 kernels), <strong>Inception Net (GoogLeNet)</strong> (using multi-size filters), and <strong>ResNet (Residual Networks)</strong> (solving the degradation problem with skip connections)."
+      },
+      {
+       "day": 75,
+       "title": "Advanced Architectures &amp; Case Study",
+       "body": "Exploring highly efficient and modern designs. Introduction to <strong>Xception</strong> (depthwise separable convolution), <strong>MobileNet</strong> (efficient for mobile/edge devices), and <strong>EfficientNet</strong> (scaled architecture). Concluding with an <strong>Image Classification Case Study: Face Mask Detection</strong>."
+      }
+     ]
+    },
+    {
+     "month": 4,
+     "weekInMonth": 4,
+     "week": 16,
+     "title": "Transfer Learning and Object Detection",
+     "days": [
+      {
+       "day": 76,
+       "title": "Transfer Learning",
+       "body": "Leveraging pre-trained knowledge. Defining <strong>What is Transfer Learning?</strong> Understanding <strong>When and why to use it</strong> (e.g., small datasets). Practical skill: <strong>Coding Transfer Learning pipelines</strong> (feature extraction and fine-tuning) for <strong>custom datasets</strong> (e.g., Bone fracture multi-region detection)."
+      },
+      {
+       "day": 77,
+       "title": "CNN Hyperparameter Tuning",
+       "body": "Optimizing Deep Learning models. Utilizing automated search techniques for model optimization: <strong>Random Search</strong>, the highly efficient <strong>Hyperband</strong>, and the probabilistic <strong>Bayesian optimization</strong>."
+      },
+      {
+       "day": 78,
+       "title": "Object Detection Fundamentals",
+       "body": "Locating and classifying multiple objects in an image. Introduction to the classic <strong>Object Detection algorithms</strong>: <strong>R-CNN</strong> (Region-based CNN), <strong>Fast R-CNN</strong>, and the region proposal network-based <strong>Faster R-CNN</strong>."
+      },
+      {
+       "day": 79,
+       "title": "YOLO (You Only Look Once)",
+       "body": "The modern, real-time object detection standard. Understanding the <strong>YOLO algorithm mechanics</strong> (a single-shot detector). Practical <strong>Implementation of YOLO v7/v8 using Ultralytics</strong> for high-speed, accurate detection."
+      },
+      {
+       "day": 80,
+       "title": "Month 4 Capstone",
+       "body": "The final Computer Vision project. A complete, integrated project: <strong>Building a real-time Helmet Detection or Plant Disease Prediction system</strong> using the latest techniques like <strong>YOLO</strong> for detection/localization and <strong>Transfer Learning</strong> for backbone model utilization."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "month": 5,
+   "title": "Natural Language Processing (NLP) &amp; Generative AI",
+   "weeks": [
+    {
+     "month": 5,
+     "weekInMonth": 1,
+     "week": 17,
+     "title": "NLP Foundations and Word Embeddings",
+     "days": [
+      {
+       "day": 81,
+       "title": "Introduction to NLP &amp; Text Preprocessing",
+       "body": "The start of language understanding. Overview of NLP applications. Core toolkits: <strong>NLTK</strong> (Natural Language Toolkit) and <strong>spaCy</strong> (industrial-strength NLP). Essential cleaning steps: <strong>Tokenization</strong> (breaking text into words/sentences), <strong>removing special characters</strong>, and <strong>Stop words</strong> removal (common words like 'the', 'a')."
+      },
+      {
+       "day": 82,
+       "title": "Stemming, Lemmatization &amp; Vectorization",
+       "body": "Standardizing and quantifying text. Differences between <strong>Stemming</strong> (crude removal of suffixes) and <strong>Lemmatization</strong> (linguistic root form). Techniques for converting text to numerical vectors: <strong>Bag of Words (BOW)</strong> (count-based) and <strong>TF-IDF</strong> (Term Frequency-Inverse Document Frequency, importance-based) implementation using NLTK/sklearn."
+      },
+      {
+       "day": 83,
+       "title": "Word Embeddings",
+       "body": "Capturing semantic context numerically. Moving beyond sparse vectors. Understanding the core concept of <strong>Word2Vec</strong> (predicting context or word): <strong>Skip-Gram</strong> (predicting context from word) &amp; <strong>CBOW</strong> (Continuous Bag of Words - predicting word from context). Introduction to other dense vector models: <strong>GloVe</strong> and <strong>FastText</strong>."
+      },
+      {
+       "day": 84,
+       "title": "Sequential Data &amp; RNNs",
+       "body": "Handling ordered data like sentences. Defining the need: <strong>Why use Recurrent Neural Networks (RNNs)?</strong> Understanding <strong>How RNNs work</strong> (hidden state maintaining memory), the process of <strong>training RNNs</strong>, and the critical challenge of <strong>handling the vanishing gradient</strong> in long sequences."
+      },
+      {
+       "day": 85,
+       "title": "Advanced RNNs &amp; Sequence Tagging",
+       "body": "Improving memory and applying to specific tasks. Implementing <strong>Bi-Directional RNNs</strong> (processing sequence forward and backward). Practical <strong>Case Study: Named Entity Recognition (NER)</strong> (identifying entities like people/places) and <strong>POS Tagging</strong> (Part-of-Speech tagging)."
+      }
+     ]
+    },
+    {
+     "month": 5,
+     "weekInMonth": 2,
+     "week": 18,
+     "title": "Advanced Sequence Models and Transformers",
+     "days": [
+      {
+       "day": 86,
+       "title": "LSTM &amp; GRU",
+       "body": "The solution to the vanishing gradient problem. Detailed study of the <strong>architecture of Long Short-Term Memory (LSTM)</strong> networks and the simplified <strong>Gated Recurrent Units (GRU)</strong>. Understanding the function of the internal <strong>gates</strong> (input, forget, output) and <strong>memory cells</strong> for long-term dependence."
+      },
+      {
+       "day": 87,
+       "title": "Autoencoders",
+       "body": "Learning efficient data representations. Understanding the <strong>Encoder-Decoder Architecture</strong> (compression and reconstruction). Exploring different <strong>Types of autoencoders</strong> (denoising, variational). <strong>Case study on image compression/reconstruction</strong> using the MNIST dataset."
+      },
+      {
+       "day": 88,
+       "title": "Attention Mechanisms",
+       "body": "The revolution in sequence-to-sequence models. A deep dive into <strong>How Attention models revolutionized NLP</strong>. The <strong>Working principles of Attention</strong> (selectively focusing on important parts of the input sequence)."
+      },
+      {
+       "day": 89,
+       "title": "Transformers",
+       "body": "The backbone of modern LLMs. The complete <strong>Transformer architecture</strong>: <strong>Self-Attention</strong> (contextualizing each token), <strong>Multi-Head Attention</strong> (multiple attention mechanisms in parallel), and the encoder/decoder stacks. Practical <strong>Coding Transformers</strong> for various text generation or translation tasks."
+      },
+      {
+       "day": 90,
+       "title": "BERT &amp; Advanced NLP",
+       "body": "Contextual word embeddings. Introduction to <strong>BERT (Bidirectional Encoder Representations from Transformers)</strong>, explaining <strong>how it works</strong> (masked language modeling, next sentence prediction), and the process of <strong>fine-tuning BERT</strong> for specific tasks. <strong>Case Study: Text Classification and Sentiment Analysis</strong> using a pre-trained BERT model."
+      }
+     ]
+    },
+    {
+     "month": 5,
+     "weekInMonth": 3,
+     "week": 19,
+     "title": "Generative AI and Commercial APIs",
+     "days": [
+      {
+       "day": 91,
+       "title": "Introduction to Generative AI",
+       "body": "The new paradigm of content creation. Defining <strong>Generative vs Predictive AI</strong>. Comprehensive <strong>Overview of Large Language Models (LLMs)</strong> (architecture, scale) and their vast <strong>industry applications</strong> (chatbots, coding, creative content)."
+      },
+      {
+       "day": 92,
+       "title": "Prompt Engineering",
+       "body": "The key skill for interacting with LLMs. Mastering strategic prompting techniques: <strong>Zero-shot</strong>, <strong>One-shot</strong>, and <strong>Few-shot prompting</strong>. Principles of <strong>Instruction-based prompt design</strong>, advanced <strong>Chain-of-Thought techniques</strong>, and output control using parameters like <strong>temperature</strong> and <strong>tokens</strong>."
+      },
+      {
+       "day": 93,
+       "title": "Working with OpenAI",
+       "body": "Accessing industry-leading models. Steps for <strong>Setting up and authenticating the OpenAI API</strong>. Practical <strong>Text generation</strong> using powerful models like <strong>GPT-3.5/GPT-4/GPT-4o</strong>."
+      },
+      {
+       "day": 94,
+       "title": "Multimodal GenAI",
+       "body": "Generating content across modalities. Understanding the architecture and capabilities of models like <strong>DALL-E</strong> and the process of <strong>image generation</strong>. <strong>Hands-on project: Generating images from textual descriptions</strong> using an API."
+      },
+      {
+       "day": 95,
+       "title": "Gemini AI",
+       "body": "Google's state-of-the-art model. Steps for <strong>Obtaining Gemini API keys</strong>, exploring the different <strong>Gemini models</strong> (Nano, Pro, Ultra), and a <strong>step-by-step creation of an AI-powered chatbot</strong> using the Gemini API."
+      }
+     ]
+    },
+    {
+     "month": 5,
+     "weekInMonth": 4,
+     "week": 20,
+     "title": "Open-Source LLMs and Deployment",
+     "days": [
+      {
+       "day": 96,
+       "title": "Open-Source LLMs (LLaMA)",
+       "body": "Exploring community-driven models. Introduction to <strong>Meta LLaMA</strong> (Large Language Model Meta AI), its foundational <strong>model architecture</strong>, and exploring various <strong>variants</strong> (8B, 13B, 30B, 70B). Setting up and running the model in a <strong>Local setup</strong> and performing text generation."
+      },
+      {
+       "day": 97,
+       "title": "LangChain Framework - Part 1",
+       "body": "Building complex LLM applications. Understanding the <strong>Purpose and core components of LangChain</strong> (Models, Prompts, Chains, Agents). <strong>Setup, dependencies</strong>, and <strong>basic configuration</strong> for building interconnected LLM workflows."
+      },
+      {
+       "day": 98,
+       "title": "LangChain Framework - Part 2",
+       "body": "Implementing advanced LLM architectures. <strong>Building real-world RAG (Retrieval-Augmented Generation) applications</strong> with LangChain, which allows LLMs to access external, non-training data sources for grounding answers."
+      },
+      {
+       "day": 99,
+       "title": "No-Code/Low-Code AI Agents &amp; Ethics",
+       "body": "Autonomous systems and responsible development. Exploring the concept of <strong>Autonomous agent risk assessment</strong>. Critical discussions on model <strong>bias</strong>, <strong>hallucination</strong>, establishing <strong>guardrails</strong> for safe usage, and following <strong>Responsible AI guidelines</strong>."
+      },
+      {
+       "day": 100,
+       "title": "Month 5 Capstone &amp; Deployment",
+       "body": "The final Generative AI project and MLOps completion. Introduction to <strong>Git basics</strong> and <strong>GitHub workflows</strong> for version control. Best practices for <strong>model saving</strong> (serialization). The ultimate goal: <strong>Deploying a Generative AI Writing Assistant/Chatbot</strong> using <strong>Streamlit</strong> to create a live, accessible web application."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "month": 6,
+   "title": "SQL Complete &amp; Business Intelligence (Power BI)",
+   "weeks": [
+    {
+     "month": 6,
+     "weekInMonth": 1,
+     "week": 21,
+     "title": "SQL Data Definition and Manipulation",
+     "days": [
+      {
+       "day": 101,
+       "title": "Introduction to Databases",
+       "body": "The foundational concepts of data storage. Defining <strong>What is Data</strong>, the purpose of <strong>DBMS vs RDBMS</strong>, and the difference between <strong>SQL vs MySQL vs NoSQL</strong>. Understanding the <strong>Client-Server Architecture</strong> of databases and introduction to a client tool like <strong>Workbench</strong>."
+      },
+      {
+       "day": 102,
+       "title": "SQL Data Definition &amp; Constraints",
+       "body": "Structuring the database. Defining standard <strong>Data types</strong> (INT, VARCHAR, DATE). Enforcing data integrity using <strong>Constraints</strong> (<strong>PRIMARY KEY, NOT NULL, UNIQUE, DEFAULT, CHECK, FOREIGN KEY</strong>). Mastering <strong>DDL Commands</strong> (Data Definition Language): CREATE, ALTER, DROP, TRUNCATE."
+      },
+      {
+       "day": 103,
+       "title": "Data Manipulation &amp; Querying",
+       "body": "Adding, modifying, and retrieving data. Mastering <strong>DML Commands</strong> (Data Manipulation Language): INSERT, UPDATE, DELETE. The core of SQL: <strong>DQL (Data Query Language)</strong>: SELECT, limiting results with LIMIT, and finding unique values with DISTINCT."
+      },
+      {
+       "day": 104,
+       "title": "Data Filtering &amp; Operators",
+       "body": "Selecting specific records from a table. Filtering data using the essential <strong>WHERE clause</strong>. Advanced filtering with <strong>Operators</strong>: pattern matching with LIKE and <strong>REGEXP</strong> (regular expressions), range checking with <strong>BETWEEN</strong>, and matching a list of values with <strong>IN</strong>."
+      },
+      {
+       "day": 105,
+       "title": "Grouping &amp; Sorting Data",
+       "body": "Summarizing and ordering query results. Aggregating rows using <strong>GROUP BY</strong>. Filtering aggregated results with <strong>HAVING</strong>. Ordering the final output with <strong>ORDER BY</strong>. Using conditional logic within queries via <strong>CASE statements</strong>. Crucial understanding of the <strong>order of query execution</strong> (SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY)."
+      }
+     ]
+    },
+    {
+     "month": 6,
+     "weekInMonth": 2,
+     "week": 22,
+     "title": "Advanced SQL, Joins, and Windows",
+     "days": [
+      {
+       "day": 106,
+       "title": "Relational Databases &amp; Keys",
+       "body": "Modeling relationships between tables. Understanding the types of <strong>Keys</strong>: <strong>Primary keys</strong>, <strong>Composite keys</strong>, and <strong>Foreign keys</strong>. Defining <strong>Types of relationships</strong> (<strong>1:1, 1:M, M:M</strong>). Introduction to <strong>ER diagrams</strong> (Entity-Relationship diagrams)."
+      },
+      {
+       "day": 107,
+       "title": "SQL Joins",
+       "body": "Combining data from multiple tables. Implementing and understanding the differences between <strong>Inner join</strong> (intersection), <strong>Left join</strong> (all from left), <strong>Right join</strong> (all from right), <strong>Outer join</strong> (all rows), <strong>Self join</strong>, and <strong>Cross join</strong>."
+      },
+      {
+       "day": 108,
+       "title": "Set Operations &amp; Subqueries",
+       "body": "Combining query results and nesting queries. Using <strong>Set Operations</strong> to combine results with same columns: <strong>UNION</strong>, <strong>UNION ALL</strong>, <strong>EXCEPT</strong>, and <strong>INTERSECT</strong>. Writing and applying various <strong>Subqueries</strong>: <strong>Scalar</strong> (returns a single value), <strong>Multiple</strong> (returns a list of values), and <strong>Correlated Subqueries</strong> (dependent on outer query)."
+      },
+      {
+       "day": 109,
+       "title": "Advanced Querying",
+       "body": "Techniques for structured, complex queries. Using <strong>Derived tables</strong> (subqueries in the FROM clause). Mastering <strong>Common Table Expressions (CTEs)</strong> (named temporary result sets) for query organization. Introduction to <strong>Recursive CTEs</strong> for hierarchical data."
+      },
+      {
+       "day": 110,
+       "title": "Advanced SQL Objects",
+       "body": "Beyond basic data retrieval. Deep dive into <strong>Window Functions</strong> for analytical tasks: <strong>LEAD, LAG</strong> (accessing rows above/below), <strong>FIRST_VALUE, NTILE</strong>. Understanding database objects: <strong>Views</strong> (stored queries), <strong>Stored Procedures</strong> (stored SQL code), <strong>Triggers</strong> (actions that fire automatically). Introduction to <strong>TCL (Transaction Control Language)</strong>: COMMIT, ROLLBACK."
+      }
+     ]
+    },
+    {
+     "month": 6,
+     "weekInMonth": 3,
+     "week": 23,
+     "title": "Excel and Power BI Foundations",
+     "days": [
+      {
+       "day": 111,
+       "title": "Excel for Analytics Core",
+       "body": "Reviewing essential Excel skills for data professionals. Review of <strong>advanced Excel capabilities</strong>: <strong>Statistical/Logical functions</strong> (e.g., IF, AND, OR), powerful conditional aggregations like <strong>SUMIFS, COUNTIFS</strong>, modern <strong>Dynamic arrays</strong>, lookup functions <strong>VLOOKUP, HLOOKUP</strong>, and practical <strong>Date functions</strong>."
+      },
+      {
+       "day": 112,
+       "title": "Introduction to Power BI",
+       "body": "The start of Business Intelligence. Defining <strong>What is BI?</strong> Comprehensive <strong>Power BI Desktop overview</strong> (components). Understanding the <strong>Power BI workflow</strong> (Get Data -&gt; Transform -&gt; Model -&gt; Visualize). Reviewing <strong>Data Import options</strong> and navigating the <strong>UI</strong>."
+      },
+      {
+       "day": 113,
+       "title": "Power Query",
+       "body": "The Extract, Transform, Load (ETL) layer. Introduction to <strong>Power Query</strong> for data transformation. Briefing on <strong>M Language</strong> (the Power Query language). Hands-on with essential transformations: <strong>changing datatypes</strong>, <strong>filtering</strong>, and various <strong>inbuilt row/column transformations</strong> (e.g., unpivot, pivot)."
+      },
+      {
+       "day": 114,
+       "title": "Advanced Power Query",
+       "body": "Complex data shaping techniques. Methods for combining datasets: <strong>Appending</strong> (stacking) and <strong>Merging Queries</strong> (joining). Creating utility columns using <strong>Indexing</strong> and <strong>conditional columns</strong> based on logic."
+      },
+      {
+       "day": 115,
+       "title": "Data Modeling (Power Pivot)",
+       "body": "Structuring data for analysis. Introduction to <strong>Data Modeling</strong> (Star/Snowflake Schema). Defining <strong>Relationship Cardinality</strong> (<strong>1:1, 1:M, M:M</strong>) and understanding <strong>cross-filter direction</strong>. Practical use of the <strong>Relationship views</strong> to build a robust data model."
+      }
+     ]
+    },
+    {
+     "month": 6,
+     "weekInMonth": 4,
+     "week": 24,
+     "title": "DAX, Visualization, and Final Capstone",
+     "days": [
+      {
+       "day": 116,
+       "title": "Introduction to DAX",
+       "body": "Data Analysis Expressions for custom calculations. Key difference: <strong>Calculated Columns vs Measures</strong> (row vs filter context). Understanding <strong>DAX syntax</strong>, including <strong>Logical functions</strong>, <strong>Text functions</strong>, <strong>Math</strong>, and basic <strong>Statistical functions</strong>."
+      },
+      {
+       "day": 117,
+       "title": "Advanced DAX",
+       "body": "Mastering context transition and time intelligence. Advanced <strong>Aggregation functions</strong> like <strong>SUMX</strong> and <strong>AVERAGEX</strong> (iterators). The most important function: the powerful <strong>CALCULATE</strong> (filter context modification). Understanding <strong>Filter functions</strong> like <strong>ALL</strong> and <strong>ALLEXCEPT</strong>. Implementing <strong>Time Intelligence</strong> using a <strong>Date Dimension table</strong>."
+      },
+      {
+       "day": 118,
+       "title": "Interactive Visualizations",
+       "body": "Building compelling and dynamic reports. Creating standard visuals: <strong>Categorical</strong> (Bar/Column) and <strong>Trend visuals</strong> (Line/Area). Utilizing <strong>Slicers</strong>, performance indicators like <strong>KPI cards</strong>, and detailed <strong>Matrices</strong>. Advanced techniques: <strong>Drill Through</strong>, <strong>Drilldown</strong>, and integrating <strong>Python Script Visuals</strong>."
+      },
+      {
+       "day": 119,
+       "title": "Power BI Service &amp; Security",
+       "body": "Publishing and sharing the final report. The process of <strong>Publishing reports</strong> from Desktop to Service. <strong>Dashboard creation/formatting</strong> (pinning visuals). <strong>Workspace sharing</strong> for collaboration. Implementing <strong>Row Level Security (RLS)</strong> by defining roles and testing to ensure data access restrictions."
+      },
+      {
+       "day": 120,
+       "title": "Final Program Capstone",
+       "body": "The grand finale: an end-to-end data science and business intelligence project. <strong>End-to-End Business Analytics System</strong>: <strong>Extracting data using SQL</strong>, <strong>cleaning in Python/Pandas</strong>, creating a <strong>predictive model</strong> (ML), and finally <strong>serving the insights</strong> via a deployed <strong>Power BI Dashboard</strong> with a <strong>GenAI-generated executive summary</strong> (connecting all six months of learning)."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

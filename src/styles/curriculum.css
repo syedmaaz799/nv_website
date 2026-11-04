@@ -1,0 +1,65 @@
+/* ==========================================================================
+   Curriculum explorer
+   ========================================================================== */
+.curr__tools { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: flex-end; }
+.curr__search { position: relative; display: flex; align-items: center; }
+.curr__search .icon { position: absolute; left: 16px; width: 17px; height: 17px; color: var(--text-3); pointer-events: none; }
+.curr__search input { width: min(360px, 78vw); height: 42px; padding: 0 16px 0 44px; border-radius: 999px; background: var(--panel); border: 1px solid var(--line-2); font-size: 14px; font-weight: 600; transition: border-color 0.25s, box-shadow 0.25s; }
+.curr__search input:focus { outline: none; border-color: rgba(var(--accent-rgb), 0.7); box-shadow: 0 0 0 4px rgba(var(--accent-rgb), 0.14); }
+.curr__search input::placeholder { color: var(--text-3); }
+.curr__layout { display: grid; grid-template-columns: minmax(250px, 330px) minmax(0, 1fr); gap: clamp(20px, 3vw, 40px); align-items: start; }
+.curr__tabs { position: sticky; top: calc(var(--hdr-h) + 20px); display: grid; gap: 6px; max-height: calc(100vh - var(--hdr-h) - 40px); overflow-y: auto; padding: 2px; }
+.curr__tab { position: relative; display: grid; gap: 4px; padding: 16px 18px; border-radius: 16px; text-align: left; border: 1px solid transparent; transition: background-color 0.25s, border-color 0.25s; }
+.curr__tab:hover { background: var(--panel); }
+.curr__tab[aria-selected='true'] { background: linear-gradient(105deg, rgba(var(--accent-rgb), 0.14), rgba(var(--accent-rgb), 0.02)); border-color: rgba(var(--accent-rgb), 0.35); }
+.curr__tab[aria-selected='true']::before { content: ''; position: absolute; left: -1px; top: 18px; bottom: 18px; width: 3px; border-radius: 3px; background: var(--accent); }
+.curr__tab-l { font-size: 11px; letter-spacing: 0.12em; color: var(--accent); text-transform: uppercase; }
+.curr__tab-t { font-family: var(--font-display); font-weight: 600; font-size: 15px; line-height: 1.25; letter-spacing: -0.015em; }
+.curr__tab-m { font-size: 11px; color: var(--text-3); }
+.curr__panel { display: grid; gap: 22px; }
+.curr__head { display: grid; gap: 8px; padding-bottom: 6px; }
+.curr__head-l { font-size: 12px; letter-spacing: 0.1em; color: var(--accent); text-transform: uppercase; }
+.curr__group { display: grid; gap: 8px; }
+.curr__group-t { font-weight: 700; color: var(--text); font-size: 15px; padding: 6px 2px; }
+.curr__group-t .mono { display: inline-block; margin-right: 10px; padding: 3px 8px; border-radius: 6px; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-2); background: var(--panel-2); border: 1px solid var(--line); }
+.day { border-radius: 14px; background: var(--panel); border: 1px solid var(--line); transition: border-color 0.25s, background-color 0.25s; }
+.day:hover { border-color: var(--line-2); }
+.day[open] { background: rgba(255,255,255,0.05); border-color: rgba(var(--accent-rgb), 0.35); }
+.day__sum { display: grid; grid-template-columns: 74px 1fr auto; align-items: center; gap: 14px; padding: 16px 18px; cursor: pointer; list-style: none; }
+.day__sum::-webkit-details-marker { display: none; }
+.day__n { font-size: 12px; color: var(--accent); letter-spacing: 0.04em; }
+.day__t { font-weight: 700; font-size: 15.5px; line-height: 1.4; color: var(--text); }
+.day__t i { font-style: normal; color: var(--text-3); margin: 0 4px; }
+.day__icon { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; border: 1px solid var(--line-2); transition: transform 0.45s var(--ease-out), background-color 0.25s; }
+.day__icon .icon { width: 14px; height: 14px; }
+.day[open] .day__icon { transform: rotate(45deg); background: var(--accent); color: #061015; border-color: transparent; }
+.day__body { display: grid; gap: 14px; padding: 0 18px 20px calc(74px + 32px); color: var(--text-2); font-size: 15px; line-height: 1.65; }
+.day__para strong { color: var(--text); }
+.day__points { display: grid; gap: 9px; }
+.day__points li { position: relative; padding-left: 18px; }
+.day__points li::before { content: ''; position: absolute; left: 0; top: 0.68em; width: 6px; height: 6px; border-radius: 2px; background: var(--accent); opacity: 0.8; }
+.day__points b { color: var(--text); font-weight: 700; }
+.day__block { display: grid; gap: 8px; padding: 14px 16px; border-radius: 12px; background: rgba(255,255,255,0.025); border: 1px solid var(--line); }
+.day__block--project { border-color: rgba(var(--accent-rgb), 0.3); background: rgba(var(--accent-rgb), 0.05); }
+.day__block-t { display: flex; align-items: center; gap: 8px; font-weight: 800; font-size: 13px; color: var(--text); text-transform: uppercase; letter-spacing: 0.06em; }
+.day__block-t .icon { width: 16px; height: 16px; color: var(--accent); }
+.day__chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.day__chips li { padding: 5px 10px; border-radius: 8px; background: var(--panel-2); border: 1px solid var(--line); font-size: 13px; font-weight: 600; color: var(--text); }
+.curr mark { background: rgba(var(--accent-rgb), 0.3); color: #fff; border-radius: 3px; padding: 0 2px; }
+.curr.is-searching .curr__panel:not([hidden]) { display: grid; }
+.curr.is-searching .curr__tabs { opacity: 0.4; pointer-events: none; }
+.curr__empty { padding: 40px; text-align: center; color: var(--text-3); border: 1px dashed var(--line-2); border-radius: 16px; }
+@media (max-width: 960px) {
+  .curr__layout { grid-template-columns: 1fr; }
+  .curr__tabs { position: static; display: flex; overflow-x: auto; max-height: none; gap: 8px; padding-bottom: 6px; scrollbar-width: none; -webkit-mask-image: linear-gradient(90deg, #000 85%, transparent); mask-image: linear-gradient(90deg, #000 85%, transparent); }
+  .curr__tab { flex: 0 0 auto; width: 230px; background: var(--panel); border-color: var(--line); }
+  .curr__tab[aria-selected='true']::before { display: none; }
+  .curr__tools { justify-content: flex-start; }
+}
+@media (max-width: 560px) {
+  .day__sum { grid-template-columns: 1fr auto; gap: 6px 12px; }
+  .day__n { grid-column: 1; }
+  .day__t { grid-column: 1; grid-row: 2; }
+  .day__icon { grid-column: 2; grid-row: 1 / 3; }
+  .day__body { padding: 0 16px 18px; }
+}
